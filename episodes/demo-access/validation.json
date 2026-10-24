@@ -1,0 +1,14 @@
+{
+  "episode": "demo-access",
+  "generated_at": "2026-10-24T14:22:09.925Z",
+  "valid": true,
+  "country_count": 9,
+  "status_counts": {
+    "yes": 6,
+    "partial": 3,
+    "no": 0,
+    "unknown": 0
+  },
+  "errors": [],
+  "warnings": []
+}

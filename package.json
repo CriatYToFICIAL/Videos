@@ -1,0 +1,34 @@
+{
+  "name": "world-map-video-engine",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "node scripts/render-episode.mjs",
+    "render:demo": "node scripts/render-episode.mjs demo-access",
+    "render:frame": "node scripts/render-episode.mjs demo-access --frame 240",
+    "validate": "node scripts/validate-episode.mjs episodes/demo-access",
+    "create:episode": "node scripts/create-episode.mjs",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.402",
+    "@remotion/media-utils": "4.0.402",
+    "d3-geo": "3.1.1",
+    "i18n-iso-countries": "7.14.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.402",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.0",
+    "@types/geojson": "7946.0.16",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "typescript": "5.8.3"
+  }
+}

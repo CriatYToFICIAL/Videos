@@ -1,0 +1,18 @@
+{
+  "id": "demo-access",
+  "title": "Mapa de demonstração: status por país",
+  "hook": "Como um mapa de dados vira um vídeo animado?",
+  "topicLabel": "DEMONSTRAÇÃO",
+  "primaryLabel": "ATIVO",
+  "secondaryLabel": "PARCIAL",
+  "language": "pt-BR",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "secondsPerCountry": 2,
+  "introSeconds": 4,
+  "outroSeconds": 5,
+  "scope": "Amostra técnica com dados fictícios; não descreve disponibilidade, leis ou opinião pública.",
+  "methodology": "Cada estado é apenas uma categoria visual de demonstração para validar o motor de mapa.",
+  "disclaimer": "DADOS FICTÍCIOS · DEMONSTRAÇÃO DO RENDERER"
+}

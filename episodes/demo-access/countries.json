@@ -1,0 +1,11 @@
+[
+  {"iso3":"CAN","status":"yes","label":"Ativo","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":1,"region":"Americas"},
+  {"iso3":"USA","status":"yes","label":"Ativo","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":2,"region":"Americas"},
+  {"iso3":"BRA","status":"yes","label":"Ativo","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":3,"region":"Americas"},
+  {"iso3":"GBR","status":"partial","label":"Parcial","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":4,"region":"Europe"},
+  {"iso3":"DEU","status":"yes","label":"Ativo","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":5,"region":"Europe"},
+  {"iso3":"EGY","status":"partial","label":"Parcial","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":6,"region":"Africa"},
+  {"iso3":"IND","status":"yes","label":"Ativo","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":7,"region":"Asia"},
+  {"iso3":"JPN","status":"partial","label":"Parcial","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":8,"region":"Asia"},
+  {"iso3":"AUS","status":"yes","label":"Ativo","source_url":"https://example.com/demo","source_title":"Demonstração técnica","checked_at":"2026-10-24","confidence":"high","note":"Dado fictício","order":9,"region":"Oceania"}
+]
