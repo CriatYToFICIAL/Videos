@@ -15,6 +15,20 @@ Before generating assets, inspect this repository's instructions, scripts, data 
 
 ## Proven episode profile
 
+### Visual acceptance rules (revised after reference comparison)
+
+The original technical demo is not a visual target. Use `episodes/visual-v2` as the current visual study and compare new renders against the user-supplied reference frames. A successful render alone does not demonstrate visual fidelity.
+
+- Camera: keep a regional close-up throughout country reveals. Interpolate from the previous country pose to the next over roughly 0.7–1 second with smoothstep, then hold. Never reset scale to the world view on each event; never use a spring on the camera. Reserve the world view for the opening/closing. Author camera targets and scale for each region and handle microstates with insets or badges. Explicitly inspect border-crossing transitions and the final pullback.
+- Map: bright green unrevealed territories, crisp dark borders, illustrated blue ocean with broad layered wave shapes. Revealed countries retain their flag texture. Use local licensed SVG flags clipped to geography with preserved aspect ratio; do not stretch emblems.
+- Characters: the territories themselves are the characters. Draw expressive paired eyes with dark contour, white sclera, colored iris, pupil and two highlights; size relative to the visible territory and prevent overlap on tiny countries. Distinguish alert/angry and friendly expressions. Use reviewed placement anchors where a geometric centroid falls outside the useful land area.
+- HUD: compact gold-framed segmented green/red status bar across the upper center; bold outlined green and red totals at lower left, expression icons beneath; five recent-country cards at lower right with flag, localized name and status badge. Fade older entries. Keep the country face unobstructed. Show a gold or red information card only for noteworthy exceptions.
+- Counts: progress through the episode and percentages of classified outcomes are different quantities. Define the denominator and labels explicitly. `partial` must not increment the blocked counter; show restricted/unknown totals separately. Never label a partial result as a prohibition.
+- Motion and sound: one short, quiet reveal cue per event; a different cue for an exception. Leave silence between cues. Optional subtle character animation must be frame-based and deterministic. Do not add continuous bouncing or reset zoom pulses. Generate or license the sounds and retain provenance.
+- Preview review: inspect opening, at least three consecutive nearby-country transitions, a dense small-country region, an exception callout, and the closing. Watch the rendered motion as well as contact sheets. Confirm audible cues and no clipping. Do not claim listening or motion review if only static frames were inspected.
+
+Current executable workflow: `npm ci`, `npm run typecheck`, then `npm run render -- visual-v2 --frame 900` for the Brazil design check or `npm run render -- visual-v2` for the complete visual study. `npm run render -- <episode-id>` validates and renders another prepared episode directory. The cloud runner currently uses `/usr/bin/chromium`. Add reviewed camera anchors for new regions before calling their motion production-ready. Research, narration and publication still require their own completed episode inputs; this visual study has simulated categories and short synthesized cues only.
+
 Use this profile unless the idea calls for another format:
 
 - Start with a 3–5 second global-map hook that states the question and shows one strong visual symbol.

@@ -2,6 +2,12 @@
 
 Motor inicial para vídeos de mapa animado orientados por dados. O episódio muda em `episodes/<id>`; a composição, geometrias e validações permanecem reutilizáveis.
 
+## Prévia visual revisada
+
+`npm run render -- visual-v2` cria `output/visual-v2.mp4`: 41 segundos com 15 países das Américas, câmera contínua entre enquadramentos locais, bandeiras SVG recortadas, olhos expressivos, HUD segmentado, lista de países, cartões de exceção e efeitos sonoros discretos. As categorias são fictícias e estão identificadas no vídeo. O demo antigo é apenas o primeiro teste técnico e não representa a direção visual atual.
+
+As poses da câmera estão em `anchors` no renderer. Antes de produzir episódios de outras regiões, defina e revise essas poses; o fallback global ainda não oferece a direção de câmera desejada. Este motor ainda não automatiza pesquisa factual, locução ou criação de thumbnail. A skill orienta essas etapas para cada episódio.
+
 ## Fluxo de um novo vídeo
 
 1. Crie a pasta: `npm run create:episode -- tema-do-video`.
