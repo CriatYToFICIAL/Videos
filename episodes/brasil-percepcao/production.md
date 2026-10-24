@@ -1,6 +1,6 @@
 # Quem realmente AMA e ODEIA o Brasil?
 
-Estado: dados extraídos da fonte primária BBC/GlobeScan 2017; 18 registros estruturados e roteiro visual de 480 segundos preparados. Render e revisão em andamento.
+Estado: dados extraídos da fonte primária BBC/GlobeScan 2017; 18 registros estruturados, roteiro visual de 480 segundos e render completo concluídos. Correção pontual do enquadramento da Rússia incorporada na entrega `output/brasil-percepcao-completo.mp4`. Consulte `review.md` para o alcance da revisão.
 
 ## Entrega planejada
 

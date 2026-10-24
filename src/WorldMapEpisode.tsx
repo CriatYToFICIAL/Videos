@@ -32,6 +32,7 @@ const label=(s:Status)=>({yes:'LIVRE',partial:'RESTRITO',no:'BLOQUEADO',unknown:
 const ease=(v:number)=>{const t=Math.max(0,Math.min(1,v));return t*t*(3-2*t)};
 const mix=(a:number,b:number,t:number)=>a+(b-a)*t;
 const anchors:Record<string,[number,number,number]>={CAN:[-102,58,2.3],USA:[-100,39,3],MEX:[-102,23,4.2],GTM:[-90.3,15.7,8],CUB:[-79.5,21.8,7],HTI:[-72.7,19,10],DOM:[-70.2,19,10],JAM:[-77.3,18.1,10],COL:[-74,4.2,5.2],VEN:[-66,7.5,5.2],ECU:[-78.5,-1.4,7],PER:[-75,-10,5.2],BRA:[-52,-12,3.5],BOL:[-64.5,-17,5.5],CHL:[-71,-30,4],ARG:[-64,-35,4]};
+anchors.RUS=[90,59,1.7];
 
 export const Face=({x,y,size,angry=false,phase=0}:{x:number;y:number;size:number;angry?:boolean;phase?:number})=>{
  const frame=useCurrentFrame();
