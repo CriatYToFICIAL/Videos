@@ -1,6 +1,6 @@
 # Onde o TikTok é proibido ou limitado?
 
-Estado: montagem iniciada de fato. Timeline de 180 entradas em `storyboard.json`, duração prevista 552 segundos; seleção e ordem ainda editáveis. Primeira prévia de 30 segundos renderizada em `output/tiktok-preview.mp4`, com oito casos da lista inicial. Conferidos quadros distribuídos pelo clipe; não houve revisão integral por reprodução nem audição. O episódio completo e a base factual atualizada ainda não estão concluídos. A pesquisa prioriza exceções mundiais e mudanças de status.
+Estado: versão completa renderizada em `output/tiktok-completo.mp4`: 180 entradas, 552,064 segundos de contêiner, 1920×1080, 30 fps, sem narração. Base de referência fornecida pelo usuário; não é checagem mundial atualizada. Consulte sources.md para o alcance das classificações e render-notes.md para a verificação técnica. A prévia antiga não representa a ordem nem o visual final.
 
 ## Entrega
 

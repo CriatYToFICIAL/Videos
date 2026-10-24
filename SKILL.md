@@ -111,6 +111,8 @@ Each episode directory should contain: `metadata.json`, `countries.json`, `scrip
 
 ## Token and compute discipline
 
+For final compact restriction episodes, prepare the map assets before rendering: `node scripts/bake-map.mjs`, `node scripts/bake-shots.mjs <episode-id>`, then `npm run render -- <episode-id>`. These scripts use @resvg/resvg-js and the same Natural Earth 50m geometry and local flags. They cache static map layers only; eye animation, camera travel, flashes, cards, counters and sound remain frame-based. Share authored poses through src/camera-anchors.json. Select the main land polygon by spherical area rather than bounding-box area, to avoid antimeridian artifacts; support close targets up to 128× for small islands and microstates. Check actual rendered samples after changes.
+
 Use the language model for research synthesis, structured data review, writing, code and visual inspection of selected frames. Rendering frames is local deterministic computation and should not call a model per frame. Analyze a representative contact sheet rather than sending every frame. Reuse map geometry, components, audio beds and templates across episodes. Generate a new video from episode data plus narration/assets; do not regenerate the engine each time.
 
 ## Safety, rights, and truthfulness

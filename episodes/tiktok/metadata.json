@@ -1,0 +1,26 @@
+{
+  "id": "tiktok",
+  "title": "Onde o TikTok é proibido ou limitado?",
+  "hook": "ONDE O TIKTOK É PROIBIDO OU LIMITADO?",
+  "topicLabel": "TIKTOK",
+  "primaryLabel": "LIVRE",
+  "secondaryLabel": "BLOQUEADO",
+  "language": "pt-BR",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "secondsPerCountry": 3,
+  "introSeconds": 6,
+  "outroSeconds": 6,
+  "compactRestrictions": true,
+  "productionStage": "final",
+  "scope": "180 entradas por regiões; levantamento de referência baseado na lista fornecida, não verificação global de conectividade.",
+  "methodology": "Exceções da lista do usuário; fora das exceções, Livre significa ausência de bloqueio nacional registrado nessa base, não acesso testado. Restrições institucionais não implicam bloqueio público. Casos conhecidos como incertos ficam fora do placar.",
+  "disclaimer": "Levantamento de referência; detalhes e limites na descrição",
+  "categoryLabels": {
+    "yes": "LIVRE",
+    "no": "BLOQUEADO",
+    "partial": "LIMITADO",
+    "unknown": "SEM CONFIRMAÇÃO"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "episode": "tiktok",
+  "generated_at": "2026-10-24T19:34:54.772Z",
+  "valid": true,
+  "country_count": 180,
+  "status_counts": {
+    "yes": 153,
+    "partial": 14,
+    "no": 8,
+    "unknown": 5
+  },
+  "compared_status_counts": {
+    "yes": 153,
+    "partial": 14,
+    "no": 8,
+    "unknown": 5
+  },
+  "errors": [],
+  "warnings": [
+    "ALB está sem classificação final",
+    "JOR está sem classificação final",
+    "PAK está sem classificação final",
+    "BGD está sem classificação final",
+    "SEN está sem classificação final"
+  ]
+}
