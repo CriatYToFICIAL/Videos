@@ -41,6 +41,10 @@ for (const [index, record] of countries.entries()) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(record.checked_at ?? "")) errors.push(`${prefix}.checked_at deve usar AAAA-MM-DD`);
   if (!['high', 'medium', 'low'].includes(record.confidence)) errors.push(`${prefix}.confidence é inválido`);
   if (record.status === "unknown") warnings.push(`${record.iso3} está sem classificação final`);
+  if (metadata.compactRestrictions) {
+    if (!/^#[0-9a-f]{6}$/i.test(record.eyeColor??'')) errors.push(`${prefix}: defina uma única cor de íris em hexadecimal`);
+    if (record.note.length>70) errors.push(`${prefix}: descrição excede o limite curto de 70 caracteres`);
+  }
   if (metadata.surveyYear) {
     if (![record.positive,record.negative].every(v=>Number.isFinite(v)&&v>=0&&v<=100)||record.positive+record.negative>100) errors.push(`${prefix}: percentuais da pesquisa inválidos`);
     if (!Array.isArray(record.beats)||record.beats.length!==3) errors.push(`${prefix}: são necessários três textos de contexto`);

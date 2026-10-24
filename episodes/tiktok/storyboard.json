@@ -1,0 +1,1267 @@
+{
+  "stage": "timeline-draft-not-factual-classification",
+  "countryCount": 180,
+  "totalSeconds": 552,
+  "events": [
+    {
+      "iso3": "USA",
+      "region": "Americas",
+      "startSeconds": 6,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MEX",
+      "region": "Americas",
+      "startSeconds": 9,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CAN",
+      "region": "Americas",
+      "startSeconds": 12,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GTM",
+      "region": "Americas",
+      "startSeconds": 15,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SLV",
+      "region": "Americas",
+      "startSeconds": 18,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BLZ",
+      "region": "Americas",
+      "startSeconds": 21,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "HND",
+      "region": "Americas",
+      "startSeconds": 24,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NIC",
+      "region": "Americas",
+      "startSeconds": 27,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CRI",
+      "region": "Americas",
+      "startSeconds": 30,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PAN",
+      "region": "Americas",
+      "startSeconds": 33,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CUB",
+      "region": "Americas",
+      "startSeconds": 36,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ECU",
+      "region": "Americas",
+      "startSeconds": 39,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "JAM",
+      "region": "Americas",
+      "startSeconds": 42,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BHS",
+      "region": "Americas",
+      "startSeconds": 45,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PER",
+      "region": "Americas",
+      "startSeconds": 48,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "COL",
+      "region": "Americas",
+      "startSeconds": 51,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "HTI",
+      "region": "Americas",
+      "startSeconds": 54,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CHL",
+      "region": "Americas",
+      "startSeconds": 57,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "DOM",
+      "region": "Americas",
+      "startSeconds": 60,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "VEN",
+      "region": "Americas",
+      "startSeconds": 63,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ARG",
+      "region": "Americas",
+      "startSeconds": 66,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BOL",
+      "region": "Americas",
+      "startSeconds": 69,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ATG",
+      "region": "Americas",
+      "startSeconds": 72,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "DMA",
+      "region": "Americas",
+      "startSeconds": 75,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TTO",
+      "region": "Americas",
+      "startSeconds": 78,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LCA",
+      "region": "Americas",
+      "startSeconds": 81,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GUY",
+      "region": "Americas",
+      "startSeconds": 84,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PRY",
+      "region": "Americas",
+      "startSeconds": 87,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "URY",
+      "region": "Americas",
+      "startSeconds": 90,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SUR",
+      "region": "Americas",
+      "startSeconds": 93,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BRA",
+      "region": "Americas",
+      "startSeconds": 96,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ISL",
+      "region": "Europa",
+      "startSeconds": 99,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PRT",
+      "region": "Europa",
+      "startSeconds": 102,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "IRL",
+      "region": "Europa",
+      "startSeconds": 105,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "FRA",
+      "region": "Europa",
+      "startSeconds": 108,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ESP",
+      "region": "Europa",
+      "startSeconds": 111,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GBR",
+      "region": "Europa",
+      "startSeconds": 114,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "AND",
+      "region": "Europa",
+      "startSeconds": 117,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BEL",
+      "region": "Europa",
+      "startSeconds": 120,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NLD",
+      "region": "Europa",
+      "startSeconds": 123,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LUX",
+      "region": "Europa",
+      "startSeconds": 126,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CHE",
+      "region": "Europa",
+      "startSeconds": 129,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "DNK",
+      "region": "Europa",
+      "startSeconds": 132,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "DEU",
+      "region": "Europa",
+      "startSeconds": 135,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ITA",
+      "region": "Europa",
+      "startSeconds": 138,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NOR",
+      "region": "Europa",
+      "startSeconds": 141,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "AUT",
+      "region": "Europa",
+      "startSeconds": 144,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SVN",
+      "region": "Europa",
+      "startSeconds": 147,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CZE",
+      "region": "Europa",
+      "startSeconds": 150,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SWE",
+      "region": "Europa",
+      "startSeconds": 153,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "HRV",
+      "region": "Europa",
+      "startSeconds": 156,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BIH",
+      "region": "Europa",
+      "startSeconds": 159,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MNE",
+      "region": "Europa",
+      "startSeconds": 162,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "HUN",
+      "region": "Europa",
+      "startSeconds": 165,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "POL",
+      "region": "Europa",
+      "startSeconds": 168,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SVK",
+      "region": "Europa",
+      "startSeconds": 171,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ALB",
+      "region": "Europa",
+      "startSeconds": 174,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SRB",
+      "region": "Europa",
+      "startSeconds": 177,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MKD",
+      "region": "Europa",
+      "startSeconds": 180,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GRC",
+      "region": "Europa",
+      "startSeconds": 183,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LTU",
+      "region": "Europa",
+      "startSeconds": 186,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LVA",
+      "region": "Europa",
+      "startSeconds": 189,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ROU",
+      "region": "Europa",
+      "startSeconds": 192,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BGR",
+      "region": "Europa",
+      "startSeconds": 195,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "EST",
+      "region": "Europa",
+      "startSeconds": 198,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "FIN",
+      "region": "Europa",
+      "startSeconds": 201,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BLR",
+      "region": "Europa",
+      "startSeconds": 204,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MDA",
+      "region": "Europa",
+      "startSeconds": 207,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "UKR",
+      "region": "Europa",
+      "startSeconds": 210,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TUR",
+      "region": "Europa",
+      "startSeconds": 213,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SYR",
+      "region": "Europa",
+      "startSeconds": 216,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GEO",
+      "region": "Europa",
+      "startSeconds": 219,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ARM",
+      "region": "Europa",
+      "startSeconds": 222,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CPV",
+      "region": "Africa",
+      "startSeconds": 225,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GMB",
+      "region": "Africa",
+      "startSeconds": 228,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GNB",
+      "region": "Africa",
+      "startSeconds": 231,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SEN",
+      "region": "Africa",
+      "startSeconds": 234,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SLE",
+      "region": "Africa",
+      "startSeconds": 237,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GIN",
+      "region": "Africa",
+      "startSeconds": 240,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MRT",
+      "region": "Africa",
+      "startSeconds": 243,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LBR",
+      "region": "Africa",
+      "startSeconds": 246,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MAR",
+      "region": "Africa",
+      "startSeconds": 249,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CIV",
+      "region": "Africa",
+      "startSeconds": 252,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MLI",
+      "region": "Africa",
+      "startSeconds": 255,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BFA",
+      "region": "Africa",
+      "startSeconds": 258,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GHA",
+      "region": "Africa",
+      "startSeconds": 261,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TGO",
+      "region": "Africa",
+      "startSeconds": 264,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BEN",
+      "region": "Africa",
+      "startSeconds": 267,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "DZA",
+      "region": "Africa",
+      "startSeconds": 270,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "STP",
+      "region": "Africa",
+      "startSeconds": 273,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NGA",
+      "region": "Africa",
+      "startSeconds": 276,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NER",
+      "region": "Africa",
+      "startSeconds": 279,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TUN",
+      "region": "Africa",
+      "startSeconds": 282,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GNQ",
+      "region": "Africa",
+      "startSeconds": 285,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "GAB",
+      "region": "Africa",
+      "startSeconds": 288,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CMR",
+      "region": "Africa",
+      "startSeconds": 291,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "COG",
+      "region": "Africa",
+      "startSeconds": 294,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NAM",
+      "region": "Africa",
+      "startSeconds": 297,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "AGO",
+      "region": "Africa",
+      "startSeconds": 300,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LBY",
+      "region": "Africa",
+      "startSeconds": 303,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TCD",
+      "region": "Africa",
+      "startSeconds": 306,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CAF",
+      "region": "Africa",
+      "startSeconds": 309,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "COD",
+      "region": "Africa",
+      "startSeconds": 312,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BWA",
+      "region": "Africa",
+      "startSeconds": 315,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ZAF",
+      "region": "Africa",
+      "startSeconds": 318,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ZMB",
+      "region": "Africa",
+      "startSeconds": 321,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LSO",
+      "region": "Africa",
+      "startSeconds": 324,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ZWE",
+      "region": "Africa",
+      "startSeconds": 327,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BDI",
+      "region": "Africa",
+      "startSeconds": 330,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "EGY",
+      "region": "Africa",
+      "startSeconds": 333,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SDN",
+      "region": "Africa",
+      "startSeconds": 336,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "RWA",
+      "region": "Africa",
+      "startSeconds": 339,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SSD",
+      "region": "Africa",
+      "startSeconds": 342,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SWZ",
+      "region": "Africa",
+      "startSeconds": 345,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "UGA",
+      "region": "Africa",
+      "startSeconds": 348,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CYP",
+      "region": "Africa",
+      "startSeconds": 351,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MWI",
+      "region": "Africa",
+      "startSeconds": 354,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TZA",
+      "region": "Africa",
+      "startSeconds": 357,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ISR",
+      "region": "Africa",
+      "startSeconds": 360,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PSE",
+      "region": "Africa",
+      "startSeconds": 363,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MOZ",
+      "region": "Africa",
+      "startSeconds": 366,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LBN",
+      "region": "Africa",
+      "startSeconds": 369,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "JOR",
+      "region": "Africa",
+      "startSeconds": 372,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KEN",
+      "region": "Africa",
+      "startSeconds": 375,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ERI",
+      "region": "Africa",
+      "startSeconds": 378,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ETH",
+      "region": "Africa",
+      "startSeconds": 381,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "DJI",
+      "region": "Africa",
+      "startSeconds": 384,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "COM",
+      "region": "Africa",
+      "startSeconds": 387,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "IRQ",
+      "region": "Africa",
+      "startSeconds": 390,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SAU",
+      "region": "Africa",
+      "startSeconds": 393,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SOM",
+      "region": "Africa",
+      "startSeconds": 396,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MDG",
+      "region": "Africa",
+      "startSeconds": 399,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "YEM",
+      "region": "Africa",
+      "startSeconds": 402,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KWT",
+      "region": "Africa",
+      "startSeconds": 405,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BHR",
+      "region": "Africa",
+      "startSeconds": 408,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "QAT",
+      "region": "Africa",
+      "startSeconds": 411,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "ARE",
+      "region": "Africa",
+      "startSeconds": 414,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "IRN",
+      "region": "Africa",
+      "startSeconds": 417,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "AZE",
+      "region": "Asia",
+      "startSeconds": 420,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "OMN",
+      "region": "Asia",
+      "startSeconds": 423,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MUS",
+      "region": "Asia",
+      "startSeconds": 426,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TKM",
+      "region": "Asia",
+      "startSeconds": 429,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "UZB",
+      "region": "Asia",
+      "startSeconds": 432,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "AFG",
+      "region": "Asia",
+      "startSeconds": 435,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KAZ",
+      "region": "Asia",
+      "startSeconds": 438,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PAK",
+      "region": "Asia",
+      "startSeconds": 441,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TJK",
+      "region": "Asia",
+      "startSeconds": 444,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KGZ",
+      "region": "Asia",
+      "startSeconds": 447,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "IND",
+      "region": "Asia",
+      "startSeconds": 450,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LKA",
+      "region": "Asia",
+      "startSeconds": 453,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NPL",
+      "region": "Asia",
+      "startSeconds": 456,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BGD",
+      "region": "Asia",
+      "startSeconds": 459,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BTN",
+      "region": "Asia",
+      "startSeconds": 462,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "RUS",
+      "region": "Asia",
+      "startSeconds": 465,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MMR",
+      "region": "Asia",
+      "startSeconds": 468,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "THA",
+      "region": "Asia",
+      "startSeconds": 471,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MNG",
+      "region": "Asia",
+      "startSeconds": 474,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "CHN",
+      "region": "Asia",
+      "startSeconds": 477,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "LAO",
+      "region": "Asia",
+      "startSeconds": 480,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SGP",
+      "region": "Asia",
+      "startSeconds": 483,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KHM",
+      "region": "Asia",
+      "startSeconds": 486,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "VNM",
+      "region": "Asia",
+      "startSeconds": 489,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "MYS",
+      "region": "Asia",
+      "startSeconds": 492,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "BRN",
+      "region": "Asia",
+      "startSeconds": 495,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "IDN",
+      "region": "Asia",
+      "startSeconds": 498,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TWN",
+      "region": "Asia",
+      "startSeconds": 501,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PHL",
+      "region": "Asia",
+      "startSeconds": 504,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PRK",
+      "region": "Asia",
+      "startSeconds": 507,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KOR",
+      "region": "Asia",
+      "startSeconds": 510,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "JPN",
+      "region": "Asia",
+      "startSeconds": 513,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PNG",
+      "region": "Asia",
+      "startSeconds": 516,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "FSM",
+      "region": "Asia",
+      "startSeconds": 519,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "WSM",
+      "region": "Oceania",
+      "startSeconds": 522,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KIR",
+      "region": "Oceania",
+      "startSeconds": 525,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "TLS",
+      "region": "Oceania",
+      "startSeconds": 528,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "AUS",
+      "region": "Oceania",
+      "startSeconds": 531,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "SLB",
+      "region": "Oceania",
+      "startSeconds": 534,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "VUT",
+      "region": "Oceania",
+      "startSeconds": 537,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "NZL",
+      "region": "Oceania",
+      "startSeconds": 540,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "FJI",
+      "region": "Oceania",
+      "startSeconds": 543,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    }
+  ]
+}

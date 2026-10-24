@@ -1,0 +1,20 @@
+{
+  "episode": "tiktok-preview",
+  "generated_at": "2026-10-24T18:03:48.795Z",
+  "valid": true,
+  "country_count": 8,
+  "status_counts": {
+    "yes": 0,
+    "partial": 4,
+    "no": 4,
+    "unknown": 0
+  },
+  "compared_status_counts": {
+    "yes": 0,
+    "partial": 4,
+    "no": 4,
+    "unknown": 0
+  },
+  "errors": [],
+  "warnings": []
+}

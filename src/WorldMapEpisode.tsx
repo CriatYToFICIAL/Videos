@@ -34,19 +34,18 @@ const mix=(a:number,b:number,t:number)=>a+(b-a)*t;
 const anchors:Record<string,[number,number,number]>={CAN:[-102,58,2.3],USA:[-100,39,3],MEX:[-102,23,4.2],GTM:[-90.3,15.7,8],CUB:[-79.5,21.8,7],HTI:[-72.7,19,10],DOM:[-70.2,19,10],JAM:[-77.3,18.1,10],COL:[-74,4.2,5.2],VEN:[-66,7.5,5.2],ECU:[-78.5,-1.4,7],PER:[-75,-10,5.2],BRA:[-52,-12,3.5],BOL:[-64.5,-17,5.5],CHL:[-71,-30,4],ARG:[-64,-35,4]};
 anchors.RUS=[90,59,1.7];
 
-export const Face=({x,y,size,angry=false,phase=0}:{x:number;y:number;size:number;angry?:boolean;phase?:number})=>{
+export const Face=({x,y,size,angry=false,phase=0,eyeColor='#24a9d4'}:{x:number;y:number;size:number;angry?:boolean;phase?:number;eyeColor?:string})=>{
  const frame=useCurrentFrame();
  const cycle=(frame+phase*19)%119;
  const openness=cycle<8?Math.max(.08,Math.abs(cycle-4)/4):1;
  const gaze=Math.sin((frame+phase*29)/48)*2.6;
  return <g transform={`translate(${x} ${y}) scale(${size/100})`}>
- <defs><radialGradient id="iris"><stop stopColor="#b2f8ff"/><stop offset=".55" stopColor="#24a9d4"/><stop offset="1" stopColor="#074867"/></radialGradient></defs>
- {[-30,30].map((cx,i)=><g key={cx} transform={`rotate(${angry?(i?16:-16):0} ${cx} 0) scale(1 ${openness})`}>
+ {[-30,30].map((cx,i)=><g key={cx} transform={`scale(1 ${openness})`}>
  <ellipse cx={cx} cy="0" rx="25" ry="29" fill="white" stroke="#111e27" strokeWidth="3.5"/>
- <g transform={`translate(${gaze} 0)`}><ellipse cx={cx+3} cy="3" rx="17" ry="20" fill={angry?'#df4039':'url(#iris)'} stroke="#112b3c" strokeWidth="2"/>
+ <g transform={`translate(${gaze} 0)`}><ellipse cx={cx+3} cy="3" rx="17" ry="20" fill={eyeColor} stroke="#112b3c" strokeWidth="2"/>
  <ellipse cx={cx+4} cy="5" rx="10" ry="13" fill="#071720"/>
  <circle cx={cx-3} cy="-7" r="7" fill="white"/><circle cx={cx+10} cy="12" r="3.5" fill="white"/></g>
- {angry&&<path d={`M ${cx-27} -26 L ${cx+26} -12 L ${cx+24} -34 L ${cx-25} -34 Z`} fill="#142734"/>}
+ {angry&&<g transform={`translate(${cx} 0) scale(${i?-1:1} 1)`}><path d="M -26 -31 L 26 -12 L 24 -3 L -26 -18 Z" fill="#142734"/><path d="M -23 -17 L 23 -1 L 22 -9 L -22 -24 Z" fill="#142734"/></g>}
  </g>)}
  </g>;
 };
@@ -113,10 +112,10 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  const size=Math.min(Math.max(Math.min((xx-x)*.44,(yy-y)*.32),52/z),(xx-x)*.38,115/z);
  return <g key={r.iso3}>
  {s.patches.map((p:any,i:number)=>{const [[px,py],[qx,qy]]=p.bounds;return <image key={i} href={flag(r.iso3)} x={px} y={py} width={Math.max(.01,qx-px)} height={Math.max(.01,qy-py)} preserveAspectRatio="none" clipPath={`url(#clip-${r.iso3}-${i})`}/>})}
- {r.status!=='yes'&&<path d={s.d} fill={colors[r.status]} opacity=".22"/>}
+ {r.status!=='yes'&&<path d={s.d} fill={colors[r.status]} opacity={ep.compactRestrictions&&r.status==='partial'?(r.iso3===current.iso3&&!outro&&activeAge/fps>=.95&&activeAge/fps<1.55?.36*Math.pow(Math.sin((activeAge/fps-.95)/.6*Math.PI*2),2):0):.22}/>}
  <path d={s.d} fill="none" stroke="#14231f" strokeWidth={2.1/z}/>
- <g opacity={detailOpacity}><Face x={pt[0]} y={pt[1]} size={size*(r.iso3===current.iso3&&!outro?1+.07*Math.sin(Math.min(1,Math.max(0,activeAge/(fps*.5)))*Math.PI):1)} angry={r.status==='no'} phase={r.order}/></g>
- {r.status!=='yes'&&r.iso3===current.iso3&&!outro&&<g transform={`translate(${pt[0]} ${pt[1]+size*.7}) scale(${1/z})`}><rect x="-104" y="0" width="208" height="43" rx="10" fill={colors[r.status]} stroke="#172128" strokeWidth="4"/><text y="29" textAnchor="middle" fontSize="23" fill="#131c24">{categoryLabel(r.status)}</text></g>}
+ <g opacity={detailOpacity}><Face x={pt[0]} y={pt[1]} size={size*(r.iso3===current.iso3&&!outro?1+.07*Math.sin(Math.min(1,Math.max(0,activeAge/(fps*.5)))*Math.PI):1)} angry={r.status==='no'} phase={r.order} eyeColor={r.eyeColor??(r.status==='no'?'#df4039':'#24a9d4')}/></g>
+ {r.status!=='yes'&&!(ep.compactRestrictions&&r.status==='partial')&&r.iso3===current.iso3&&!outro&&<g transform={`translate(${pt[0]} ${pt[1]+size*.7}) scale(${1/z})`}><rect x="-104" y="0" width="208" height="43" rx="10" fill={colors[r.status]} stroke="#172128" strokeWidth="4"/><text y="29" textAnchor="middle" fontSize="23" fill="#131c24">{categoryLabel(r.status)}</text></g>}
  </g>})}
  </g>
  <g filter="url(#shadow)">
@@ -125,15 +124,15 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  <rect x="699" y="46" width="498" height="46" fill={yes+no?'url(#bar)':'#758b92'}/>
  <rect x={boundary} y="46" width={Math.max(0,1197-boundary)} height="46" fill="#f6504a"/>
  <rect x="699" y="46" width="498" height="46" fill="url(#ticks)"/>
- <rect x={boundary-27} y="33" width="55" height="73" rx="8" fill="#ffb936" stroke="#142129" strokeWidth="4"/>
- <text x={boundary} y="78" fontSize="18" textAnchor="middle">VS</text>
+ <rect x={(yes+no?boundary:948)-27} y="33" width="55" height="73" rx="8" fill="#ffb936" stroke="#142129" strokeWidth="4"/>
+ <text x={yes+no?boundary:948} y="78" fontSize="18" textAnchor="middle">VS</text>
  <text x="1263" y="85" fontSize="34" fill="#ff665d" style={outlined}>{yes+no?`${Math.round(100*share('no'))}%`:'—'} {categoryLabel('no')}</text>
  </g>
  <g transform={`translate(65 800) scale(${arrived?pop:1})`} filter="url(#shadow)">
  <text x="0" y="50" fontSize="112" fill="#14bd75" style={outlined}>{yes}</text><text x="230" y="50" fontSize="112" fill="#ff6458" style={outlined}>{no}</text>
  <text x="0" y="112" fontSize={ep.surveyYear?26:35} fill="#24ce83" style={outlined}>{categoryLabel('yes')}</text><text x="230" y="112" fontSize={ep.surveyYear?26:31} fill="#ff6458" style={outlined}>{categoryLabel('no')}</text>
- <Face x={55} y={172} size={92}/><Face x={285} y={172} size={92} angry/>
- <text y="225" fontSize="20" fill="#ffe8a2" stroke="#163344" strokeWidth="3" paintOrder="stroke">{partial} {ep.surveyYear?'divididos':'restrito(s)'} · {counts('unknown')} sem dados</text>
+ <Face x={55} y={172} size={92}/><Face x={285} y={172} size={92} angry eyeColor="#df4039"/>
+ {!ep.compactRestrictions&&<text y="225" fontSize="20" fill="#ffe8a2" stroke="#163344" strokeWidth="3" paintOrder="stroke">{partial} {ep.surveyYear?'divididos':'restrito(s)'} · {counts('unknown')} sem dados</text>}
  </g>
  {!outro&&revealed.slice(-5).reverse().map((r,i)=>{
  const age=frame-(intro+records.indexOf(r)*step+fps*.95);
@@ -149,10 +148,10 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  </g>})}
  {!ep.surveyYear&&!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -177)`}>
  <rect width="820" height="177" rx="19" fill="#332e21" fillOpacity=".95" stroke="#ffb42c" strokeWidth="4"/>
- <image href={flag(current.iso3)} x="22" y="17" width="52" height="35"/><text x="90" y="47" fill="white" fontSize="27">EXEMPLO DE EXCEÇÃO</text>
+ <image href={flag(current.iso3)} x="22" y="17" width="52" height="35"/><text x="90" y="47" fill="white" fontSize="27">{ep.compactRestrictions?names.of(iso.alpha3ToAlpha2(current.iso3)!):'EXEMPLO DE EXCEÇÃO'}</text>
  <path d="M 24 68 H 790" stroke="#a58338"/>
  <text x="26" y="111" fontSize="25" fill="#ffe9a0">CATEGORIA: {categoryLabel(current.status)}</text>
- <text x="26" y="150" fontSize="20" fill="white">Dados simulados para validar animação e interface.</text>
+ <text x="26" y="150" fontSize="20" fill="white">{ep.compactRestrictions?current.note:'Dados simulados para validar animação e interface.'}</text>
  </g>}
  {ep.surveyYear&&!inIntro&&!outro&&arrived&&<g transform={`translate(570 760) scale(${ease((activeAge-fps*.95)/12)*ease((step-activeAge)/10)})`}>
  <rect width="810" height="266" rx="20" fill="#123440" fillOpacity=".96" stroke={colors[current.status]} strokeWidth="3"/>
@@ -166,7 +165,7 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  </g>}
  {inIntro&&<g><rect width={W} height={H} fill="#123b52" opacity=".85"/><text x="960" y="370" textAnchor="middle" fill="white" fontSize="55" style={outlined}>{ep.hook}</text><text x="960" y="455" textAnchor="middle" fill="#ffd075" fontSize="32">{ep.surveyYear?'PESQUISA HISTÓRICA · BBC WORLD SERVICE / GLOBESCAN · 2017':'NOVO ESTUDO VISUAL · MAPAS ANIMADOS'}</text>{ep.surveyYear&&<><text x="960" y="550" textAnchor="middle" fill="white" fontSize="28">17 países estrangeiros + a autoavaliação brasileira</text><text x="960" y="610" textAnchor="middle" fill="white" fontSize="28">A pergunta mede a influência do Brasil no mundo.</text><text x="960" y="670" textAnchor="middle" fill="white" fontSize="28">Positiva, negativa ou dividida: classificação do relatório.</text><text x="960" y="730" textAnchor="middle" fill="#ffd075" fontSize="27">Os resultados descrevem 2017. Não são um retrato de 2026.</text></>}</g>}
  {outro&&ep.surveyYear&&<g><rect x="480" y="300" width="960" height="410" rx="24" fill="#123440" fillOpacity=".95"/><text x="960" y="380" textAnchor="middle" fill="#ffdc85" fontSize="40">O QUE A PESQUISA MOSTROU?</text>{['17 países estrangeiros: 8 positivos, 4 negativos, 5 divididos.','A barra compara apenas países positivos e negativos.','Não representa a porcentagem da população mundial.','O Brasil avaliou a si mesmo: fora dos totais estrangeiros.','Pesquisa histórica de 2017 · fonte e limites na descrição.'].map((s,i)=><text key={i} x="960" y={450+i*48} textAnchor="middle" fill="white" fontSize="25">{s}</text>)}</g>}
- <text x="960" y="1060" textAnchor="middle" fontSize="17" fill="white" opacity=".9">{ep.surveyYear?'BBC / GLOBESCAN 2017 · INFLUÊNCIA DO BRASIL · BARRA: PAÍSES POSITIVOS × NEGATIVOS · DIVIDIDOS À PARTE': 'PRÉVIA VISUAL · CATEGORIAS FICTÍCIAS · SEM AFIRMAÇÕES SOBRE RESTRIÇÕES REAIS'}</text>
+ <text x="960" y="1060" textAnchor="middle" fontSize="17" fill="white" opacity=".9">{ep.compactRestrictions?ep.disclaimer:ep.surveyYear?'BBC / GLOBESCAN 2017 · INFLUÊNCIA DO BRASIL · BARRA: PAÍSES POSITIVOS × NEGATIVOS · DIVIDIDOS À PARTE': 'PRÉVIA VISUAL · CATEGORIAS FICTÍCIAS · SEM AFIRMAÇÕES SOBRE RESTRIÇÕES REAIS'}</text>
  </svg>
  {records.map((r,i)=><React.Fragment key={r.iso3}><Sequence from={Math.round(intro+i*step)} durationInFrames={26}><Audio src={staticFile('audio/whoosh.wav')} volume={.35}/></Sequence><Sequence from={Math.round(intro+i*step+fps*.95)} durationInFrames={18}><Audio src={staticFile(`audio/${soundFor(r.status)}`)} volume={.9}/></Sequence></React.Fragment>)}
  </div>;

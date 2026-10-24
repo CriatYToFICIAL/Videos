@@ -17,6 +17,7 @@ export type CountryRecord = {
   negative?: number;
   beats?: string[];
   excludeFromTotals?: boolean;
+  eyeColor?: string;
 };
 
 export type EpisodeMetadata = {
@@ -39,6 +40,7 @@ export type EpisodeMetadata = {
   categoryLabels?: Partial<Record<Status, string>>;
   categorySounds?: Partial<Record<Status, string>>;
   surveyYear?: number;
+  compactRestrictions?: boolean;
 };
 
 export type Episode = EpisodeMetadata & {countries: CountryRecord[]};
