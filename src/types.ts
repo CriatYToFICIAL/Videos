@@ -32,6 +32,8 @@ export type EpisodeMetadata = {
   scope: string;
   methodology: string;
   disclaimer: string;
+  categoryLabels?: Partial<Record<Status, string>>;
+  categorySounds?: Partial<Record<Status, string>>;
 };
 
 export type Episode = EpisodeMetadata & {countries: CountryRecord[]};
