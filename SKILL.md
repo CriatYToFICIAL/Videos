@@ -9,6 +9,8 @@ Use this skill when a user gives an idea for a YouTube-style animated country ma
 
 ## Inputs and sensible defaults
 
+Honor an explicit no-narration request: use timed on-screen context instead of voice, keep short cues, and save a visual cue script. For archival survey episodes, show the survey year on the intro and persistent source line. Store measured positive/negative percentages and separate nonresponses; preserve the source's divided classification rather than inventing significance thresholds. Exclude self-assessment from foreign-country totals and explain the bar denominator. Check primary-source prose if a chart cannot be downloaded. Never substitute tourism or diplomacy for measured public opinion. Mark an archival render as a draft for contemporary-title decisions.
+
 The user should only need to provide an episode idea. Default to Brazilian Portuguese narration, an 8–9 minute 16:9 1080p/30 fps episode, concise energetic delivery, and an original visual identity. Ask a concise question only if the topic or definition is too ambiguous to research responsibly. If the topic naturally supports another language or region, say what assumption you made.
 
 Before generating assets, inspect this repository's instructions, scripts, data schema, renderer, and available assets. Reuse the current checkout; do not create a Git worktree. If the implementation is not present yet, create the reusable production engine first rather than fabricating a finished video.

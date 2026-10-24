@@ -1,0 +1,346 @@
+[
+  {
+    "iso3": "USA",
+    "status": "partial",
+    "positive": 40,
+    "negative": 39,
+    "region": "Americas",
+    "beats": [
+      "A diferença é de apenas 1 ponto.|O relatório classifica o resultado como dividido.",
+      "Em 2014, a visão positiva era de 55%.|Em 2017, caiu para 40%.",
+      "39% deram avaliação negativa.|Divisão de opinião não significa consenso."
+    ],
+    "note": "A diferença é de apenas 1 ponto.|O relatório classifica o resultado como dividido.",
+    "label": "Dividida",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 1
+  },
+  {
+    "iso3": "CAN",
+    "status": "yes",
+    "positive": 41,
+    "negative": 36,
+    "region": "Americas",
+    "beats": [
+      "O saldo é positivo por 5 pontos.|Não é uma maioria absoluta de avaliações positivas.",
+      "A visão positiva caiu de 56% para 41%.|A negativa passou de 24% para 36%.",
+      "O relatório ainda descreve inclinação positiva.|23% não deram avaliação positiva ou negativa."
+    ],
+    "note": "O saldo é positivo por 5 pontos.|Não é uma maioria absoluta de avaliações positivas.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 2
+  },
+  {
+    "iso3": "PER",
+    "status": "yes",
+    "positive": 48,
+    "negative": 31,
+    "region": "Americas",
+    "beats": [
+      "Quase metade avaliou a influência como positiva.|O saldo é de 17 pontos.",
+      "Em 2014, a avaliação positiva era de 61%.|A negativa passou de 17% para 31%.",
+      "O saldo continuou positivo em 2017.|Uma queda não transforma o resultado em negativo."
+    ],
+    "note": "Quase metade avaliou a influência como positiva.|O saldo é de 17 pontos.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 3
+  },
+  {
+    "iso3": "GBR",
+    "status": "partial",
+    "positive": 46,
+    "negative": 43,
+    "region": "Europa",
+    "beats": [
+      "Positivos e negativos ficaram próximos.|O relatório considera o resultado dividido.",
+      "46% positivos; 43% negativos.|11% sem avaliação em uma dessas categorias.",
+      "A opinião mudou pouco desde 2014.|Não há base aqui para dizer que o país inteiro ama ou odeia."
+    ],
+    "note": "Positivos e negativos ficaram próximos.|O relatório considera o resultado dividido.",
+    "label": "Dividida",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 4
+  },
+  {
+    "iso3": "FRA",
+    "status": "partial",
+    "positive": 46,
+    "negative": 43,
+    "region": "Europa",
+    "beats": [
+      "O resultado é idêntico ao britânico.|46% positivos e 43% negativos.",
+      "Em 2014, eram 55% positivos e 32% negativos.|O relatório registra uma mudança para divisão.",
+      "A influência do Brasil é o objeto da pergunta.|Não é uma avaliação individual dos brasileiros."
+    ],
+    "note": "O resultado é idêntico ao britânico.|46% positivos e 43% negativos.",
+    "label": "Dividida",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 5
+  },
+  {
+    "iso3": "DEU",
+    "status": "no",
+    "positive": 6,
+    "negative": 16,
+    "region": "Europa",
+    "beats": [
+      "O saldo é negativo, mas o maior grupo é outro.|78% não deram avaliação positiva ou negativa.",
+      "Em 2014: 21% positivos e 59% negativos.|Em 2017: 6% positivos e 16% negativos.",
+      "O relatório descreve um movimento à neutralidade.|16% negativos não equivalem a uma maioria hostil."
+    ],
+    "note": "O saldo é negativo, mas o maior grupo é outro.|78% não deram avaliação positiva ou negativa.",
+    "label": "Negativa",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 6
+  },
+  {
+    "iso3": "ESP",
+    "status": "no",
+    "positive": 21,
+    "negative": 39,
+    "region": "Europa",
+    "beats": [
+      "39% avaliaram negativamente a influência.|21% deram avaliação positiva.",
+      "A avaliação positiva caiu de 35% para 21%.|A negativa permaneceu em 39%.",
+      "40% não deram avaliação positiva ou negativa.|O saldo negativo é de 18 pontos."
+    ],
+    "note": "39% avaliaram negativamente a influência.|21% deram avaliação positiva.",
+    "label": "Negativa",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 7
+  },
+  {
+    "iso3": "GRC",
+    "status": "no",
+    "positive": 21,
+    "negative": 29,
+    "region": "Europa",
+    "beats": [
+      "A metade não expressou opinião sobre a influência.|21% positivos e 29% negativos.",
+      "A diferença entre os dois lados é de 8 pontos.|O relatório registra inclinação negativa.",
+      "A ausência de opinião tem peso grande aqui.|Não deve ser convertida em rejeição."
+    ],
+    "note": "A metade não expressou opinião sobre a influência.|21% positivos e 29% negativos.",
+    "label": "Negativa",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 8
+  },
+  {
+    "iso3": "RUS",
+    "status": "yes",
+    "positive": 36,
+    "negative": 9,
+    "region": "Europa/Asia",
+    "beats": [
+      "Apenas 9% deram avaliação negativa.|É a menor taxa negativa entre os países pesquisados.",
+      "36% avaliaram positivamente.|Mas 55% ficaram sem posição positiva ou negativa.",
+      "O saldo é positivo por 27 pontos.|Uma maioria positiva não foi registrada."
+    ],
+    "note": "Apenas 9% deram avaliação negativa.|É a menor taxa negativa entre os países pesquisados.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 9
+  },
+  {
+    "iso3": "TUR",
+    "status": "partial",
+    "positive": 38,
+    "negative": 36,
+    "region": "Asia",
+    "beats": [
+      "A diferença entre os lados é de 2 pontos.|O relatório classifica a opinião como dividida.",
+      "38% positivos e 36% negativos.|26% sem posição nessas duas categorias.",
+      "A divisão também aparecia em 2014.|A amostra de 2017 foi urbana."
+    ],
+    "note": "A diferença entre os lados é de 2 pontos.|O relatório classifica a opinião como dividida.",
+    "label": "Dividida",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 10
+  },
+  {
+    "iso3": "NGA",
+    "status": "yes",
+    "positive": 52,
+    "negative": 31,
+    "region": "Africa",
+    "beats": [
+      "52% deram avaliação positiva.|É uma maioria dos entrevistados.",
+      "A avaliação positiva caiu 7 pontos desde 2014.|A negativa subiu 6 pontos, para 31%.",
+      "O resultado permaneceu positivo.|O saldo de 2017 é de 21 pontos."
+    ],
+    "note": "52% deram avaliação positiva.|É uma maioria dos entrevistados.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 11
+  },
+  {
+    "iso3": "KEN",
+    "status": "yes",
+    "positive": 50,
+    "negative": 25,
+    "region": "Africa",
+    "beats": [
+      "50% deram avaliação positiva.|25% avaliaram negativamente.",
+      "As negativas cresceram 7 pontos desde 2014.|Ainda havia duas positivas para cada negativa.",
+      "A pesquisa no Quênia usou amostra urbana.|O resultado exige essa ressalva de cobertura."
+    ],
+    "note": "50% deram avaliação positiva.|25% avaliaram negativamente.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 12
+  },
+  {
+    "iso3": "IND",
+    "status": "yes",
+    "positive": 32,
+    "negative": 21,
+    "region": "Asia",
+    "beats": [
+      "O saldo é positivo por 11 pontos.|47% não expressaram posição positiva ou negativa.",
+      "A avaliação negativa caiu de 26% para 21%.|A positiva permaneceu estável em 32%.",
+      "A maior categoria não é a positiva.|É a de quem não tomou uma dessas posições."
+    ],
+    "note": "O saldo é positivo por 11 pontos.|47% não expressaram posição positiva ou negativa.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 13
+  },
+  {
+    "iso3": "PAK",
+    "status": "no",
+    "positive": 16,
+    "negative": 23,
+    "region": "Asia",
+    "beats": [
+      "61% ficaram sem opinião forte.|16% positivos e 23% negativos.",
+      "As duas avaliações caíram desde 2014.|A positiva caiu 10 pontos; a negativa, 9.",
+      "O saldo entre os dois lados é negativo.|A maioria, porém, não escolheu nenhum deles."
+    ],
+    "note": "61% ficaram sem opinião forte.|16% positivos e 23% negativos.",
+    "label": "Negativa",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 14
+  },
+  {
+    "iso3": "CHN",
+    "status": "yes",
+    "positive": 57,
+    "negative": 34,
+    "region": "Asia",
+    "beats": [
+      "A maior taxa positiva entre os países pesquisados.|57% avaliaram positivamente a influência do Brasil.",
+      "A avaliação positiva cresceu 23 pontos.|A negativa cresceu 6, chegando a 34%.",
+      "Os dois lados cresceram desde 2014.|A pesquisa na China utilizou amostra urbana."
+    ],
+    "note": "A maior taxa positiva entre os países pesquisados.|57% avaliaram positivamente a influência do Brasil.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 15
+  },
+  {
+    "iso3": "IDN",
+    "status": "yes",
+    "positive": 36,
+    "negative": 19,
+    "region": "Asia",
+    "beats": [
+      "O saldo é positivo por 17 pontos.|45% sem avaliação positiva ou negativa.",
+      "A avaliação positiva caiu de 56% para 36%.|A negativa permaneceu em 19%.",
+      "O relatório mantém a inclinação positiva.|A amostra utilizada foi urbana."
+    ],
+    "note": "O saldo é positivo por 17 pontos.|45% sem avaliação positiva ou negativa.",
+    "label": "Positiva",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 16
+  },
+  {
+    "iso3": "AUS",
+    "status": "partial",
+    "positive": 37,
+    "negative": 37,
+    "region": "Oceania",
+    "beats": [
+      "Empate exato: 37% positivos e 37% negativos.|26% sem avaliação nessas categorias.",
+      "A avaliação positiva caiu 12 pontos desde 2014.|A negativa permaneceu praticamente estável.",
+      "O relatório classifica o resultado como dividido.|Um empate não cabe no lado positivo nem no negativo."
+    ],
+    "note": "Empate exato: 37% positivos e 37% negativos.|26% sem avaliação nessas categorias.",
+    "label": "Dividida",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 17
+  },
+  {
+    "iso3": "BRA",
+    "status": "no",
+    "positive": 30,
+    "negative": 64,
+    "region": "Americas",
+    "beats": [
+      "Surpresa: a autoavaliação foi mais negativa.|30% positivos e 64% negativos.",
+      "Em 2014: 66% positivos e 18% negativos.|A mudança foi expressiva até 2017.",
+      "Bônus fora da contagem de países estrangeiros.|A amostra brasileira foi urbana, em nove cidades."
+    ],
+    "note": "Surpresa: a autoavaliação foi mais negativa.|30% positivos e 64% negativos.",
+    "label": "Negativa",
+    "source_url": "https://globescan.com/2017/07/04/sharp-drop-in-world-views-of-us-uk-global-poll/",
+    "source_title": "BBC World Service / GlobeScan Country Ratings Poll 2017 — Brazil",
+    "checked_at": "2026-10-24",
+    "confidence": "high",
+    "order": 18,
+    "excludeFromTotals": true
+  }
+]
+

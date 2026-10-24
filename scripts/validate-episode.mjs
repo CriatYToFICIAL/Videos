@@ -1,7 +1,7 @@
 import {mkdir, readFile, writeFile} from "node:fs/promises";
 import {basename, resolve} from "node:path";
 
-const episodeDirectory = process.argv[2];
+const episodeDirectory = process.argv[2] ?? 'episodes/demo-access';
 if (!episodeDirectory) {
   throw new Error("Uso: npm run validate -- episodes/<id>");
 }
@@ -41,6 +41,10 @@ for (const [index, record] of countries.entries()) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(record.checked_at ?? "")) errors.push(`${prefix}.checked_at deve usar AAAA-MM-DD`);
   if (!['high', 'medium', 'low'].includes(record.confidence)) errors.push(`${prefix}.confidence é inválido`);
   if (record.status === "unknown") warnings.push(`${record.iso3} está sem classificação final`);
+  if (metadata.surveyYear) {
+    if (![record.positive,record.negative].every(v=>Number.isFinite(v)&&v>=0&&v<=100)||record.positive+record.negative>100) errors.push(`${prefix}: percentuais da pesquisa inválidos`);
+    if (!Array.isArray(record.beats)||record.beats.length!==3) errors.push(`${prefix}: são necessários três textos de contexto`);
+  }
 }
 
 const statusCounts = Object.fromEntries([...allowedStatuses].map((status) => [status, countries.filter((item) => item.status === status).length]));
@@ -50,6 +54,7 @@ const report = {
   valid: errors.length === 0,
   country_count: countries.length,
   status_counts: statusCounts,
+  compared_status_counts: Object.fromEntries([...allowedStatuses].map(s=>[s,countries.filter(r=>!r.excludeFromTotals&&r.status===s).length])),
   errors,
   warnings,
 };

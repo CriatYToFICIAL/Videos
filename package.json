@@ -8,7 +8,7 @@
     "render": "node scripts/render-episode.mjs",
     "render:demo": "node scripts/render-episode.mjs demo-access",
     "render:frame": "node scripts/render-episode.mjs demo-access --frame 240",
-    "validate": "node scripts/validate-episode.mjs episodes/demo-access",
+    "validate": "node scripts/validate-episode.mjs",
     "create:episode": "node scripts/create-episode.mjs",
     "typecheck": "tsc"
   },

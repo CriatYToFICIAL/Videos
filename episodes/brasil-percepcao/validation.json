@@ -1,0 +1,20 @@
+{
+  "episode": "brasil-percepcao",
+  "generated_at": "2026-10-24T16:13:36.903Z",
+  "valid": true,
+  "country_count": 18,
+  "status_counts": {
+    "yes": 8,
+    "partial": 5,
+    "no": 5,
+    "unknown": 0
+  },
+  "compared_status_counts": {
+    "yes": 8,
+    "partial": 5,
+    "no": 4,
+    "unknown": 0
+  },
+  "errors": [],
+  "warnings": []
+}

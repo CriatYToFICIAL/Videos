@@ -1,9 +1,10 @@
 import React from 'react';
-import {geoMercator, geoPath} from 'd3-geo';
+import {geoMercator, geoPath, geoCentroid} from 'd3-geo';
 import iso from 'i18n-iso-countries';
 import {Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {feature} from 'topojson-client';
 import atlas from 'world-atlas/countries-50m.json';
+import lightAtlas from 'world-atlas/countries-110m.json';
 import type {Episode, Status} from './types';
 
 const W=1920,H=1080;
@@ -12,15 +13,17 @@ const path=geoPath(projection);
 const features=(feature(atlas,atlas.objects.countries) as any).features as any[];
 // Project disconnected land areas separately: Alaska/Aleutians must not make
 // the contiguous US flag's texture bounds span almost the whole world.
-const shapes=features.map(f=>{
+const makeShapes=(items:any[])=>items.map(f=>{
  const parts=f.geometry.type==='MultiPolygon'?f.geometry.coordinates.map((coordinates:any)=>({type:'Feature',properties:{},geometry:{type:'Polygon',coordinates}})):[f];
  const patches=parts.map((part:any)=>({d:path(part)??'',bounds:path.bounds(part)}));
  const main=[...patches].sort((a:any,b:any)=>{
   const area=(p:any)=>(p.bounds[1][0]-p.bounds[0][0])*(p.bounds[1][1]-p.bounds[0][1]);
   return area(b)-area(a);
  })[0];
- return {id:String(f.id).padStart(3,'0'),d:path(f)??'',bounds:main.bounds,patches};
+ return {id:String(f.id).padStart(3,'0'),d:path(f)??'',bounds:main.bounds,patches,centroid:geoCentroid(f)};
 });
+const detailedShapes=makeShapes(features);
+const lightShapes=makeShapes((feature(lightAtlas,lightAtlas.objects.countries) as any).features);
 const colors={yes:'#19bc75',partial:'#ffa813',no:'#f6504a',unknown:'#9daab0'};
 const names=new Intl.DisplayNames(['pt-BR'],{type:'region'});
 const numberId=(code:string)=>iso.alpha3ToNumeric(code);
@@ -48,6 +51,7 @@ export const Face=({x,y,size,angry=false,phase=0}:{x:number;y:number;size:number
 };
 
 export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
+ const shapes=ep.surveyYear?lightShapes:detailedShapes;
  const frame=useCurrentFrame(),{fps,width,height}=useVideoConfig();
  const records=[...ep.countries].sort((a,b)=>a.order-b.order);
  const categoryLabel=(s:Status)=>ep.categoryLabels?.[s]??label(s);
@@ -61,18 +65,23 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  const target=(i:number):[number,number,number]=>{
   if(i<0||i>=records.length)return [0,10,.95];
   const pose=anchors[records[i].iso3];
-  return pose?[pose[0],pose[1],pose[2]*(pose[2]>=7?1.65:1.12)]:[0,10,1];
+  if(pose)return [pose[0],pose[1],pose[2]*(pose[2]>=7?1.65:1.12)];
+  const shape=shapes.find(s=>s.id===numberId(records[i].iso3));
+  if(!shape)return [0,10,1];
+  const [[x,y],[xx,yy]]=shape.bounds;
+  const c=projection.invert!([(x+xx)/2,(y+yy)/2])!;
+  return [c[0],c[1],Math.min(16,Math.max(1.5,Math.min(880/(xx-x),650/(yy-y))))];
  };
  const a=target(index-1),b=target(index),t=ease((frame-intro-index*step)/(fps*.95));
  const lon=mix(a[0],b[0],t),lat=mix(a[1],b[1],t),z=mix(a[2],b[2],t);
  const center=projection([lon,lat])!;
  const tx=850-z*center[0],ty=490-z*center[1];
- const counts=(s:Status)=>revealed.filter(r=>r.status===s).length;
+ const counts=(s:Status)=>revealed.filter(r=>!r.excludeFromTotals&&r.status===s).length;
  const yes=counts('yes'),no=counts('no'),partial=counts('partial');
  const previous=records.slice(0,Math.max(0,Math.min(records.length,index)));
  const tween=ease((activeAge-fps*.95)/(fps*.35));
  const share=(s:Status)=>{
-  const ratio=(rows:typeof records)=>{const valid=rows.filter(r=>r.status==='yes'||r.status==='no');return valid.length?valid.filter(r=>r.status===s).length/valid.length:(s==='yes'?1:0)};
+  const ratio=(rows:typeof records)=>{const valid=rows.filter(r=>!r.excludeFromTotals&&(r.status==='yes'||r.status==='no'));return valid.length?valid.filter(r=>r.status===s).length/valid.length:(s==='yes'?1:0)};
   const old=ratio(previous);
   const next=ratio(revealed);
   return mix(old,next,outro?1:tween);
@@ -110,20 +119,20 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  </g>})}
  </g>
  <g filter="url(#shadow)">
- <text x="390" y="85" fontSize="37" fill="#1bd078" style={outlined}>{categoryLabel('yes')} {percent}%</text>
+ <text x="665" y="85" textAnchor="end" fontSize="34" fill="#1bd078" style={outlined}>{categoryLabel('yes')} {yes+no?`${percent}%`:'—'}</text>
  <rect x="693" y="40" width="510" height="58" rx="10" fill="#193e38" stroke="#ffba43" strokeWidth="5"/>
- <rect x="699" y="46" width="498" height="46" fill="url(#bar)"/>
+ <rect x="699" y="46" width="498" height="46" fill={yes+no?'url(#bar)':'#758b92'}/>
  <rect x={boundary} y="46" width={Math.max(0,1197-boundary)} height="46" fill="#f6504a"/>
  <rect x="699" y="46" width="498" height="46" fill="url(#ticks)"/>
  <rect x={boundary-27} y="33" width="55" height="73" rx="8" fill="#ffb936" stroke="#142129" strokeWidth="4"/>
  <text x={boundary} y="78" fontSize="18" textAnchor="middle">VS</text>
- <text x="1263" y="85" fontSize="34" fill="#ff665d" style={outlined}>{Math.round(100*share('no'))}% {categoryLabel('no')}</text>
+ <text x="1263" y="85" fontSize="34" fill="#ff665d" style={outlined}>{yes+no?`${Math.round(100*share('no'))}%`:'—'} {categoryLabel('no')}</text>
  </g>
  <g transform={`translate(65 800) scale(${arrived?pop:1})`} filter="url(#shadow)">
  <text x="0" y="50" fontSize="112" fill="#14bd75" style={outlined}>{yes}</text><text x="230" y="50" fontSize="112" fill="#ff6458" style={outlined}>{no}</text>
- <text x="0" y="112" fontSize="35" fill="#24ce83" style={outlined}>{categoryLabel('yes')}</text><text x="210" y="112" fontSize="31" fill="#ff6458" style={outlined}>{categoryLabel('no')}</text>
+ <text x="0" y="112" fontSize={ep.surveyYear?26:35} fill="#24ce83" style={outlined}>{categoryLabel('yes')}</text><text x="230" y="112" fontSize={ep.surveyYear?26:31} fill="#ff6458" style={outlined}>{categoryLabel('no')}</text>
  <Face x={55} y={172} size={92}/><Face x={285} y={172} size={92} angry/>
- <text y="225" fontSize="20" fill="#ffe8a2" stroke="#163344" strokeWidth="3" paintOrder="stroke">{partial} restrito(s) · {counts('unknown')} sem dados</text>
+ <text y="225" fontSize="20" fill="#ffe8a2" stroke="#163344" strokeWidth="3" paintOrder="stroke">{partial} {ep.surveyYear?'divididos':'restrito(s)'} · {counts('unknown')} sem dados</text>
  </g>
  {!outro&&revealed.slice(-5).reverse().map((r,i)=>{
  const age=frame-(intro+records.indexOf(r)*step+fps*.95);
@@ -137,15 +146,26 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  <rect x="310" y="18" width="117" height="30" rx="5" fill={colors[r.status]} stroke="#111e26" strokeWidth="2"/>
  <text x="368" y="39" textAnchor="middle" fontSize="13" fill={r.status==='partial'?'#18212a':'white'}>{categoryLabel(r.status)}</text>
  </g>})}
- {!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -177)`}>
+ {!ep.surveyYear&&!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -177)`}>
  <rect width="820" height="177" rx="19" fill="#332e21" fillOpacity=".95" stroke="#ffb42c" strokeWidth="4"/>
  <image href={flag(current.iso3)} x="22" y="17" width="52" height="35"/><text x="90" y="47" fill="white" fontSize="27">EXEMPLO DE EXCEÇÃO</text>
  <path d="M 24 68 H 790" stroke="#a58338"/>
  <text x="26" y="111" fontSize="25" fill="#ffe9a0">CATEGORIA: {categoryLabel(current.status)}</text>
  <text x="26" y="150" fontSize="20" fill="white">Dados simulados para validar animação e interface.</text>
  </g>}
- {inIntro&&<g><rect width={W} height={H} fill="#123b52" opacity=".6"/><text x="960" y="475" textAnchor="middle" fill="white" fontSize="68" style={outlined}>O MUNDO, PAÍS POR PAÍS</text><text x="960" y="555" textAnchor="middle" fill="#ffd075" fontSize="32">NOVO ESTUDO VISUAL · MAPAS ANIMADOS</text></g>}
- <text x="960" y="1060" textAnchor="middle" fontSize="17" fill="white" opacity=".8">PRÉVIA VISUAL · CATEGORIAS FICTÍCIAS · SEM AFIRMAÇÕES SOBRE RESTRIÇÕES REAIS</text>
+ {ep.surveyYear&&!inIntro&&!outro&&arrived&&<g transform={`translate(570 760) scale(${ease((activeAge-fps*.95)/12)*ease((step-activeAge)/10)})`}>
+ <rect width="810" height="266" rx="20" fill="#123440" fillOpacity=".96" stroke={colors[current.status]} strokeWidth="3"/>
+ <text x="24" y="38" fontSize="24" fill="#ffdb7a">{current.excludeFromTotals?'BÔNUS: A AUTOAVALIAÇÃO DO BRASIL':'INFLUÊNCIA DO BRASIL · BBC / GLOBESCAN 2017'}</text>
+ <text x="24" y="83" fontSize="28" fill="#54e6a3">{current.positive}% positiva</text><text x="410" y="83" fontSize="28" fill="#ff8e88">{current.negative}% negativa</text>
+ <rect x="24" y="101" width="760" height="15" rx="5" fill="#889aa1"/>
+ <rect x="24" y="101" width={760*(current.positive??0)/100*ease((activeAge-fps)/30)} height="15" fill="#19bc75"/>
+ <rect x={784-760*(current.negative??0)/100*ease((activeAge-fps)/30)} y="101" width={760*(current.negative??0)/100*ease((activeAge-fps)/30)} height="15" fill="#f6504a"/>
+ <text x="24" y="149" fontSize="20" fill="#d5e3e8">{100-(current.positive??0)-(current.negative??0)}% sem avaliação positiva ou negativa</text>
+ {(current.beats?.[Math.min(2,Math.floor(Math.max(0,activeAge/fps-2)/7))]??current.note).split('|').map((line,i)=><text key={i} x="24" y={194+i*30} fontSize="24" fill="white">{line}</text>)}
+ </g>}
+ {inIntro&&<g><rect width={W} height={H} fill="#123b52" opacity=".85"/><text x="960" y="370" textAnchor="middle" fill="white" fontSize="55" style={outlined}>{ep.hook}</text><text x="960" y="455" textAnchor="middle" fill="#ffd075" fontSize="32">{ep.surveyYear?'PESQUISA HISTÓRICA · BBC WORLD SERVICE / GLOBESCAN · 2017':'NOVO ESTUDO VISUAL · MAPAS ANIMADOS'}</text>{ep.surveyYear&&<><text x="960" y="550" textAnchor="middle" fill="white" fontSize="28">17 países estrangeiros + a autoavaliação brasileira</text><text x="960" y="610" textAnchor="middle" fill="white" fontSize="28">A pergunta mede a influência do Brasil no mundo.</text><text x="960" y="670" textAnchor="middle" fill="white" fontSize="28">Positiva, negativa ou dividida: classificação do relatório.</text><text x="960" y="730" textAnchor="middle" fill="#ffd075" fontSize="27">Os resultados descrevem 2017. Não são um retrato de 2026.</text></>}</g>}
+ {outro&&ep.surveyYear&&<g><rect x="480" y="300" width="960" height="410" rx="24" fill="#123440" fillOpacity=".95"/><text x="960" y="380" textAnchor="middle" fill="#ffdc85" fontSize="40">O QUE A PESQUISA MOSTROU?</text>{['17 países estrangeiros: 8 positivos, 4 negativos, 5 divididos.','A barra compara apenas países positivos e negativos.','Não representa a porcentagem da população mundial.','O Brasil avaliou a si mesmo: fora dos totais estrangeiros.','Pesquisa histórica de 2017 · fonte e limites na descrição.'].map((s,i)=><text key={i} x="960" y={450+i*48} textAnchor="middle" fill="white" fontSize="25">{s}</text>)}</g>}
+ <text x="960" y="1060" textAnchor="middle" fontSize="17" fill="white" opacity=".9">{ep.surveyYear?'BBC / GLOBESCAN 2017 · INFLUÊNCIA DO BRASIL · BARRA: PAÍSES POSITIVOS × NEGATIVOS · DIVIDIDOS À PARTE': 'PRÉVIA VISUAL · CATEGORIAS FICTÍCIAS · SEM AFIRMAÇÕES SOBRE RESTRIÇÕES REAIS'}</text>
  </svg>
  {records.map((r,i)=><React.Fragment key={r.iso3}><Sequence from={Math.round(intro+i*step)} durationInFrames={26}><Audio src={staticFile('audio/whoosh.wav')} volume={.35}/></Sequence><Sequence from={Math.round(intro+i*step+fps*.95)} durationInFrames={18}><Audio src={staticFile(`audio/${soundFor(r.status)}`)} volume={.9}/></Sequence></React.Fragment>)}
  </div>;

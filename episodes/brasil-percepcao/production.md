@@ -1,10 +1,10 @@
 # Quem realmente AMA e ODEIA o Brasil?
 
-Estado: pré-produção factual. Não é episódio final; não há países classificados ou dados verificados ainda.
+Estado: dados extraídos da fonte primária BBC/GlobeScan 2017; 18 registros estruturados e roteiro visual de 480 segundos preparados. Render e revisão em andamento.
 
 ## Entrega planejada
 
-MP4 de aproximadamente 8 minutos, 1080p/30 fps, linguagem visual do demo v5, narração em português brasileiro, sons discretos, thumbnail e descrição com fontes.
+MP4 de 8 minutos, 1080p/30 fps, linguagem visual do demo v5, sem narração por escolha do usuário, sons discretos e descrição com fontes. Pesquisa histórica explicitamente identificada como 2017.
 
 ## Regra editorial
 
@@ -45,7 +45,7 @@ Essa distribuição é um alvo editorial, não tempo já renderizado. Se as font
 
 Em 24/10/2026, HTTPS para globescan.com e www.pewresearch.org retornou CONNECT 403 pelo proxy. Sem acesso ao conteúdo, não foi possível avaliar cobertura nem extrair classificações. A liberação dos destinos foi salva no rascunho do ambiente, mas ainda precisa ser aplicada. Não existe ferramenta de busca web disponível nesta sessão.
 
-A máquina não tem espeak, piper ou edge-tts disponíveis; o ambiente não declara serviço de voz ou credencial correspondente. Definir solução de narração depois do roteiro factual, sem declarar locução pronta ou prometer qualidade não verificada.
+Acesso ao texto primário da GlobeScan obtido com execução autorizada em 24/10/2026. A fonte contém percentuais e classificação de 17 países estrangeiros mais a autoavaliação brasileira. A limitação de rede anterior não impede mais a extração desses dados. Locução removida do escopo por instrução do usuário.
 
 ## Antes do render final
 

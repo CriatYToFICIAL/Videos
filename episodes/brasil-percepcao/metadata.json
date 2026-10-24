@@ -1,0 +1,26 @@
+{
+  "id": "brasil-percepcao",
+  "title": "Quem realmente AMA e ODEIA o Brasil? O que revelou a pesquisa de 2017",
+  "hook": "QUEM REALMENTE AMA E ODEIA O BRASIL?",
+  "topicLabel": "INFLUÊNCIA DO BRASIL",
+  "primaryLabel": "POSITIVOS",
+  "secondaryLabel": "NEGATIVOS",
+  "language": "pt-BR",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "secondsPerCountry": 24,
+  "introSeconds": 24,
+  "outroSeconds": 24,
+  "surveyYear": 2017,
+  "scope": "17 países estrangeiros com avaliação do Brasil, mais autoavaliação brasileira fora dos totais.",
+  "methodology": "Classificações do relatório BBC/GlobeScan de 2017; pesquisa sobre influência, não amor/ódio. Comparação binária exclui divididos e autoavaliação.",
+  "disclaimer": "Pesquisa histórica de 2017; não representa opinião em 2026.",
+  "categoryLabels": {
+    "yes": "POSITIVOS",
+    "no": "NEGATIVOS",
+    "partial": "DIVIDIDO",
+    "unknown": "SEM DADOS"
+  }
+}
+
