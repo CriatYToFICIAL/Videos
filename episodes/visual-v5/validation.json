@@ -1,0 +1,14 @@
+{
+  "episode": "visual-v5",
+  "generated_at": "2026-10-24T15:30:24.234Z",
+  "valid": true,
+  "country_count": 15,
+  "status_counts": {
+    "yes": 12,
+    "partial": 2,
+    "no": 1,
+    "unknown": 0
+  },
+  "errors": [],
+  "warnings": []
+}

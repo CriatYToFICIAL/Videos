@@ -98,7 +98,9 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  {shapes.filter(s=>s.id!=='010').map(s=><path key={s.id} d={s.d} fill="#1ac918" stroke="#102423" strokeWidth={1.8/z}/>)}
  {revealed.map(r=>{const s=shapes.find(s=>s.id===numberId(r.iso3));if(!s)return null;const [[x,y],[xx,yy]]=s.bounds;
  const anchor=anchors[r.iso3];const pt=anchor?projection([anchor[0],anchor[1]])!:[(x+xx)/2,(y+yy)/2];
- const size=Math.min((xx-x)*.44,(yy-y)*.32,115/z);
+ // Thin islands need a screen-space floor; cap the pair at 38% of
+ // land width so the flag remains legible (Jamaica is the regression case).
+ const size=Math.min(Math.max(Math.min((xx-x)*.44,(yy-y)*.32),52/z),(xx-x)*.38,115/z);
  return <g key={r.iso3}>
  {s.patches.map((p:any,i:number)=>{const [[px,py],[qx,qy]]=p.bounds;return <image key={i} href={flag(r.iso3)} x={px} y={py} width={Math.max(.01,qx-px)} height={Math.max(.01,qy-py)} preserveAspectRatio="none" clipPath={`url(#clip-${r.iso3}-${i})`}/>})}
  {r.status!=='yes'&&<path d={s.d} fill={colors[r.status]} opacity=".22"/>}
@@ -123,13 +125,18 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  <Face x={55} y={172} size={92}/><Face x={285} y={172} size={92} angry/>
  <text y="225" fontSize="20" fill="#ffe8a2" stroke="#163344" strokeWidth="3" paintOrder="stroke">{partial} restrito(s) · {counts('unknown')} sem dados</text>
  </g>
- {!outro&&revealed.slice(-5).reverse().map((r,i)=><g key={r.iso3} transform={`translate(${1445+(i===0?24*(1-ease(activeAge/9)):0)} ${620+i*78})`} opacity={1-i*.13}>
+ {!outro&&revealed.slice(-5).reverse().map((r,i)=>{
+ const age=frame-(intro+records.indexOf(r)*step+fps*.95);
+ const progress=Math.max(0,Math.min(1,age/14));
+ const overshoot=(v:number)=>1+2.3*Math.pow(v-1,3)+1.3*Math.pow(v-1,2);
+ const scale=.84+.16*overshoot(progress);
+ return <g key={r.iso3} transform={`translate(1665 ${652.5+i*78}) scale(${scale}) translate(-220 -32.5)`} opacity={(1-i*.13)*ease(age/5)}>
  <rect width="440" height="65" rx="12" fill={i===0&&r.status!=='yes'?'#473719':'#133d43'} fillOpacity=".94" stroke={colors[r.status]} strokeWidth="2"/>
  <image href={flag(r.iso3)} x="14" y="13" width="55" height="39"/>
  <text x="82" y="40" fontSize="23" textLength={(names.of(iso.alpha3ToAlpha2(r.iso3)!)??r.iso3).length>16?213:undefined} lengthAdjust="spacingAndGlyphs" fill="white" stroke="#111a20" strokeWidth="3" paintOrder="stroke">{(names.of(iso.alpha3ToAlpha2(r.iso3)!)??r.iso3).toUpperCase()}</text>
  <rect x="310" y="18" width="117" height="30" rx="5" fill={colors[r.status]} stroke="#111e26" strokeWidth="2"/>
  <text x="368" y="39" textAnchor="middle" fontSize="13" fill={r.status==='partial'?'#18212a':'white'}>{categoryLabel(r.status)}</text>
- </g>)}
+ </g>})}
  {!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -177)`}>
  <rect width="820" height="177" rx="19" fill="#332e21" fillOpacity=".95" stroke="#ffb42c" strokeWidth="4"/>
  <image href={flag(current.iso3)} x="22" y="17" width="52" height="35"/><text x="90" y="47" fill="white" fontSize="27">EXEMPLO DE EXCEÇÃO</text>

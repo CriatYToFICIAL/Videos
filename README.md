@@ -4,6 +4,8 @@ Motor inicial para vídeos de mapa animado orientados por dados. O episódio mud
 
 ## Prévia visual revisada
 
+`npm run render -- visual-v5` é a revisão mais recente: olhos legíveis nas ilhas estreitas (Jamaica como referência) e entrada com pequeno pop por cartão da tabela. Mantém o fluxo câmera → revelação e a barra binária da v4. As categorias continuam fictícias neste estudo.
+
 `npm run render -- visual-v3` é o estudo atual: corrige a textura por polígono (incluindo EUA), adiciona piscadas e olhar animado, aproxima a câmera em 12%, movimenta o VS na fronteira do segmento vermelho e limpa detalhes durante o plano global final. O episódio fornece `categoryLabels` e `categorySounds` por estado; os arquivos de som devem estar em `public/audio`. O estado negativo tem um cue descendente próprio. A versão v2 permanece no GitHub para comparação.
 
 `npm run render -- visual-v2` cria `output/visual-v2.mp4`: 41 segundos com 15 países das Américas, câmera contínua entre enquadramentos locais, bandeiras SVG recortadas, olhos expressivos, HUD segmentado, lista de países, cartões de exceção e efeitos sonoros discretos. As categorias são fictícias e estão identificadas no vídeo. O demo antigo é apenas o primeiro teste técnico e não representa a direção visual atual.
