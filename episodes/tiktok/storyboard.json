@@ -4,218 +4,218 @@
   "totalSeconds": 552,
   "events": [
     {
-      "iso3": "USA",
-      "region": "Americas",
+      "iso3": "CAN",
+      "region": "América do Norte",
       "startSeconds": 6,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MEX",
-      "region": "Americas",
+      "iso3": "USA",
+      "region": "América do Norte",
       "startSeconds": 9,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CAN",
-      "region": "Americas",
+      "iso3": "MEX",
+      "region": "América do Norte",
       "startSeconds": 12,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "GTM",
-      "region": "Americas",
+      "region": "América do Norte",
       "startSeconds": 15,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SLV",
-      "region": "Americas",
+      "iso3": "BLZ",
+      "region": "América do Norte",
       "startSeconds": 18,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BLZ",
-      "region": "Americas",
+      "iso3": "SLV",
+      "region": "América do Norte",
       "startSeconds": 21,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "HND",
-      "region": "Americas",
+      "region": "América do Norte",
       "startSeconds": 24,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "NIC",
-      "region": "Americas",
+      "region": "América do Norte",
       "startSeconds": 27,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "CRI",
-      "region": "Americas",
+      "region": "América do Norte",
       "startSeconds": 30,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "PAN",
-      "region": "Americas",
+      "region": "América do Norte",
       "startSeconds": 33,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CUB",
-      "region": "Americas",
+      "iso3": "BHS",
+      "region": "América do Norte",
       "startSeconds": 36,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ECU",
-      "region": "Americas",
+      "iso3": "CUB",
+      "region": "América do Norte",
       "startSeconds": 39,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "JAM",
-      "region": "Americas",
+      "region": "América do Norte",
       "startSeconds": 42,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BHS",
-      "region": "Americas",
+      "iso3": "HTI",
+      "region": "América do Norte",
       "startSeconds": 45,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "PER",
-      "region": "Americas",
+      "iso3": "DOM",
+      "region": "América do Norte",
       "startSeconds": 48,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "COL",
-      "region": "Americas",
+      "iso3": "ATG",
+      "region": "América do Norte",
       "startSeconds": 51,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "HTI",
-      "region": "Americas",
+      "iso3": "DMA",
+      "region": "América do Norte",
       "startSeconds": 54,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CHL",
-      "region": "Americas",
+      "iso3": "LCA",
+      "region": "América do Norte",
       "startSeconds": 57,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "DOM",
-      "region": "Americas",
+      "iso3": "TTO",
+      "region": "América do Norte",
       "startSeconds": 60,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "VEN",
-      "region": "Americas",
+      "iso3": "COL",
+      "region": "América do Sul",
       "startSeconds": 63,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ARG",
-      "region": "Americas",
+      "iso3": "VEN",
+      "region": "América do Sul",
       "startSeconds": 66,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BOL",
-      "region": "Americas",
+      "iso3": "GUY",
+      "region": "América do Sul",
       "startSeconds": 69,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ATG",
-      "region": "Americas",
+      "iso3": "SUR",
+      "region": "América do Sul",
       "startSeconds": 72,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "DMA",
-      "region": "Americas",
+      "iso3": "BRA",
+      "region": "América do Sul",
       "startSeconds": 75,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TTO",
-      "region": "Americas",
+      "iso3": "ECU",
+      "region": "América do Sul",
       "startSeconds": 78,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LCA",
-      "region": "Americas",
+      "iso3": "PER",
+      "region": "América do Sul",
       "startSeconds": 81,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GUY",
-      "region": "Americas",
+      "iso3": "BOL",
+      "region": "América do Sul",
       "startSeconds": 84,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "PRY",
-      "region": "Americas",
+      "region": "América do Sul",
       "startSeconds": 87,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "URY",
-      "region": "Americas",
+      "region": "América do Sul",
       "startSeconds": 90,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SUR",
-      "region": "Americas",
+      "iso3": "ARG",
+      "region": "América do Sul",
       "startSeconds": 93,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BRA",
-      "region": "Americas",
+      "iso3": "CHL",
+      "region": "América do Sul",
       "startSeconds": 96,
       "durationSeconds": 3,
       "researchStatus": "pending"
@@ -228,21 +228,21 @@
       "researchStatus": "pending"
     },
     {
-      "iso3": "PRT",
+      "iso3": "IRL",
       "region": "Europa",
       "startSeconds": 102,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "IRL",
+      "iso3": "GBR",
       "region": "Europa",
       "startSeconds": 105,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "FRA",
+      "iso3": "PRT",
       "region": "Europa",
       "startSeconds": 108,
       "durationSeconds": 3,
@@ -256,14 +256,14 @@
       "researchStatus": "pending"
     },
     {
-      "iso3": "GBR",
+      "iso3": "AND",
       "region": "Europa",
       "startSeconds": 114,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "AND",
+      "iso3": "FRA",
       "region": "Europa",
       "startSeconds": 117,
       "durationSeconds": 3,
@@ -291,84 +291,84 @@
       "researchStatus": "pending"
     },
     {
-      "iso3": "CHE",
+      "iso3": "DEU",
       "region": "Europa",
       "startSeconds": 129,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "DNK",
+      "iso3": "CHE",
       "region": "Europa",
       "startSeconds": 132,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "DEU",
+      "iso3": "ITA",
       "region": "Europa",
       "startSeconds": 135,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ITA",
+      "iso3": "AUT",
       "region": "Europa",
       "startSeconds": 138,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "NOR",
+      "iso3": "SVN",
       "region": "Europa",
       "startSeconds": 141,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "AUT",
+      "iso3": "HRV",
       "region": "Europa",
       "startSeconds": 144,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SVN",
+      "iso3": "BIH",
       "region": "Europa",
       "startSeconds": 147,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CZE",
+      "iso3": "MNE",
       "region": "Europa",
       "startSeconds": 150,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SWE",
+      "iso3": "ALB",
       "region": "Europa",
       "startSeconds": 153,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "HRV",
+      "iso3": "GRC",
       "region": "Europa",
       "startSeconds": 156,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BIH",
+      "iso3": "MKD",
       "region": "Europa",
       "startSeconds": 159,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MNE",
+      "iso3": "SRB",
       "region": "Europa",
       "startSeconds": 162,
       "durationSeconds": 3,
@@ -382,105 +382,105 @@
       "researchStatus": "pending"
     },
     {
-      "iso3": "POL",
+      "iso3": "SVK",
       "region": "Europa",
       "startSeconds": 168,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SVK",
+      "iso3": "CZE",
       "region": "Europa",
       "startSeconds": 171,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ALB",
+      "iso3": "POL",
       "region": "Europa",
       "startSeconds": 174,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SRB",
+      "iso3": "DNK",
       "region": "Europa",
       "startSeconds": 177,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MKD",
+      "iso3": "NOR",
       "region": "Europa",
       "startSeconds": 180,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GRC",
+      "iso3": "SWE",
       "region": "Europa",
       "startSeconds": 183,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LTU",
+      "iso3": "FIN",
       "region": "Europa",
       "startSeconds": 186,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LVA",
+      "iso3": "EST",
       "region": "Europa",
       "startSeconds": 189,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ROU",
+      "iso3": "LVA",
       "region": "Europa",
       "startSeconds": 192,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BGR",
+      "iso3": "LTU",
       "region": "Europa",
       "startSeconds": 195,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "EST",
+      "iso3": "BLR",
       "region": "Europa",
       "startSeconds": 198,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "FIN",
+      "iso3": "UKR",
       "region": "Europa",
       "startSeconds": 201,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BLR",
+      "iso3": "MDA",
       "region": "Europa",
       "startSeconds": 204,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MDA",
+      "iso3": "ROU",
       "region": "Europa",
       "startSeconds": 207,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "UKR",
+      "iso3": "BGR",
       "region": "Europa",
       "startSeconds": 210,
       "durationSeconds": 3,
@@ -488,776 +488,776 @@
     },
     {
       "iso3": "TUR",
-      "region": "Europa",
+      "region": "Ásia",
       "startSeconds": 213,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SYR",
-      "region": "Europa",
+      "iso3": "CYP",
+      "region": "Ásia",
       "startSeconds": 216,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "GEO",
-      "region": "Europa",
+      "region": "Ásia",
       "startSeconds": 219,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "ARM",
-      "region": "Europa",
+      "region": "Ásia",
       "startSeconds": 222,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CPV",
-      "region": "Africa",
+      "iso3": "AZE",
+      "region": "Ásia",
       "startSeconds": 225,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GMB",
-      "region": "Africa",
+      "iso3": "RUS",
+      "region": "Ásia",
       "startSeconds": 228,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GNB",
-      "region": "Africa",
+      "iso3": "KAZ",
+      "region": "Ásia",
       "startSeconds": 231,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SEN",
-      "region": "Africa",
+      "iso3": "UZB",
+      "region": "Ásia",
       "startSeconds": 234,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SLE",
-      "region": "Africa",
+      "iso3": "TKM",
+      "region": "Ásia",
       "startSeconds": 237,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GIN",
-      "region": "Africa",
+      "iso3": "KGZ",
+      "region": "Ásia",
       "startSeconds": 240,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MRT",
-      "region": "Africa",
+      "iso3": "TJK",
+      "region": "Ásia",
       "startSeconds": 243,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LBR",
-      "region": "Africa",
+      "iso3": "IRN",
+      "region": "Ásia",
       "startSeconds": 246,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MAR",
-      "region": "Africa",
+      "iso3": "IRQ",
+      "region": "Ásia",
       "startSeconds": 249,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CIV",
-      "region": "Africa",
+      "iso3": "SYR",
+      "region": "Ásia",
       "startSeconds": 252,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MLI",
-      "region": "Africa",
+      "iso3": "LBN",
+      "region": "Ásia",
       "startSeconds": 255,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BFA",
-      "region": "Africa",
+      "iso3": "ISR",
+      "region": "Ásia",
       "startSeconds": 258,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GHA",
-      "region": "Africa",
+      "iso3": "PSE",
+      "region": "Ásia",
       "startSeconds": 261,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TGO",
-      "region": "Africa",
+      "iso3": "JOR",
+      "region": "Ásia",
       "startSeconds": 264,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BEN",
-      "region": "Africa",
+      "iso3": "SAU",
+      "region": "Ásia",
       "startSeconds": 267,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "DZA",
-      "region": "Africa",
+      "iso3": "KWT",
+      "region": "Ásia",
       "startSeconds": 270,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "STP",
-      "region": "Africa",
+      "iso3": "BHR",
+      "region": "Ásia",
       "startSeconds": 273,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "NGA",
-      "region": "Africa",
+      "iso3": "QAT",
+      "region": "Ásia",
       "startSeconds": 276,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "NER",
-      "region": "Africa",
+      "iso3": "ARE",
+      "region": "Ásia",
       "startSeconds": 279,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TUN",
-      "region": "Africa",
+      "iso3": "OMN",
+      "region": "Ásia",
       "startSeconds": 282,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GNQ",
-      "region": "Africa",
+      "iso3": "YEM",
+      "region": "Ásia",
       "startSeconds": 285,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "GAB",
-      "region": "Africa",
+      "iso3": "AFG",
+      "region": "Ásia",
       "startSeconds": 288,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CMR",
-      "region": "Africa",
+      "iso3": "PAK",
+      "region": "Ásia",
       "startSeconds": 291,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "COG",
-      "region": "Africa",
+      "iso3": "IND",
+      "region": "Ásia",
       "startSeconds": 294,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "NAM",
-      "region": "Africa",
+      "iso3": "NPL",
+      "region": "Ásia",
       "startSeconds": 297,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "AGO",
-      "region": "Africa",
+      "iso3": "BTN",
+      "region": "Ásia",
       "startSeconds": 300,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LBY",
-      "region": "Africa",
+      "iso3": "BGD",
+      "region": "Ásia",
       "startSeconds": 303,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TCD",
-      "region": "Africa",
+      "iso3": "LKA",
+      "region": "Ásia",
       "startSeconds": 306,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CAF",
-      "region": "Africa",
+      "iso3": "MMR",
+      "region": "Ásia",
       "startSeconds": 309,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "COD",
-      "region": "Africa",
+      "iso3": "THA",
+      "region": "Ásia",
       "startSeconds": 312,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BWA",
-      "region": "Africa",
+      "iso3": "LAO",
+      "region": "Ásia",
       "startSeconds": 315,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ZAF",
-      "region": "Africa",
+      "iso3": "KHM",
+      "region": "Ásia",
       "startSeconds": 318,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ZMB",
-      "region": "Africa",
+      "iso3": "VNM",
+      "region": "Ásia",
       "startSeconds": 321,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LSO",
-      "region": "Africa",
+      "iso3": "MYS",
+      "region": "Ásia",
       "startSeconds": 324,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ZWE",
-      "region": "Africa",
+      "iso3": "SGP",
+      "region": "Ásia",
       "startSeconds": 327,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BDI",
-      "region": "Africa",
+      "iso3": "BRN",
+      "region": "Ásia",
       "startSeconds": 330,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "EGY",
-      "region": "Africa",
+      "iso3": "IDN",
+      "region": "Ásia",
       "startSeconds": 333,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SDN",
-      "region": "Africa",
+      "iso3": "TLS",
+      "region": "Ásia",
       "startSeconds": 336,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "RWA",
-      "region": "Africa",
+      "iso3": "PHL",
+      "region": "Ásia",
       "startSeconds": 339,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SSD",
-      "region": "Africa",
+      "iso3": "MNG",
+      "region": "Ásia",
       "startSeconds": 342,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SWZ",
-      "region": "Africa",
+      "iso3": "CHN",
+      "region": "Ásia",
       "startSeconds": 345,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "UGA",
-      "region": "Africa",
+      "iso3": "TWN",
+      "region": "Ásia",
       "startSeconds": 348,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CYP",
-      "region": "Africa",
+      "iso3": "PRK",
+      "region": "Ásia",
       "startSeconds": 351,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MWI",
-      "region": "Africa",
+      "iso3": "KOR",
+      "region": "Ásia",
       "startSeconds": 354,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TZA",
-      "region": "Africa",
+      "iso3": "JPN",
+      "region": "Ásia",
       "startSeconds": 357,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ISR",
-      "region": "Africa",
+      "iso3": "MAR",
+      "region": "África",
       "startSeconds": 360,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "PSE",
-      "region": "Africa",
+      "iso3": "DZA",
+      "region": "África",
       "startSeconds": 363,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MOZ",
-      "region": "Africa",
+      "iso3": "TUN",
+      "region": "África",
       "startSeconds": 366,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LBN",
-      "region": "Africa",
+      "iso3": "LBY",
+      "region": "África",
       "startSeconds": 369,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "JOR",
-      "region": "Africa",
+      "iso3": "EGY",
+      "region": "África",
       "startSeconds": 372,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "KEN",
-      "region": "Africa",
+      "iso3": "MRT",
+      "region": "África",
       "startSeconds": 375,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ERI",
-      "region": "Africa",
+      "iso3": "MLI",
+      "region": "África",
       "startSeconds": 378,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ETH",
-      "region": "Africa",
+      "iso3": "NER",
+      "region": "África",
       "startSeconds": 381,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "DJI",
-      "region": "Africa",
+      "iso3": "TCD",
+      "region": "África",
       "startSeconds": 384,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "COM",
-      "region": "Africa",
+      "iso3": "SDN",
+      "region": "África",
       "startSeconds": 387,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "IRQ",
-      "region": "Africa",
+      "iso3": "ERI",
+      "region": "África",
       "startSeconds": 390,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SAU",
-      "region": "Africa",
+      "iso3": "DJI",
+      "region": "África",
       "startSeconds": 393,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SOM",
-      "region": "Africa",
+      "iso3": "ETH",
+      "region": "África",
       "startSeconds": 396,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MDG",
-      "region": "Africa",
+      "iso3": "SOM",
+      "region": "África",
       "startSeconds": 399,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "YEM",
-      "region": "Africa",
+      "iso3": "SSD",
+      "region": "África",
       "startSeconds": 402,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "KWT",
-      "region": "Africa",
+      "iso3": "CAF",
+      "region": "África",
       "startSeconds": 405,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BHR",
-      "region": "Africa",
+      "iso3": "NGA",
+      "region": "África",
       "startSeconds": 408,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "QAT",
-      "region": "Africa",
+      "iso3": "BEN",
+      "region": "África",
       "startSeconds": 411,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "ARE",
-      "region": "Africa",
+      "iso3": "TGO",
+      "region": "África",
       "startSeconds": 414,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "IRN",
-      "region": "Africa",
+      "iso3": "GHA",
+      "region": "África",
       "startSeconds": 417,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "AZE",
-      "region": "Asia",
+      "iso3": "CIV",
+      "region": "África",
       "startSeconds": 420,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "OMN",
-      "region": "Asia",
+      "iso3": "LBR",
+      "region": "África",
       "startSeconds": 423,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MUS",
-      "region": "Asia",
+      "iso3": "SLE",
+      "region": "África",
       "startSeconds": 426,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TKM",
-      "region": "Asia",
+      "iso3": "GIN",
+      "region": "África",
       "startSeconds": 429,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "UZB",
-      "region": "Asia",
+      "iso3": "GNB",
+      "region": "África",
       "startSeconds": 432,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "AFG",
-      "region": "Asia",
+      "iso3": "SEN",
+      "region": "África",
       "startSeconds": 435,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "KAZ",
-      "region": "Asia",
+      "iso3": "GMB",
+      "region": "África",
       "startSeconds": 438,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "PAK",
-      "region": "Asia",
+      "iso3": "CPV",
+      "region": "África",
       "startSeconds": 441,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TJK",
-      "region": "Asia",
+      "iso3": "BFA",
+      "region": "África",
       "startSeconds": 444,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "KGZ",
-      "region": "Asia",
+      "iso3": "CMR",
+      "region": "África",
       "startSeconds": 447,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "IND",
-      "region": "Asia",
+      "iso3": "GNQ",
+      "region": "África",
       "startSeconds": 450,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LKA",
-      "region": "Asia",
+      "iso3": "GAB",
+      "region": "África",
       "startSeconds": 453,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "NPL",
-      "region": "Asia",
+      "iso3": "COG",
+      "region": "África",
       "startSeconds": 456,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BGD",
-      "region": "Asia",
+      "iso3": "COD",
+      "region": "África",
       "startSeconds": 459,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BTN",
-      "region": "Asia",
+      "iso3": "UGA",
+      "region": "África",
       "startSeconds": 462,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "RUS",
-      "region": "Asia",
+      "iso3": "KEN",
+      "region": "África",
       "startSeconds": 465,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MMR",
-      "region": "Asia",
+      "iso3": "RWA",
+      "region": "África",
       "startSeconds": 468,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "THA",
-      "region": "Asia",
+      "iso3": "BDI",
+      "region": "África",
       "startSeconds": 471,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MNG",
-      "region": "Asia",
+      "iso3": "TZA",
+      "region": "África",
       "startSeconds": 474,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "CHN",
-      "region": "Asia",
+      "iso3": "MWI",
+      "region": "África",
       "startSeconds": 477,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "LAO",
-      "region": "Asia",
+      "iso3": "MOZ",
+      "region": "África",
       "startSeconds": 480,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "SGP",
-      "region": "Asia",
+      "iso3": "ZMB",
+      "region": "África",
       "startSeconds": 483,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "KHM",
-      "region": "Asia",
+      "iso3": "ZWE",
+      "region": "África",
       "startSeconds": 486,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "VNM",
-      "region": "Asia",
+      "iso3": "BWA",
+      "region": "África",
       "startSeconds": 489,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "MYS",
-      "region": "Asia",
+      "iso3": "NAM",
+      "region": "África",
       "startSeconds": 492,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "BRN",
-      "region": "Asia",
+      "iso3": "AGO",
+      "region": "África",
       "startSeconds": 495,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "IDN",
-      "region": "Asia",
+      "iso3": "ZAF",
+      "region": "África",
       "startSeconds": 498,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "TWN",
-      "region": "Asia",
+      "iso3": "LSO",
+      "region": "África",
       "startSeconds": 501,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "PHL",
-      "region": "Asia",
+      "iso3": "SWZ",
+      "region": "África",
       "startSeconds": 504,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "PRK",
-      "region": "Asia",
+      "iso3": "MDG",
+      "region": "África",
       "startSeconds": 507,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "KOR",
-      "region": "Asia",
+      "iso3": "COM",
+      "region": "África",
       "startSeconds": 510,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "JPN",
-      "region": "Asia",
+      "iso3": "MUS",
+      "region": "África",
       "startSeconds": 513,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "PNG",
-      "region": "Asia",
+      "iso3": "STP",
+      "region": "África",
       "startSeconds": 516,
-      "durationSeconds": 3,
-      "researchStatus": "pending"
-    },
-    {
-      "iso3": "FSM",
-      "region": "Asia",
-      "startSeconds": 519,
-      "durationSeconds": 3,
-      "researchStatus": "pending"
-    },
-    {
-      "iso3": "WSM",
-      "region": "Oceania",
-      "startSeconds": 522,
-      "durationSeconds": 3,
-      "researchStatus": "pending"
-    },
-    {
-      "iso3": "KIR",
-      "region": "Oceania",
-      "startSeconds": 525,
-      "durationSeconds": 3,
-      "researchStatus": "pending"
-    },
-    {
-      "iso3": "TLS",
-      "region": "Oceania",
-      "startSeconds": 528,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "AUS",
       "region": "Oceania",
-      "startSeconds": 531,
+      "startSeconds": 519,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "PNG",
+      "region": "Oceania",
+      "startSeconds": 522,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "SLB",
       "region": "Oceania",
-      "startSeconds": 534,
+      "startSeconds": 525,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "VUT",
       "region": "Oceania",
-      "startSeconds": 537,
+      "startSeconds": 528,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "FJI",
+      "region": "Oceania",
+      "startSeconds": 531,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
       "iso3": "NZL",
       "region": "Oceania",
+      "startSeconds": 534,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "WSM",
+      "region": "Oceania",
+      "startSeconds": 537,
+      "durationSeconds": 3,
+      "researchStatus": "pending"
+    },
+    {
+      "iso3": "KIR",
+      "region": "Oceania",
       "startSeconds": 540,
       "durationSeconds": 3,
       "researchStatus": "pending"
     },
     {
-      "iso3": "FJI",
+      "iso3": "FSM",
       "region": "Oceania",
       "startSeconds": 543,
       "durationSeconds": 3,

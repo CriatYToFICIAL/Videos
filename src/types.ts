@@ -41,6 +41,7 @@ export type EpisodeMetadata = {
   categorySounds?: Partial<Record<Status, string>>;
   surveyYear?: number;
   compactRestrictions?: boolean;
+  productionStage?: 'preview' | 'final';
 };
 
 export type Episode = EpisodeMetadata & {countries: CountryRecord[]};

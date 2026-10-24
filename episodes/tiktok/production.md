@@ -8,6 +8,8 @@ Estado: montagem iniciada de fato. Timeline de 180 entradas em `storyboard.json`
 
 ## Interface aprovada
 
+Correções posteriores à prévia: percurso Canadá → EUA → México → demais países da América do Norte → América do Sul → Europa → Ásia → África → Oceania. `storyboard.json` foi reordenado mantendo 180 entradas e 552 segundos. A amostra antiga de oito exceções não representa a cobertura final. Textos institucionais passam a dizer explicitamente “Proibido em aparelhos do governo”, evitando a interpretação oposta. Países disponíveis não recebem painel explicativo. Em produção final, `productionStage: final` remove o rodapé de produção. Os olhos de raiva agora têm recorte SVG na esclera e na íris, abaixo da pálpebra; quadro 645 renderizado e inspecionado após a correção. O MP4 da prévia anterior ainda não foi renderizado novamente.
+
 Somente Livre e Bloqueado nos números e na barra. Denominador = livres + bloqueados já revelados; limitados e casos incertos ficam fora. VS acompanha a fronteira verde/vermelha. Sem contador de limitados. Flash laranja com duas pulsações suaves na chegada, duração total 0,6s, sem loop e sem tonalidade permanente. Status limitado no card. Exceções: uma frase curta. Olhos com uma cor fixa por país, igual nos dois olhos; expressão de raiva com sobrancelhas espelhadas inclinadas para o centro. Câmera chega antes de revelar o resultado. Pop leve no card e nos números, whoosh discreto e sons de status.
 
 ## Pesquisa necessária
