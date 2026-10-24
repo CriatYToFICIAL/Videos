@@ -2,14 +2,15 @@ import React from 'react';
 import anchorData from './camera-anchors.json';
 import {geoMercator, geoPath, geoCentroid, geoContains, geoArea} from 'd3-geo';
 import iso from 'i18n-iso-countries';
-import {Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig, delayRender, continueRender, cancelRender} from 'remotion';
+import {comparisonGeometry} from './comparison';
+import {TikTokMark,LockMark} from './HudIcons';
 import {feature} from 'topojson-client';
 import atlas from 'world-atlas/countries-50m.json';
 import lightAtlas from 'world-atlas/countries-110m.json';
 import type {Episode, Status} from './types';
 
 const W=1920,H=1080;
-const mapTiles=Array.from({length:64},(_,i)=>{const ix=i%8,iy=Math.floor(i/8),x=ix*256,y=-600+iy*256;return {ix,iy,x,y,width:Math.min(256,1920-x),height:Math.min(256,1300-y)};});
 const projection=geoMercator().scale(290).translate([960,550]);
 const path=geoPath(projection);
 const features=(feature(atlas,atlas.objects.countries) as any).features as any[];
@@ -59,11 +60,14 @@ export const Face=({x,y,size,angry=false,phase=0,eyeColor='#24a9d4'}:{x:number;y
 };
 
 export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
+ const [fontHandle]=React.useState(()=>delayRender('Loading Upheaval TT'));
+ React.useEffect(()=>{const font=new FontFace('Upheaval',`url(${staticFile('fonts/upheavtt.ttf')})`);font.load().then(f=>{document.fonts.add(f);continueRender(fontHandle);}).catch(cancelRender);},[fontHandle]);
  const shapes=ep.surveyYear?lightShapes:detailedShapes;
  const raster=ep.compactRestrictions&&ep.productionStage==='final';
  const frame=useCurrentFrame(),{fps,width,height}=useVideoConfig();
  const records=[...ep.countries].sort((a,b)=>a.order-b.order);
  const categoryLabel=(s:Status)=>ep.categoryLabels?.[s]??label(s);
+ const isTikTok=ep.topicLabel==='TIKTOK'||ep.id.startsWith('tiktok');
  const soundFor=(s:Status)=>ep.categorySounds?.[s]??({yes:'reveal.wav',partial:'notice.wav',no:'negative.wav',unknown:'unknown.wav'}[s]);
  const intro=ep.introSeconds*fps,step=ep.secondsPerCountry*fps;
  const index=Math.floor((frame-intro)/step),inIntro=index<0,outro=index>=records.length;
@@ -86,62 +90,58 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  const lon=mix(a[0],b[0],t),lat=mix(a[1],b[1],t),z=mix(a[2],b[2],t);
  const center=projection([lon,lat])!;
  const tx=850-z*center[0],ty=490-z*center[1];
+ const visibleBounds=(b:number[][])=>b[1][0]*z+tx>=-4&&b[0][0]*z+tx<=W+4&&b[1][1]*z+ty>=-4&&b[0][1]*z+ty<=H+4;
+ const visibleRecords=revealed.filter(r=>{const s=shapes.find(s=>s.id===numberId(r.iso3));return s&&visibleBounds(s.rasterBounds);});
  const counts=(s:Status)=>revealed.filter(r=>!r.excludeFromTotals&&r.status===s).length;
  const yes=counts('yes'),no=counts('no'),partial=counts('partial');
- const previous=records.slice(0,Math.max(0,Math.min(records.length,index)));
- const tween=ease((activeAge-fps*.95)/(fps*.35));
- const share=(s:Status)=>{
-  const ratio=(rows:typeof records)=>{const valid=rows.filter(r=>!r.excludeFromTotals&&(r.status==='yes'||r.status==='no'));return valid.length?valid.filter(r=>r.status===s).length/valid.length:(s==='yes'?1:0)};
-  const old=ratio(previous);
-  const next=ratio(revealed);
-  return mix(old,next,outro?1:tween);
- };
- const percent=Math.round(100*share('yes'));
- const boundary=699+498*(1-share('no'));
+ const bar=comparisonGeometry(yes,no);
  const detailOpacity=outro?1-ease((frame-intro-records.length*step)/(fps*.65)):1;
  const pop=1+.055*Math.sin(Math.max(0,Math.min(1,(activeAge-fps*.95)/12))*Math.PI);
- const font={fontFamily:'DejaVu Sans, sans-serif',fontWeight:900} as const;
+ const font={fontFamily:'Upheaval, DejaVu Sans, sans-serif',fontWeight:400} as const;
  const outlined={paintOrder:'stroke',stroke:'#101a20',strokeWidth:7,strokeLinejoin:'round'} as const;
  return <div style={{width,height,overflow:'hidden',background:'#438eab'}}>
  <svg viewBox="0 0 1920 1080" width={width} height={height} style={font}>
  <defs>
  <linearGradient id="ocean" x2="0" y2="1"><stop stopColor="#65b5ca"/><stop offset="1" stopColor="#235d8d"/></linearGradient>
  <linearGradient id="bar" x2="0" y2="1"><stop stopColor="#77ef9f"/><stop offset=".45" stopColor="#1cbb73"/><stop offset="1" stopColor="#087548"/></linearGradient>
- <pattern id="ticks" width="9" height="60" patternUnits="userSpaceOnUse"><path d="M 2 0 V 60" stroke="#004d37" strokeWidth="2" opacity=".45"/></pattern>
+ <pattern id="ticks" width="6" height="60" patternUnits="userSpaceOnUse"><path d="M 2 0 V 60" stroke="#14272c" strokeWidth="1" opacity=".45"/></pattern>
  <filter id="shadow"><feDropShadow dx="2" dy="4" stdDeviation="3" floodOpacity=".6"/></filter>
- {!raster&&revealed.flatMap(r=>{const s=shapes.find(s=>s.id===numberId(r.iso3));return s?s.patches.map((p:any,i:number)=><clipPath key={`${r.iso3}-${i}`} id={`clip-${r.iso3}-${i}`}><path d={p.d}/></clipPath>):[]})}
+ {!cachedShot&&visibleRecords.flatMap(r=>{const s=shapes.find(s=>s.id===numberId(r.iso3));return s?s.patches.map((p:any,i:number)=><clipPath key={`${r.iso3}-${i}`} id={`clip-${r.iso3}-${i}`}><path d={p.d}/></clipPath>):[]})}
  </defs>
  <rect width={W} height={H} fill="url(#ocean)"/>
  {[0,1,2,3,4,5].map(i=><path key={i} d={`M -200 ${100+i*190} Q 450 ${-15+i*190} 1100 ${115+i*190} T 2200 ${60+i*190} L 2200 ${170+i*190} Q 1400 ${90+i*190} 650 ${175+i*190} T -200 ${150+i*190}Z`} fill={i%2?'#7ac5d5':'#236b9b'} opacity=".19"/>)}
  <g transform={`translate(${tx} ${ty}) scale(${z})`}>
- {cachedShot?<image href={staticFile(`shots/${ep.id}/${index}.png`)} x={-tx/z} y={-ty/z} width={W/z} height={H/z}/>:raster?mapTiles.filter(p=>(p.x+p.width)*z+tx>=0&&p.x*z+tx<=W&&(p.y+p.height)*z+ty>=0&&p.y*z+ty<=H).map(p=><image key={`${p.ix}-${p.iy}`} href={staticFile(`maps/tile-${p.ix}-${p.iy}.png`)} x={p.x} y={p.y} width={p.width} height={p.height}/>):shapes.filter(s=>s.id!=='010').map(s=><path key={s.id} d={s.d} fill="#1ac918" stroke="#102423" strokeWidth={1.8/z}/>)}
- {revealed.filter(r=>{if(!raster)return true;const s=shapes.find(s=>s.id===numberId(r.iso3));if(!s)return false;const [[x,y],[xx,yy]]=s.rasterBounds;return xx*z+tx>=0&&x*z+tx<=W&&yy*z+ty>=0&&y*z+ty<=H;}).map(r=>{const s=shapes.find(s=>s.id===numberId(r.iso3));if(!s)return null;const [[x,y],[xx,yy]]=s.bounds;
+ {cachedShot?<image href={staticFile(`shots/${ep.id}/${index}.png`)} x={-tx/z} y={-ty/z} width={W/z} height={H/z}/>:shapes.filter(s=>s.id!=='010').flatMap((s,si)=>s.patches.filter((p:any)=>visibleBounds(p.bounds)).map((p:any,pi:number)=><path key={`${s.id}-${si}-${pi}`} d={p.d} fill="#1ac918" stroke="#102423" strokeWidth={1.8/z}/>))}
+ {visibleRecords.map(r=>{const s=shapes.find(s=>s.id===numberId(r.iso3));if(!s)return null;const [[x,y],[xx,yy]]=s.bounds;
  const anchor=anchors[r.iso3];const pt=anchor?projection([anchor[0],anchor[1]])!:s.faceCenter;
  // Thin islands need a screen-space floor; cap the pair at 38% of
  // land width so the flag remains legible (Jamaica is the regression case).
  const size=Math.min(Math.max(Math.min((xx-x)*.44,(yy-y)*.32),52/z),(xx-x)*.38,115/z);
  return <g key={r.iso3}>
- {!cachedShot&&(raster?<image href={staticFile(`maps/${s.id}.png`)} x={s.rasterBounds[0][0]} y={s.rasterBounds[0][1]} width={s.rasterBounds[1][0]-s.rasterBounds[0][0]} height={s.rasterBounds[1][1]-s.rasterBounds[0][1]}/>:s.patches.map((p:any,i:number)=>{const [[px,py],[qx,qy]]=p.bounds;return <image key={i} href={flag(r.iso3)} x={px} y={py} width={Math.max(.01,qx-px)} height={Math.max(.01,qy-py)} preserveAspectRatio="none" clipPath={`url(#clip-${r.iso3}-${i})`}/>}))}
+ {!cachedShot&&s.patches.map((p:any,i:number)=>{if(!visibleBounds(p.bounds))return null;const [[px,py],[qx,qy]]=p.bounds;return <image key={i} href={flag(r.iso3)} x={px} y={py} width={Math.max(.01,qx-px)} height={Math.max(.01,qy-py)} preserveAspectRatio="none" clipPath={`url(#clip-${r.iso3}-${i})`}/>})}
  {r.status!=='yes'&&<path d={s.d} fill={colors[r.status]} opacity={ep.compactRestrictions&&r.status==='partial'?(r.iso3===current.iso3&&!outro&&activeAge/fps>=.95&&activeAge/fps<1.55?.36*Math.pow(Math.sin((activeAge/fps-.95)/.6*Math.PI*2),2):0):.22}/>}
- {!raster&&<path d={s.d} fill="none" stroke="#14231f" strokeWidth={2.1/z}/>}
+ {!cachedShot&&<path d={s.d} fill="none" stroke="#14231f" strokeWidth={2.1/z}/>}
  <g opacity={detailOpacity}><Face x={pt[0]} y={pt[1]} size={size*(r.iso3===current.iso3&&!outro?1+.07*Math.sin(Math.min(1,Math.max(0,activeAge/(fps*.5)))*Math.PI):1)} angry={r.status==='no'} phase={r.order} eyeColor={r.eyeColor??(r.status==='no'?'#df4039':'#24a9d4')}/></g>
- {r.status!=='yes'&&!(ep.compactRestrictions&&r.status==='partial')&&r.iso3===current.iso3&&!outro&&<g transform={`translate(${pt[0]} ${pt[1]+size*.7}) scale(${1/z})`}><rect x="-104" y="0" width="208" height="43" rx="10" fill={colors[r.status]} stroke="#172128" strokeWidth="4"/><text y="29" textAnchor="middle" fontSize="23" fill="#131c24">{categoryLabel(r.status)}</text></g>}
+ {r.status!=='yes'&&r.iso3===current.iso3&&!outro&&<g transform={`translate(${pt[0]} ${pt[1]+size*.7}) scale(${1/z})`}><rect x="-112" y="0" width="224" height="46" rx="10" fill={colors[r.status]} stroke="#172128" strokeWidth="4"/>{r.status==='partial'&&<g><path d="M -88 9 L -73 35 L -103 35 Z" fill="#172128"/><text x="-88" y="31" textAnchor="middle" fontFamily="DejaVu Sans" fontSize="22" fontWeight="900" fill="#ffa813">!</text></g>}<text x={r.status==='partial'?14:0} y="32" textAnchor="middle" fontSize="27" fill="#131c24">{categoryLabel(r.status)}</text></g>}
  </g>})}
  </g>
  <g filter="url(#shadow)">
- <text x="665" y="85" textAnchor="end" fontSize="34" fill="#1bd078" style={outlined}>{categoryLabel('yes')} {yes+no?`${percent}%`:'—'}</text>
+ {isTikTok&&<TikTokMark x={380} y={48} size={43}/>}
+ <text x="665" y="85" textAnchor="end" fontSize="38" fill="#1bd078" style={outlined}>{categoryLabel('yes')} {bar.total?`${bar.yesPercent}%`:'—'}</text>
  <rect x="693" y="40" width="510" height="58" rx="10" fill="#193e38" stroke="#ffba43" strokeWidth="5"/>
- <rect x="699" y="46" width="498" height="46" fill={yes+no?'url(#bar)':'#758b92'}/>
- <rect x={boundary} y="46" width={Math.max(0,1197-boundary)} height="46" fill="#f6504a"/>
+ <rect x="699" y="46" width={bar.greenWidth} height="46" fill={bar.total?'url(#bar)':'#758b92'}/>
+ <rect x={bar.redLeft} y="46" width={bar.redWidth} height="46" fill={bar.total?'#f6504a':'#758b92'}/>
  <rect x="699" y="46" width="498" height="46" fill="url(#ticks)"/>
- <rect x={(yes+no?boundary:948)-27} y="33" width="55" height="73" rx="8" fill="#ffb936" stroke="#142129" strokeWidth="4"/>
- <text x={yes+no?boundary:948} y="78" fontSize="18" textAnchor="middle">VS</text>
- <text x="1263" y="85" fontSize="34" fill="#ff665d" style={outlined}>{yes+no?`${Math.round(100*share('no'))}%`:'—'} {categoryLabel('no')}</text>
+ <rect x={bar.markerLeft} y="33" width={bar.markerWidth} height="73" rx="8" fill="#ffb936" stroke="#142129" strokeWidth="4"/>
+ <text x={bar.markerCenter} y="78" fontSize="24" textAnchor="middle">VS</text>
+ <text x="1570" y="85" textAnchor="end" fontSize="38" fill="#ff665d" style={outlined}>{bar.total?`${bar.noPercent}%`:'—'} {categoryLabel('no')}</text>
+ {ep.compactRestrictions&&<LockMark x={1595} y={49} size={41}/>}
  </g>
  <g transform={`translate(65 800) scale(${arrived?pop:1})`} filter="url(#shadow)">
- <text x="0" y="50" fontSize="112" fill="#14bd75" style={outlined}>{yes}</text><text x="230" y="50" fontSize="112" fill="#ff6458" style={outlined}>{no}</text>
- <text x="0" y="112" fontSize={ep.surveyYear?26:35} fill="#24ce83" style={outlined}>{categoryLabel('yes')}</text><text x="230" y="112" fontSize={ep.surveyYear?26:31} fill="#ff6458" style={outlined}>{categoryLabel('no')}</text>
- <Face x={55} y={172} size={92}/><Face x={285} y={172} size={92} angry eyeColor="#df4039"/>
+ <text x="78" y="50" textAnchor="middle" fontSize={yes>=100?94:108} fill="#14bd75" style={outlined}>{yes}</text><text x="318" y="50" textAnchor="middle" fontSize={no>=100?94:108} fill="#ff6458" style={outlined}>{no}</text>
+ <text x="78" y="112" textAnchor="middle" fontSize="36" fill="#24ce83" style={outlined}>{categoryLabel('yes')}</text><text x="318" y="112" textAnchor="middle" fontSize="32" fill="#ff6458" style={outlined}>{categoryLabel('no')}</text>
+ {isTikTok&&<TikTokMark x={-24} y={86} size={25}/>} {ep.compactRestrictions&&<LockMark x={427} y={83} size={27}/>}
+ <Face x={78} y={172} size={92}/><Face x={318} y={172} size={92} angry eyeColor="#df4039"/>
  {!ep.compactRestrictions&&<text y="225" fontSize="20" fill="#ffe8a2" stroke="#163344" strokeWidth="3" paintOrder="stroke">{partial} {ep.surveyYear?'divididos':'restrito(s)'} · {counts('unknown')} sem dados</text>}
  </g>
  {!outro&&revealed.slice(-5).reverse().map((r,i)=>{
@@ -152,16 +152,16 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  return <g key={r.iso3} transform={`translate(1665 ${652.5+i*78}) scale(${scale}) translate(-220 -32.5)`} opacity={(1-i*.13)*ease(age/5)}>
  <rect width="440" height="65" rx="12" fill={i===0&&r.status!=='yes'?'#473719':'#133d43'} fillOpacity=".94" stroke={colors[r.status]} strokeWidth="2"/>
  <image href={flag(r.iso3)} x="14" y="13" width="55" height="39"/>
- <text x="82" y="40" fontSize="23" textLength={(names.of(iso.alpha3ToAlpha2(r.iso3)!)??r.iso3).length>16?213:undefined} lengthAdjust="spacingAndGlyphs" fill="white" stroke="#111a20" strokeWidth="3" paintOrder="stroke">{(names.of(iso.alpha3ToAlpha2(r.iso3)!)??r.iso3).toUpperCase()}</text>
+ <text x="82" y="43" fontSize="28" textLength={(names.of(iso.alpha3ToAlpha2(r.iso3)!)??r.iso3).length>10?213:undefined} lengthAdjust="spacingAndGlyphs" fill="white" stroke="#111a20" strokeWidth="3" paintOrder="stroke">{(names.of(iso.alpha3ToAlpha2(r.iso3)!)??r.iso3).toUpperCase()}</text>
  <rect x="310" y="18" width="117" height="30" rx="5" fill={colors[r.status]} stroke="#111e26" strokeWidth="2"/>
- <text x="368" y="39" textAnchor="middle" fontSize="13" fill={r.status==='partial'?'#18212a':'white'}>{categoryLabel(r.status)}</text>
+ <text x="368" y="41" textAnchor="middle" fontSize={r.status==='unknown'?13:17} fill={r.status==='partial'?'#18212a':'white'}>{categoryLabel(r.status)}</text>
  </g>})}
- {!ep.surveyYear&&!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -177)`}>
- <rect width="820" height="177" rx="19" fill="#332e21" fillOpacity=".95" stroke="#ffb42c" strokeWidth="4"/>
+ {!ep.surveyYear&&!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -${ep.compactRestrictions?140:177})`}>
+ <rect width="820" height={ep.compactRestrictions?140:177} rx="19" fill={current.status==='no'?'#3d1d21':'#332e21'} fillOpacity=".95" stroke={colors[current.status]} strokeWidth="4"/>
  <image href={flag(current.iso3)} x="22" y="17" width="52" height="35"/><text x="90" y="47" fill="white" fontSize="27">{ep.compactRestrictions?names.of(iso.alpha3ToAlpha2(current.iso3)!):'EXEMPLO DE EXCEÇÃO'}</text>
  <path d="M 24 68 H 790" stroke="#a58338"/>
- <text x="26" y="111" fontSize="25" fill="#ffe9a0">{ep.compactRestrictions?categoryLabel(current.status):`CATEGORIA: ${categoryLabel(current.status)}`}</text>
- <text x="26" y="150" fontSize="20" fill="white">{ep.compactRestrictions?current.note:'Dados simulados para validar animação e interface.'}</text>
+ {ep.compactRestrictions?<g><rect x="610" y="18" width="185" height="35" rx="7" fill={colors[current.status]} stroke="#101c25" strokeWidth="2"/><text x="702" y="44" textAnchor="middle" fontSize="22" fill={current.status==='partial'?'#14212a':'white'}>{categoryLabel(current.status)}</text></g>:<text x="26" y="111" fontSize="25" fill="#ffe9a0">CATEGORIA: {categoryLabel(current.status)}</text>}
+ <text x="26" y={ep.compactRestrictions?111:150} fontFamily="DejaVu Sans, sans-serif" fontWeight="700" fontSize="20" fill="white">{ep.compactRestrictions?`MOTIVO: ${current.note}`:'Dados simulados para validar animação e interface.'}</text>
  </g>}
  {ep.surveyYear&&!inIntro&&!outro&&arrived&&<g transform={`translate(570 760) scale(${ease((activeAge-fps*.95)/12)*ease((step-activeAge)/10)})`}>
  <rect width="810" height="266" rx="20" fill="#123440" fillOpacity=".96" stroke={colors[current.status]} strokeWidth="3"/>

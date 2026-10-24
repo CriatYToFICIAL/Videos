@@ -20,7 +20,7 @@
   "categoryLabels": {
     "yes": "LIVRE",
     "no": "BLOQUEADO",
-    "partial": "LIMITADO",
+    "partial": "RESTRITO",
     "unknown": "SEM CONFIRMAÇÃO"
   }
 }
