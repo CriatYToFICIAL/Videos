@@ -17,6 +17,10 @@ Before generating assets, inspect this repository's instructions, scripts, data 
 
 ### Visual acceptance rules (revised after reference comparison)
 
+V4 supersedes earlier bar rules: the comparison bar is binary. Its denominator is the number of already revealed records in the two compared categories (`yes` and `no`); partial and unknown remain separate totals outside that bar. For example, seven yes and zero no gives 100% green, including when partial records also exist. Before any comparable results, display the initial neutral/default state rather than claiming a measured share. Never silently map restricted to blocked. VS follows the green/red boundary; there is no yellow segment. Explain the denominator when extra categories are present.
+
+Country events must arrive before revealing: camera travel occupies about the first 0.95 seconds, then flag, eyes, counters, row and category cue appear together. Give small countries closer authored poses (v4 uses 1.65× the v2 pose for high-zoom anchors). Inspect adjacent small-country transitions. Use restrained scale pops for counters, entrance/exit scale envelopes for exception cards, and a quiet filtered-noise whoosh during travel. All animation is frame-based and deterministic.
+
 V3 requirements from preview review: texture each disconnected land polygon separately so overseas areas and antimeridian geometry cannot break mainland flag placement. Fit the flag to each polygon's local bounds, then clip; review the emblem and stripes for USA, Mexico and Brazil. This stylized fit may change flag aspect ratio inside the silhouette; do not crop all meaningful elements out. Inspect narrow territories separately.
 
 Animate eyes using deterministic, staggered blinks and subtle gaze changes. Add a restrained reveal accent; avoid bouncing the camera. Prefer a local camera scale about 12% closer than the v2 anchors, subject to face/HUD collision review. The closing world view must fade eyes away during pullback, remove country badges and recent cards, and retain flag fills plus totals.

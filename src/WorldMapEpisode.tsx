@@ -55,11 +55,13 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  const intro=ep.introSeconds*fps,step=ep.secondsPerCountry*fps;
  const index=Math.floor((frame-intro)/step),inIntro=index<0,outro=index>=records.length;
  const current=records[Math.max(0,Math.min(records.length-1,index))];
- const revealed=records.slice(0,inIntro?0:Math.min(records.length,index+1));
+ const activeAge=frame-intro-index*step;
+ const arrived=activeAge>=fps*.95;
+ const revealed=records.slice(0,inIntro?0:outro?records.length:Math.min(records.length,index+(arrived?1:0)));
  const target=(i:number):[number,number,number]=>{
   if(i<0||i>=records.length)return [0,10,.95];
   const pose=anchors[records[i].iso3];
-  return pose?[pose[0],pose[1],pose[2]*1.12]:[0,10,1];
+  return pose?[pose[0],pose[1],pose[2]*(pose[2]>=7?1.65:1.12)]:[0,10,1];
  };
  const a=target(index-1),b=target(index),t=ease((frame-intro-index*step)/(fps*.95));
  const lon=mix(a[0],b[0],t),lat=mix(a[1],b[1],t),z=mix(a[2],b[2],t);
@@ -68,16 +70,17 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  const counts=(s:Status)=>revealed.filter(r=>r.status===s).length;
  const yes=counts('yes'),no=counts('no'),partial=counts('partial');
  const previous=records.slice(0,Math.max(0,Math.min(records.length,index)));
- const tween=ease((frame-intro-index*step)/(fps*.55));
+ const tween=ease((activeAge-fps*.95)/(fps*.35));
  const share=(s:Status)=>{
-  const old=previous.length?previous.filter(r=>r.status===s).length/previous.length:(s==='yes'?1:0);
-  const next=revealed.length?revealed.filter(r=>r.status===s).length/revealed.length:(s==='yes'?1:0);
+  const ratio=(rows:typeof records)=>{const valid=rows.filter(r=>r.status==='yes'||r.status==='no');return valid.length?valid.filter(r=>r.status===s).length/valid.length:(s==='yes'?1:0)};
+  const old=ratio(previous);
+  const next=ratio(revealed);
   return mix(old,next,outro?1:tween);
  };
  const percent=Math.round(100*share('yes'));
  const boundary=699+498*(1-share('no'));
  const detailOpacity=outro?1-ease((frame-intro-records.length*step)/(fps*.65)):1;
- const activeAge=frame-intro-index*step;
+ const pop=1+.055*Math.sin(Math.max(0,Math.min(1,(activeAge-fps*.95)/12))*Math.PI);
  const font={fontFamily:'DejaVu Sans, sans-serif',fontWeight:900} as const;
  const outlined={paintOrder:'stroke',stroke:'#101a20',strokeWidth:7,strokeLinejoin:'round'} as const;
  return <div style={{width,height,overflow:'hidden',background:'#438eab'}}>
@@ -108,15 +111,13 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  <text x="390" y="85" fontSize="37" fill="#1bd078" style={outlined}>{categoryLabel('yes')} {percent}%</text>
  <rect x="693" y="40" width="510" height="58" rx="10" fill="#193e38" stroke="#ffba43" strokeWidth="5"/>
  <rect x="699" y="46" width="498" height="46" fill="url(#bar)"/>
- <rect x={699+498*share('yes')} y="46" width={498*share('partial')} height="46" fill="#ffa813"/>
- <rect x={699+498*(share('yes')+share('partial'))} y="46" width={498*share('unknown')} height="46" fill="#9daab0"/>
  <rect x={boundary} y="46" width={Math.max(0,1197-boundary)} height="46" fill="#f6504a"/>
  <rect x="699" y="46" width="498" height="46" fill="url(#ticks)"/>
  <rect x={boundary-27} y="33" width="55" height="73" rx="8" fill="#ffb936" stroke="#142129" strokeWidth="4"/>
  <text x={boundary} y="78" fontSize="18" textAnchor="middle">VS</text>
  <text x="1263" y="85" fontSize="34" fill="#ff665d" style={outlined}>{Math.round(100*share('no'))}% {categoryLabel('no')}</text>
  </g>
- <g transform="translate(65 800)" filter="url(#shadow)">
+ <g transform={`translate(65 800) scale(${arrived?pop:1})`} filter="url(#shadow)">
  <text x="0" y="50" fontSize="112" fill="#14bd75" style={outlined}>{yes}</text><text x="230" y="50" fontSize="112" fill="#ff6458" style={outlined}>{no}</text>
  <text x="0" y="112" fontSize="35" fill="#24ce83" style={outlined}>{categoryLabel('yes')}</text><text x="210" y="112" fontSize="31" fill="#ff6458" style={outlined}>{categoryLabel('no')}</text>
  <Face x={55} y={172} size={92}/><Face x={285} y={172} size={92} angry/>
@@ -129,7 +130,7 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  <rect x="310" y="18" width="117" height="30" rx="5" fill={colors[r.status]} stroke="#111e26" strokeWidth="2"/>
  <text x="368" y="39" textAnchor="middle" fontSize="13" fill={r.status==='partial'?'#18212a':'white'}>{categoryLabel(r.status)}</text>
  </g>)}
- {!inIntro&&!outro&&current.status!=='yes'&&activeAge>fps*.8&&<g transform="translate(565 868)" opacity={ease((activeAge-fps*.8)/8)}>
+ {!inIntro&&!outro&&current.status!=='yes'&&arrived&&<g transform={`translate(975 1045) scale(${pop*ease((activeAge-fps*.95)/8)*ease((step-activeAge)/8)}) translate(-410 -177)`}>
  <rect width="820" height="177" rx="19" fill="#332e21" fillOpacity=".95" stroke="#ffb42c" strokeWidth="4"/>
  <image href={flag(current.iso3)} x="22" y="17" width="52" height="35"/><text x="90" y="47" fill="white" fontSize="27">EXEMPLO DE EXCEÇÃO</text>
  <path d="M 24 68 H 790" stroke="#a58338"/>
@@ -139,6 +140,6 @@ export const WorldMapEpisode:React.FC<Episode>=(ep)=>{
  {inIntro&&<g><rect width={W} height={H} fill="#123b52" opacity=".6"/><text x="960" y="475" textAnchor="middle" fill="white" fontSize="68" style={outlined}>O MUNDO, PAÍS POR PAÍS</text><text x="960" y="555" textAnchor="middle" fill="#ffd075" fontSize="32">NOVO ESTUDO VISUAL · MAPAS ANIMADOS</text></g>}
  <text x="960" y="1060" textAnchor="middle" fontSize="17" fill="white" opacity=".8">PRÉVIA VISUAL · CATEGORIAS FICTÍCIAS · SEM AFIRMAÇÕES SOBRE RESTRIÇÕES REAIS</text>
  </svg>
- {records.map((r,i)=><Sequence key={r.iso3} from={Math.round(intro+i*step+fps*.8)} durationInFrames={18}><Audio src={staticFile(`audio/${soundFor(r.status)}`)} volume={.9}/></Sequence>)}
+ {records.map((r,i)=><React.Fragment key={r.iso3}><Sequence from={Math.round(intro+i*step)} durationInFrames={26}><Audio src={staticFile('audio/whoosh.wav')} volume={.35}/></Sequence><Sequence from={Math.round(intro+i*step+fps*.95)} durationInFrames={18}><Audio src={staticFile(`audio/${soundFor(r.status)}`)} volume={.9}/></Sequence></React.Fragment>)}
  </div>;
 };
