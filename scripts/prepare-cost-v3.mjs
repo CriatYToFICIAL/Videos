@@ -12,11 +12,13 @@ const names=new Intl.DisplayNames(['pt-BR'],{type:'region'});
 // newly considered Pacific states that would create dateline-spanning detours.
 for(const code of ['KIR','FSM','WSM'])excluded.add(code);
 const africa='DZA AGO BEN BWA BFA BDI CMR CAF TCD COD COG CIV DJI EGY GNQ ERI SWZ ETH GAB GMB GHA GIN GNB KEN LSO LBR LBY MDG MWI MLI MRT MAR MOZ NAM NER NGA RWA SEN SLE SOM ZAF SSD SDN TZA TGO TUN UGA ZMB ZWE'.split(' ');
+const supplied=Object.fromEntries('HTI:950 PSE:850 TKM:1500 BTN:412 LAO:650 TLS:506 PRK:600 LBY:401 SDN:430 ERI:508 DJI:950 SOM:600 BDI:450 MWI:550 LSO:650 SWZ:540 COG:850 GAB:1000 GNQ:1100 BEN:650 TGO:550 LBR:515 SLE:412 GIN:650 GNB:550 GMB:600 MRT:700 MLI:550 BFA:550 NER:500 TCD:518 CAF:502 SSD:506 PNG:1550 VUT:900'.split(' ').map(s=>{const [code,value]=s.split(':');return [code,Number(value)];}));
 const rows=base.filter(r=>!excluded.has(r.iso3)).map(r=>({...r,hasData:true}));
 for(const code of new Set([...prior.map(r=>r.iso3),...africa])){
  if(excluded.has(code)||rows.some(r=>r.iso3===code)||!features.some(f=>String(f.id).padStart(3,'0')===iso.alpha3ToNumeric(code)))continue;
  const old=prior.find(r=>r.iso3===code);
- rows.push({iso3:code,name:names.of(iso.alpha3ToAlpha2(code)),usd:0,brl:0,rank:0,region:africa.includes(code)?'África':old.region,sort:0,eyeColor:old?.eyeColor??'#9b713c',hasData:false});
+ const usd=supplied[code]??0;
+ rows.push({iso3:code,name:names.of(iso.alpha3ToAlpha2(code)),usd,brl:Math.round(usd*5.3),rank:0,region:africa.includes(code)?'África':old.region,sort:0,eyeColor:old?.eyeColor??'#9b713c',hasData:usd>0});
 }
 const index=r=>features.findIndex(f=>String(f.id).padStart(3,'0')===iso.alpha3ToNumeric(r.iso3));
 const center=r=>geoCentroid(features[index(r)]);
