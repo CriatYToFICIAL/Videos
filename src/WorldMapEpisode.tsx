@@ -28,8 +28,8 @@ const makeShapes=(items:any[])=>items.map(f=>{
  }
  return {id:String(f.id).padStart(3,'0'),d:path(f)??'',bounds:main.bounds,patches,centroid:geoCentroid(f),faceCenter,rasterBounds:path.bounds(f)};
 });
-const detailedShapes=makeShapes(features);
-const lightShapes=makeShapes((feature(lightAtlas,lightAtlas.objects.countries) as any).features);
+export const detailedShapes=makeShapes(features);
+export const lightShapes=makeShapes((feature(lightAtlas,lightAtlas.objects.countries) as any).features);
 const colors={yes:'#19bc75',partial:'#ffa813',no:'#f6504a',unknown:'#9daab0'};
 const names=new Intl.DisplayNames(['pt-BR'],{type:'region'});
 const numberId=(code:string)=>iso.alpha3ToNumeric(code);

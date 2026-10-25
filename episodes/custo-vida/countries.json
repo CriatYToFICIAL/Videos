@@ -1,0 +1,1552 @@
+[
+  {
+    "iso3": "BMU",
+    "name": "Bermudas",
+    "usd": 4800,
+    "brl": 25500,
+    "rank": 1,
+    "region": "América do Norte",
+    "sort": 0,
+    "anchor": [
+      -64.75,
+      32.3,
+      38
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "CYM",
+    "name": "Ilhas Cayman",
+    "usd": 4250,
+    "brl": 22500,
+    "rank": 2,
+    "region": "América do Norte",
+    "sort": 0,
+    "anchor": [
+      -81.25,
+      19.3,
+      65
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "VIR",
+    "name": "Ilhas Virgens Americanas",
+    "usd": 3400,
+    "brl": 18000,
+    "rank": 5,
+    "region": "América do Norte",
+    "sort": 0,
+    "anchor": [
+      -64.8,
+      18.3,
+      65
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "PRI",
+    "name": "Porto Rico",
+    "usd": 1900,
+    "brl": 10070,
+    "rank": 33,
+    "region": "América do Norte",
+    "sort": 0,
+    "anchor": [
+      -66.4,
+      18.2,
+      24
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canadá",
+    "usd": 2350,
+    "brl": 12450,
+    "rank": 22,
+    "region": "América do Norte",
+    "sort": 1,
+    "eyeColor": "#d52b1e"
+  },
+  {
+    "iso3": "USA",
+    "name": "Estados Unidos",
+    "usd": 2800,
+    "brl": 14850,
+    "rank": 11,
+    "region": "América do Norte",
+    "sort": 2,
+    "eyeColor": "#bd3d44"
+  },
+  {
+    "iso3": "MEX",
+    "name": "México",
+    "usd": 1180,
+    "brl": 6250,
+    "rank": 65,
+    "region": "América do Norte",
+    "sort": 3,
+    "eyeColor": "#f15770"
+  },
+  {
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "usd": 810,
+    "brl": 4290,
+    "rank": 98,
+    "region": "América do Norte",
+    "sort": 4,
+    "eyeColor": "#f9f0aa"
+  },
+  {
+    "iso3": "BLZ",
+    "name": "Belize",
+    "usd": 1010,
+    "brl": 5350,
+    "rank": 78,
+    "region": "América do Norte",
+    "sort": 5,
+    "eyeColor": "#ffef5d"
+  },
+  {
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "usd": 815,
+    "brl": 4320,
+    "rank": 97,
+    "region": "América do Norte",
+    "sort": 6,
+    "eyeColor": "#0f47af"
+  },
+  {
+    "iso3": "HND",
+    "name": "Honduras",
+    "usd": 725,
+    "brl": 3840,
+    "rank": 109,
+    "region": "América do Norte",
+    "sort": 7,
+    "eyeColor": "#18c3df"
+  },
+  {
+    "iso3": "NIC",
+    "name": "Nicarágua",
+    "usd": 710,
+    "brl": 3760,
+    "rank": 111,
+    "region": "América do Norte",
+    "sort": 8,
+    "eyeColor": "#510000"
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "usd": 1450,
+    "brl": 7680,
+    "rank": 50,
+    "region": "América do Norte",
+    "sort": 9,
+    "eyeColor": "#0000b4"
+  },
+  {
+    "iso3": "PAN",
+    "name": "Panamá",
+    "usd": 1280,
+    "brl": 6780,
+    "rank": 60,
+    "region": "América do Norte",
+    "sort": 10,
+    "eyeColor": "#db0000"
+  },
+  {
+    "iso3": "BHS",
+    "name": "Bahamas",
+    "usd": 3200,
+    "brl": 16950,
+    "rank": 7,
+    "region": "América do Norte",
+    "sort": 11,
+    "eyeColor": "#ffe900"
+  },
+  {
+    "iso3": "CUB",
+    "name": "Cuba",
+    "usd": 490,
+    "brl": 2600,
+    "rank": 138,
+    "region": "América do Norte",
+    "sort": 12,
+    "eyeColor": "#002a8f"
+  },
+  {
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "usd": 1300,
+    "brl": 6890,
+    "rank": 59,
+    "region": "América do Norte",
+    "sort": 13,
+    "eyeColor": "#009900"
+  },
+  {
+    "iso3": "DOM",
+    "name": "República Dominicana",
+    "usd": 960,
+    "brl": 5080,
+    "rank": 82,
+    "region": "América do Norte",
+    "sort": 15,
+    "eyeColor": "#002d62"
+  },
+  {
+    "iso3": "TTO",
+    "name": "Trinidad e Tobago",
+    "usd": 1260,
+    "brl": 6670,
+    "rank": 61,
+    "region": "América do Norte",
+    "sort": 19,
+    "eyeColor": "#e00000"
+  },
+  {
+    "iso3": "COL",
+    "name": "Colômbia",
+    "usd": 880,
+    "brl": 4660,
+    "rank": 90,
+    "region": "América do Sul",
+    "sort": 20,
+    "eyeColor": "#ffe800"
+  },
+  {
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "usd": 470,
+    "brl": 2490,
+    "rank": 140,
+    "region": "América do Sul",
+    "sort": 21,
+    "eyeColor": "#cf142b"
+  },
+  {
+    "iso3": "GUY",
+    "name": "Guiana",
+    "usd": 685,
+    "brl": 3630,
+    "rank": 114,
+    "region": "América do Sul",
+    "sort": 22,
+    "eyeColor": "#399408"
+  },
+  {
+    "iso3": "SUR",
+    "name": "Suriname",
+    "usd": 675,
+    "brl": 3580,
+    "rank": 116,
+    "region": "América do Sul",
+    "sort": 23,
+    "eyeColor": "#377e3f"
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brasil",
+    "usd": 940,
+    "brl": 4980,
+    "rank": 84,
+    "region": "América do Sul",
+    "sort": 24,
+    "eyeColor": "#229e45"
+  },
+  {
+    "iso3": "ECU",
+    "name": "Equador",
+    "usd": 900,
+    "brl": 4770,
+    "rank": 88,
+    "region": "América do Sul",
+    "sort": 25,
+    "eyeColor": "#ffe800"
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "usd": 890,
+    "brl": 4710,
+    "rank": 89,
+    "region": "América do Sul",
+    "sort": 26,
+    "eyeColor": "#D91023"
+  },
+  {
+    "iso3": "BOL",
+    "name": "Bolívia",
+    "usd": 770,
+    "brl": 4080,
+    "rank": 102,
+    "region": "América do Sul",
+    "sort": 27,
+    "eyeColor": "#007934"
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguai",
+    "usd": 840,
+    "brl": 4450,
+    "rank": 94,
+    "region": "América do Sul",
+    "sort": 28,
+    "eyeColor": "#0038a8"
+  },
+  {
+    "iso3": "URY",
+    "name": "Uruguai",
+    "usd": 1430,
+    "brl": 7580,
+    "rank": 51,
+    "region": "América do Sul",
+    "sort": 29,
+    "eyeColor": "#0038a8"
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "usd": 1040,
+    "brl": 5510,
+    "rank": 75,
+    "region": "América do Sul",
+    "sort": 30,
+    "eyeColor": "#74acdf"
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "usd": 1230,
+    "brl": 6520,
+    "rank": 63,
+    "region": "América do Sul",
+    "sort": 31,
+    "eyeColor": "#0039a6"
+  },
+  {
+    "iso3": "JEY",
+    "name": "Jersey",
+    "usd": 2950,
+    "brl": 15600,
+    "rank": 9,
+    "region": "Europa",
+    "sort": 0,
+    "anchor": [
+      -2.13,
+      49.2,
+      80
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "IMN",
+    "name": "Ilha de Man",
+    "usd": 2450,
+    "brl": 12980,
+    "rank": 19,
+    "region": "Europa",
+    "sort": 0,
+    "anchor": [
+      -4.5,
+      54.2,
+      45
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "GGY",
+    "name": "Guernsey",
+    "usd": 2420,
+    "brl": 12820,
+    "rank": 20,
+    "region": "Europa",
+    "sort": 0,
+    "anchor": [
+      -2.58,
+      49.45,
+      80
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "GIB",
+    "name": "Gibraltar",
+    "usd": 2400,
+    "brl": 12720,
+    "rank": 21,
+    "region": "Europa",
+    "sort": 0,
+    "anchor": [
+      -5.35,
+      36.14,
+      100
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "usd": 1720,
+    "brl": 9110,
+    "rank": 40,
+    "region": "Europa",
+    "sort": 0,
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "ISL",
+    "name": "Islândia",
+    "usd": 3250,
+    "brl": 17200,
+    "rank": 6,
+    "region": "Europa",
+    "sort": 32,
+    "eyeColor": "#003897"
+  },
+  {
+    "iso3": "IRL",
+    "name": "Irlanda",
+    "usd": 2750,
+    "brl": 14550,
+    "rank": 12,
+    "region": "Europa",
+    "sort": 33,
+    "eyeColor": "#009A49"
+  },
+  {
+    "iso3": "GBR",
+    "name": "Reino Unido",
+    "usd": 2500,
+    "brl": 13250,
+    "rank": 17,
+    "region": "Europa",
+    "sort": 34,
+    "eyeColor": "#012169"
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "usd": 1620,
+    "brl": 8580,
+    "rank": 44,
+    "region": "Europa",
+    "sort": 35,
+    "eyeColor": "#006600"
+  },
+  {
+    "iso3": "ESP",
+    "name": "Espanha",
+    "usd": 1750,
+    "brl": 9270,
+    "rank": 39,
+    "region": "Europa",
+    "sort": 36,
+    "eyeColor": "#AA151B"
+  },
+  {
+    "iso3": "AND",
+    "name": "Andorra",
+    "usd": 1820,
+    "brl": 9640,
+    "rank": 36,
+    "region": "Europa",
+    "sort": 37,
+    "eyeColor": "#d0103a"
+  },
+  {
+    "iso3": "FRA",
+    "name": "França",
+    "usd": 2050,
+    "brl": 10860,
+    "rank": 29,
+    "region": "Europa",
+    "sort": 38,
+    "eyeColor": "#000091"
+  },
+  {
+    "iso3": "BEL",
+    "name": "Bélgica",
+    "usd": 2150,
+    "brl": 11400,
+    "rank": 27,
+    "region": "Europa",
+    "sort": 39,
+    "eyeColor": "#ffd90c"
+  },
+  {
+    "iso3": "NLD",
+    "name": "Países Baixos (Holanda)",
+    "usd": 2480,
+    "brl": 13150,
+    "rank": 18,
+    "region": "Europa",
+    "sort": 40,
+    "eyeColor": "#ae1c28"
+  },
+  {
+    "iso3": "LUX",
+    "name": "Luxemburgo",
+    "usd": 2900,
+    "brl": 15350,
+    "rank": 10,
+    "region": "Europa",
+    "sort": 41,
+    "eyeColor": "#ed2939"
+  },
+  {
+    "iso3": "DEU",
+    "name": "Alemanha",
+    "usd": 2200,
+    "brl": 11660,
+    "rank": 26,
+    "region": "Europa",
+    "sort": 42,
+    "eyeColor": "#ffcc00"
+  },
+  {
+    "iso3": "CHE",
+    "name": "Suíça",
+    "usd": 3850,
+    "brl": 20400,
+    "rank": 3,
+    "region": "Europa",
+    "sort": 43,
+    "eyeColor": "#a27644"
+  },
+  {
+    "iso3": "ITA",
+    "name": "Itália",
+    "usd": 1850,
+    "brl": 9800,
+    "rank": 35,
+    "region": "Europa",
+    "sort": 44,
+    "eyeColor": "#009246"
+  },
+  {
+    "iso3": "AUT",
+    "name": "Áustria",
+    "usd": 2300,
+    "brl": 12190,
+    "rank": 23,
+    "region": "Europa",
+    "sort": 45,
+    "eyeColor": "#c8102e"
+  },
+  {
+    "iso3": "SVN",
+    "name": "Eslovênia",
+    "usd": 1680,
+    "brl": 8900,
+    "rank": 42,
+    "region": "Europa",
+    "sort": 46,
+    "eyeColor": "#d50000"
+  },
+  {
+    "iso3": "HRV",
+    "name": "Croácia",
+    "usd": 1400,
+    "brl": 7420,
+    "rank": 52,
+    "region": "Europa",
+    "sort": 47,
+    "eyeColor": "#171796"
+  },
+  {
+    "iso3": "BIH",
+    "name": "Bósnia e Herzegovina",
+    "usd": 1020,
+    "brl": 5400,
+    "rank": 77,
+    "region": "Europa",
+    "sort": 48,
+    "eyeColor": "#000099"
+  },
+  {
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "usd": 1120,
+    "brl": 5930,
+    "rank": 70,
+    "region": "Europa",
+    "sort": 49,
+    "eyeColor": "#d3ae3b"
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albânia",
+    "usd": 1050,
+    "brl": 5560,
+    "rank": 74,
+    "region": "Europa",
+    "sort": 50,
+    "eyeColor": "#a27644"
+  },
+  {
+    "iso3": "GRC",
+    "name": "Grécia",
+    "usd": 1550,
+    "brl": 8210,
+    "rank": 46,
+    "region": "Europa",
+    "sort": 51,
+    "eyeColor": "#0d5eaf"
+  },
+  {
+    "iso3": "MKD",
+    "name": "Macedônia do Norte",
+    "usd": 930,
+    "brl": 4930,
+    "rank": 85,
+    "region": "Europa",
+    "sort": 52,
+    "eyeColor": "#d20000"
+  },
+  {
+    "iso3": "SRB",
+    "name": "Sérvia",
+    "usd": 1100,
+    "brl": 5830,
+    "rank": 71,
+    "region": "Europa",
+    "sort": 53,
+    "eyeColor": "#0c4076"
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungria",
+    "usd": 1250,
+    "brl": 6620,
+    "rank": 62,
+    "region": "Europa",
+    "sort": 54,
+    "eyeColor": "#388d00"
+  },
+  {
+    "iso3": "SVK",
+    "name": "Eslováquia",
+    "usd": 1380,
+    "brl": 7310,
+    "rank": 53,
+    "region": "Europa",
+    "sort": 55,
+    "eyeColor": "#ee1c25"
+  },
+  {
+    "iso3": "CZE",
+    "name": "República Tcheca",
+    "usd": 1520,
+    "brl": 8050,
+    "rank": 47,
+    "region": "Europa",
+    "sort": 56,
+    "eyeColor": "#d7141a"
+  },
+  {
+    "iso3": "POL",
+    "name": "Polônia",
+    "usd": 1330,
+    "brl": 7050,
+    "rank": 56,
+    "region": "Europa",
+    "sort": 57,
+    "eyeColor": "#dc143c"
+  },
+  {
+    "iso3": "DNK",
+    "name": "Dinamarca",
+    "usd": 2550,
+    "brl": 13500,
+    "rank": 16,
+    "region": "Europa",
+    "sort": 58,
+    "eyeColor": "#c8102e"
+  },
+  {
+    "iso3": "NOR",
+    "name": "Noruega",
+    "usd": 2600,
+    "brl": 13780,
+    "rank": 15,
+    "region": "Europa",
+    "sort": 59,
+    "eyeColor": "#ed2939"
+  },
+  {
+    "iso3": "SWE",
+    "name": "Suécia",
+    "usd": 2000,
+    "brl": 10600,
+    "rank": 30,
+    "region": "Europa",
+    "sort": 60,
+    "eyeColor": "#005293"
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finlândia",
+    "usd": 2100,
+    "brl": 11130,
+    "rank": 28,
+    "region": "Europa",
+    "sort": 61,
+    "eyeColor": "#002f6c"
+  },
+  {
+    "iso3": "EST",
+    "name": "Estônia",
+    "usd": 1650,
+    "brl": 8740,
+    "rank": 43,
+    "region": "Europa",
+    "sort": 62,
+    "eyeColor": "#1791ff"
+  },
+  {
+    "iso3": "LVA",
+    "name": "Letônia",
+    "usd": 1360,
+    "brl": 7200,
+    "rank": 54,
+    "region": "Europa",
+    "sort": 63,
+    "eyeColor": "#981e32"
+  },
+  {
+    "iso3": "LTU",
+    "name": "Lituânia",
+    "usd": 1350,
+    "brl": 7150,
+    "rank": 55,
+    "region": "Europa",
+    "sort": 64,
+    "eyeColor": "#006a44"
+  },
+  {
+    "iso3": "BLR",
+    "name": "Bielorrússia",
+    "usd": 820,
+    "brl": 4340,
+    "rank": 96,
+    "region": "Europa",
+    "sort": 65,
+    "eyeColor": "#ce1720"
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ucrânia",
+    "usd": 660,
+    "brl": 3500,
+    "rank": 118,
+    "region": "Europa",
+    "sort": 66,
+    "eyeColor": "#0057b8"
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldávia",
+    "usd": 760,
+    "brl": 4030,
+    "rank": 103,
+    "region": "Europa",
+    "sort": 67,
+    "eyeColor": "#00319c"
+  },
+  {
+    "iso3": "ROU",
+    "name": "Romênia",
+    "usd": 1150,
+    "brl": 6090,
+    "rank": 68,
+    "region": "Europa",
+    "sort": 68,
+    "eyeColor": "#00319c"
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgária",
+    "usd": 1130,
+    "brl": 5990,
+    "rank": 69,
+    "region": "Europa",
+    "sort": 69,
+    "eyeColor": "#00966e"
+  },
+  {
+    "iso3": "MDV",
+    "name": "Maldivas",
+    "usd": 1170,
+    "brl": 6200,
+    "rank": 66,
+    "region": "Ásia",
+    "sort": 0,
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "HKG",
+    "name": "Hong Kong",
+    "usd": 3100,
+    "brl": 16400,
+    "rank": 8,
+    "region": "Ásia",
+    "sort": 0,
+    "anchor": [
+      114.15,
+      22.3,
+      55
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "MAC",
+    "name": "Macau",
+    "usd": 1880,
+    "brl": 9960,
+    "rank": 34,
+    "region": "Ásia",
+    "sort": 0,
+    "anchor": [
+      113.55,
+      22.18,
+      100
+    ],
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turquia",
+    "usd": 1080,
+    "brl": 5720,
+    "rank": 72,
+    "region": "Ásia",
+    "sort": 70,
+    "eyeColor": "#e30a17"
+  },
+  {
+    "iso3": "CYP",
+    "name": "Chipre",
+    "usd": 1800,
+    "brl": 9540,
+    "rank": 37,
+    "region": "Ásia",
+    "sort": 71,
+    "eyeColor": "#d47600"
+  },
+  {
+    "iso3": "GEO",
+    "name": "Geórgia",
+    "usd": 920,
+    "brl": 4870,
+    "rank": 86,
+    "region": "Ásia",
+    "sort": 72,
+    "eyeColor": "#a27644"
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armênia",
+    "usd": 910,
+    "brl": 4820,
+    "rank": 87,
+    "region": "Ásia",
+    "sort": 73,
+    "eyeColor": "#d90012"
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijão",
+    "usd": 745,
+    "brl": 3950,
+    "rank": 105,
+    "region": "Ásia",
+    "sort": 74,
+    "eyeColor": "#3f9c35"
+  },
+  {
+    "iso3": "RUS",
+    "name": "Rússia",
+    "usd": 730,
+    "brl": 3870,
+    "rank": 108,
+    "region": "Ásia",
+    "sort": 75,
+    "eyeColor": "#0039a6"
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Cazaquistão",
+    "usd": 850,
+    "brl": 4500,
+    "rank": 93,
+    "region": "Ásia",
+    "sort": 76,
+    "eyeColor": "#00abc2"
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbequistão",
+    "usd": 670,
+    "brl": 3550,
+    "rank": 117,
+    "region": "Ásia",
+    "sort": 77,
+    "eyeColor": "#1eb53a"
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Quirguistão",
+    "usd": 620,
+    "brl": 3280,
+    "rank": 122,
+    "region": "Ásia",
+    "sort": 79,
+    "eyeColor": "#ffff00"
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajiquistão",
+    "usd": 610,
+    "brl": 3230,
+    "rank": 123,
+    "region": "Ásia",
+    "sort": 80,
+    "eyeColor": "#006600"
+  },
+  {
+    "iso3": "IRN",
+    "name": "Irã",
+    "usd": 410,
+    "brl": 2170,
+    "rank": 146,
+    "region": "Ásia",
+    "sort": 81,
+    "eyeColor": "#da0000"
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraque",
+    "usd": 630,
+    "brl": 3340,
+    "rank": 121,
+    "region": "Ásia",
+    "sort": 82,
+    "eyeColor": "#ce1126"
+  },
+  {
+    "iso3": "SYR",
+    "name": "Síria",
+    "usd": 390,
+    "brl": 2060,
+    "rank": 147,
+    "region": "Ásia",
+    "sort": 83,
+    "eyeColor": "#007a3d"
+  },
+  {
+    "iso3": "LBN",
+    "name": "Líbano",
+    "usd": 1070,
+    "brl": 5670,
+    "rank": 73,
+    "region": "Ásia",
+    "sort": 84,
+    "eyeColor": "#EE161F"
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "usd": 2650,
+    "brl": 14050,
+    "rank": 14,
+    "region": "Ásia",
+    "sort": 85,
+    "eyeColor": "#0038b8"
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordânia",
+    "usd": 1030,
+    "brl": 5460,
+    "rank": 76,
+    "region": "Ásia",
+    "sort": 87,
+    "eyeColor": "#009900"
+  },
+  {
+    "iso3": "SAU",
+    "name": "Arábia Saudita",
+    "usd": 1320,
+    "brl": 7000,
+    "rank": 57,
+    "region": "Ásia",
+    "sort": 88,
+    "eyeColor": "#165d31"
+  },
+  {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "usd": 1500,
+    "brl": 7950,
+    "rank": 48,
+    "region": "Ásia",
+    "sort": 89,
+    "eyeColor": "#f31830"
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrein",
+    "usd": 1480,
+    "brl": 7840,
+    "rank": 49,
+    "region": "Ásia",
+    "sort": 90,
+    "eyeColor": "#ce1126"
+  },
+  {
+    "iso3": "QAT",
+    "name": "Catar",
+    "usd": 1980,
+    "brl": 10500,
+    "rank": 31,
+    "region": "Ásia",
+    "sort": 91,
+    "eyeColor": "#8d1b3d"
+  },
+  {
+    "iso3": "ARE",
+    "name": "Emirados Árabes Unidos",
+    "usd": 2250,
+    "brl": 11900,
+    "rank": 25,
+    "region": "Ásia",
+    "sort": 92,
+    "eyeColor": "#00732f"
+  },
+  {
+    "iso3": "OMN",
+    "name": "Omã",
+    "usd": 1310,
+    "brl": 6940,
+    "rank": 58,
+    "region": "Ásia",
+    "sort": 93,
+    "eyeColor": "#ef2d29"
+  },
+  {
+    "iso3": "YEM",
+    "name": "Iêmen",
+    "usd": 430,
+    "brl": 2280,
+    "rank": 144,
+    "region": "Ásia",
+    "sort": 94,
+    "eyeColor": "#f10600"
+  },
+  {
+    "iso3": "AFG",
+    "name": "Afeganistão",
+    "usd": 350,
+    "brl": 1850,
+    "rank": 150,
+    "region": "Ásia",
+    "sort": 95,
+    "eyeColor": "#009900"
+  },
+  {
+    "iso3": "PAK",
+    "name": "Paquistão",
+    "usd": 370,
+    "brl": 1960,
+    "rank": 149,
+    "region": "Ásia",
+    "sort": 96,
+    "eyeColor": "#0c590b"
+  },
+  {
+    "iso3": "IND",
+    "name": "Índia",
+    "usd": 450,
+    "brl": 2380,
+    "rank": 142,
+    "region": "Ásia",
+    "sort": 97,
+    "eyeColor": "#ff9933"
+  },
+  {
+    "iso3": "NPL",
+    "name": "Nepal",
+    "usd": 530,
+    "brl": 2810,
+    "rank": 133,
+    "region": "Ásia",
+    "sort": 98,
+    "eyeColor": "#ce0000"
+  },
+  {
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "usd": 520,
+    "brl": 2750,
+    "rank": 134,
+    "region": "Ásia",
+    "sort": 100,
+    "eyeColor": "#006a4e"
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "usd": 735,
+    "brl": 3890,
+    "rank": 107,
+    "region": "Ásia",
+    "sort": 101,
+    "eyeColor": "#ffb700"
+  },
+  {
+    "iso3": "MMR",
+    "name": "Myanmar",
+    "usd": 480,
+    "brl": 2540,
+    "rank": 139,
+    "region": "Ásia",
+    "sort": 102,
+    "eyeColor": "#fecb00"
+  },
+  {
+    "iso3": "THA",
+    "name": "Tailândia",
+    "usd": 970,
+    "brl": 5140,
+    "rank": 81,
+    "region": "Ásia",
+    "sort": 103,
+    "eyeColor": "#a51931"
+  },
+  {
+    "iso3": "KHM",
+    "name": "Camboja",
+    "usd": 700,
+    "brl": 3710,
+    "rank": 112,
+    "region": "Ásia",
+    "sort": 105,
+    "eyeColor": "#032ea1"
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnã",
+    "usd": 800,
+    "brl": 4240,
+    "rank": 99,
+    "region": "Ásia",
+    "sort": 106,
+    "eyeColor": "#da251d"
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malásia",
+    "usd": 860,
+    "brl": 4550,
+    "rank": 92,
+    "region": "Ásia",
+    "sort": 107,
+    "eyeColor": "#CC0000"
+  },
+  {
+    "iso3": "SGP",
+    "name": "Singapura",
+    "usd": 3550,
+    "brl": 18800,
+    "rank": 4,
+    "region": "Ásia",
+    "sort": 108,
+    "eyeColor": "#df0000"
+  },
+  {
+    "iso3": "BRN",
+    "name": "Brunei",
+    "usd": 1200,
+    "brl": 6360,
+    "rank": 64,
+    "region": "Ásia",
+    "sort": 109,
+    "eyeColor": "#f7e017"
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonésia",
+    "usd": 780,
+    "brl": 4130,
+    "rank": 101,
+    "region": "Ásia",
+    "sort": 110,
+    "eyeColor": "#e70011"
+  },
+  {
+    "iso3": "PHL",
+    "name": "Filipinas",
+    "usd": 790,
+    "brl": 4180,
+    "rank": 100,
+    "region": "Ásia",
+    "sort": 112,
+    "eyeColor": "#0038a8"
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongólia",
+    "usd": 720,
+    "brl": 3810,
+    "rank": 110,
+    "region": "Ásia",
+    "sort": 113,
+    "eyeColor": "#ffd900"
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "usd": 950,
+    "brl": 5030,
+    "rank": 83,
+    "region": "Ásia",
+    "sort": 114,
+    "eyeColor": "#ffff00"
+  },
+  {
+    "iso3": "TWN",
+    "name": "Taiwan",
+    "usd": 1580,
+    "brl": 8370,
+    "rank": 45,
+    "region": "Ásia",
+    "sort": 115,
+    "eyeColor": "#000095"
+  },
+  {
+    "iso3": "KOR",
+    "name": "Coreia do Sul",
+    "usd": 1780,
+    "brl": 9430,
+    "rank": 38,
+    "region": "Ásia",
+    "sort": 117,
+    "eyeColor": "#cd2e3a"
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japão",
+    "usd": 1700,
+    "brl": 9010,
+    "rank": 41,
+    "region": "Ásia",
+    "sort": 118,
+    "eyeColor": "#bc002d"
+  },
+  {
+    "iso3": "SYC",
+    "name": "Seychelles",
+    "usd": 1950,
+    "brl": 10330,
+    "rank": 32,
+    "region": "África",
+    "sort": 0,
+    "eyeColor": "#b88839"
+  },
+  {
+    "iso3": "MAR",
+    "name": "Marrocos",
+    "usd": 870,
+    "brl": 4610,
+    "rank": 91,
+    "region": "África",
+    "sort": 119,
+    "eyeColor": "#c1272d"
+  },
+  {
+    "iso3": "DZA",
+    "name": "Argélia",
+    "usd": 600,
+    "brl": 3180,
+    "rank": 124,
+    "region": "África",
+    "sort": 120,
+    "eyeColor": "#006233"
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunísia",
+    "usd": 680,
+    "brl": 3600,
+    "rank": 115,
+    "region": "África",
+    "sort": 121,
+    "eyeColor": "#e70013"
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egito",
+    "usd": 460,
+    "brl": 2440,
+    "rank": 141,
+    "region": "África",
+    "sort": 123,
+    "eyeColor": "#ce1126"
+  },
+  {
+    "iso3": "ETH",
+    "name": "Etiópia",
+    "usd": 505,
+    "brl": 2670,
+    "rank": 136,
+    "region": "África",
+    "sort": 131,
+    "eyeColor": "#ffc621"
+  },
+  {
+    "iso3": "NGA",
+    "name": "Nigéria",
+    "usd": 380,
+    "brl": 2010,
+    "rank": 148,
+    "region": "África",
+    "sort": 135,
+    "eyeColor": "#008753"
+  },
+  {
+    "iso3": "GHA",
+    "name": "Gana",
+    "usd": 640,
+    "brl": 3390,
+    "rank": 120,
+    "region": "África",
+    "sort": 138,
+    "eyeColor": "#006b3f"
+  },
+  {
+    "iso3": "CIV",
+    "name": "Costa do Marfim",
+    "usd": 585,
+    "brl": 3100,
+    "rank": 126,
+    "region": "África",
+    "sort": 139,
+    "eyeColor": "#00cd00"
+  },
+  {
+    "iso3": "SEN",
+    "name": "Senegal",
+    "usd": 590,
+    "brl": 3120,
+    "rank": 125,
+    "region": "África",
+    "sort": 144,
+    "eyeColor": "#0b7226"
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "usd": 690,
+    "brl": 3650,
+    "rank": 113,
+    "region": "África",
+    "sort": 146,
+    "eyeColor": "#081873"
+  },
+  {
+    "iso3": "CMR",
+    "name": "Camarões",
+    "usd": 575,
+    "brl": 3040,
+    "rank": 128,
+    "region": "África",
+    "sort": 148,
+    "eyeColor": "#007a5e"
+  },
+  {
+    "iso3": "COD",
+    "name": "Rep. Democrática do Congo",
+    "usd": 420,
+    "brl": 2220,
+    "rank": 145,
+    "region": "África",
+    "sort": 152,
+    "eyeColor": "#007fff"
+  },
+  {
+    "iso3": "UGA",
+    "name": "Uganda",
+    "usd": 560,
+    "brl": 2960,
+    "rank": 130,
+    "region": "África",
+    "sort": 153,
+    "eyeColor": "#ffe700"
+  },
+  {
+    "iso3": "KEN",
+    "name": "Quênia",
+    "usd": 650,
+    "brl": 3440,
+    "rank": 119,
+    "region": "África",
+    "sort": 154,
+    "eyeColor": "#006600"
+  },
+  {
+    "iso3": "RWA",
+    "name": "Ruanda",
+    "usd": 550,
+    "brl": 2910,
+    "rank": 131,
+    "region": "África",
+    "sort": 155,
+    "eyeColor": "#20603d"
+  },
+  {
+    "iso3": "TZA",
+    "name": "Tanzânia",
+    "usd": 540,
+    "brl": 2860,
+    "rank": 132,
+    "region": "África",
+    "sort": 157,
+    "eyeColor": "#0099ff"
+  },
+  {
+    "iso3": "MOZ",
+    "name": "Moçambique",
+    "usd": 510,
+    "brl": 2700,
+    "rank": 135,
+    "region": "África",
+    "sort": 159,
+    "eyeColor": "#009a00"
+  },
+  {
+    "iso3": "ZMB",
+    "name": "Zâmbia",
+    "usd": 570,
+    "brl": 3020,
+    "rank": 129,
+    "region": "África",
+    "sort": 160,
+    "eyeColor": "#198a00"
+  },
+  {
+    "iso3": "ZWE",
+    "name": "Zimbábue",
+    "usd": 580,
+    "brl": 3070,
+    "rank": 127,
+    "region": "África",
+    "sort": 161,
+    "eyeColor": "#0000ff"
+  },
+  {
+    "iso3": "BWA",
+    "name": "Botswana",
+    "usd": 740,
+    "brl": 3920,
+    "rank": 106,
+    "region": "África",
+    "sort": 162,
+    "eyeColor": "#00cbff"
+  },
+  {
+    "iso3": "NAM",
+    "name": "Namíbia",
+    "usd": 750,
+    "brl": 3970,
+    "rank": 104,
+    "region": "África",
+    "sort": 163,
+    "eyeColor": "#3662a2"
+  },
+  {
+    "iso3": "AGO",
+    "name": "Angola",
+    "usd": 500,
+    "brl": 2650,
+    "rank": 137,
+    "region": "África",
+    "sort": 164,
+    "eyeColor": "#ffec00"
+  },
+  {
+    "iso3": "ZAF",
+    "name": "África do Sul",
+    "usd": 980,
+    "brl": 5190,
+    "rank": 80,
+    "region": "África",
+    "sort": 165,
+    "eyeColor": "#000c8a"
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "usd": 440,
+    "brl": 2330,
+    "rank": 143,
+    "region": "África",
+    "sort": 168,
+    "eyeColor": "#fc3d32"
+  },
+  {
+    "iso3": "MUS",
+    "name": "Maurício",
+    "usd": 1000,
+    "brl": 5300,
+    "rank": 79,
+    "region": "África",
+    "sort": 170,
+    "eyeColor": "#00a04d"
+  },
+  {
+    "iso3": "AUS",
+    "name": "Austrália",
+    "usd": 2700,
+    "brl": 14300,
+    "rank": 13,
+    "region": "Oceania",
+    "sort": 172,
+    "eyeColor": "#00008B"
+  },
+  {
+    "iso3": "SLB",
+    "name": "Ilhas Salomão",
+    "usd": 1160,
+    "brl": 6150,
+    "rank": 67,
+    "region": "Oceania",
+    "sort": 174,
+    "eyeColor": "#0000d6"
+  },
+  {
+    "iso3": "FJI",
+    "name": "Fiji",
+    "usd": 830,
+    "brl": 4400,
+    "rank": 95,
+    "region": "Oceania",
+    "sort": 176,
+    "eyeColor": "#68bfe5"
+  },
+  {
+    "iso3": "NZL",
+    "name": "Nova Zelândia",
+    "usd": 2280,
+    "brl": 12080,
+    "rank": 24,
+    "region": "Oceania",
+    "sort": 177,
+    "eyeColor": "#00247d"
+  }
+]
