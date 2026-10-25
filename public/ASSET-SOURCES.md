@@ -1,5 +1,7 @@
 # Asset provenance
 
+Cost-of-living V2 supersedes the first cost episode's map treatment: original Natural Earth/world-atlas 50m vector paths, local flag-icons SVGs fitted and clipped per land polygon, and matching native 1920×1080 cached holds after the eight-frame reveal fade. No location inset artwork or cost heatmap fills are used in V2.
+
 Cost-of-living episode: original SVG map paths from world-atlas/Natural Earth 1:110m, projected locally; small territories absent from this geometry receive explicit location insets with their licensed flag. The country colors represent the supplied cost estimates. Main typography, eyes and synthesized effects reuse the existing licensed/original project assets.
 
 - Flags: flag-icons 7.5.0, MIT, copyright Panayiotis Lipiridis. License retained at flags/LICENSE.txt.
