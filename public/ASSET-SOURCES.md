@@ -1,5 +1,7 @@
 # Asset provenance
 
+Cost V3: public/flags/us.svg is a local derivative of the retained MIT flag-icons asset. The 50 SVG marker instances were replaced with explicit five-point polygons so stars render consistently in Chromium and Resvg. Stripes/canton colors and flag silhouette remain from flag-icons; original license remains public/flags/LICENSE.txt.
+
 Cost-of-living V2 supersedes the first cost episode's map treatment: original Natural Earth/world-atlas 50m vector paths, local flag-icons SVGs fitted and clipped per land polygon, and matching native 1920×1080 cached holds after the eight-frame reveal fade. No location inset artwork or cost heatmap fills are used in V2.
 
 Cost-of-living episode: original SVG map paths from world-atlas/Natural Earth 1:110m, projected locally; small territories absent from this geometry receive explicit location insets with their licensed flag. The country colors represent the supplied cost estimates. Main typography, eyes and synthesized effects reuse the existing licensed/original project assets.
