@@ -1,0 +1,187 @@
+================================================================================
+FASE 1: MÊS 1 AO MÊS 3 — O COLAPSO DA ARIDEZ TOTAL (35 PAÍSES)
+================================================================================
+1. Iêmen — STATUS: SECOU | Esgotou lençóis freáticos fósseis; sem rios perenes
+2. Jordânia — STATUS: SECOU | Um dos menores índices de água potável per capita
+3. Líbia — STATUS: SECOU | Rio Artificial subterrâneo secou sem recarga
+4. Djibuti — STATUS: SECOU | Aridez extrema e ausência de cursos d'água permanentes
+5. Eritreia — STATUS: SECOU | Falta de bacias internas protegidas
+6. Somália — STATUS: SECOU | Rios sazonais secos e vulnerabilidade climática
+7. Níger — STATUS: SECOU | Avanço do deserto e secagem dos poços
+8. Chade — STATUS: SECOU | Lago Chade esvaziado; sem reservas acessíveis
+9. Mauritânia — STATUS: SECOU | 90% do território tomado pelo Saara
+10. Mali — STATUS: SECOU | Bacia do Rio Níger não suporta a seca severa
+11. Sudão do Sul — STATUS: SECOU | Falta total de infraestrutura e captação
+12. Bahrein — STATUS: SECOU | Sem mananciais de superfície; aquíferos salinizados
+13. Malta — STATUS: SECOU | Sem rios ou lagos; reservas naturais mínimas
+14. Chipre — STATUS: SECOU | Seca severa nos reservatórios de montanha
+15. Cabo Verde — STATUS: SECOU | Ilhas áridas sem fluxo hídrico contínuo
+16. Barbados — STATUS: SECOU | Lençol freático vulnerável à intrusão marinha
+17. Bahamas — STATUS: SECOU | Solo cárstico sem rios de água doce
+18. Antígua e Barbuda — STATUS: SECOU | Dependência de chuvas sazonais irregulares
+19. São Cristóvão e Névis — STATUS: SECOU | Bacias minúsculas esgotadas
+20. Santa Lúcia — STATUS: SECOU | Fluxo de riachos locais interrompido
+21. Granada — STATUS: SECOU | Esgotamento das captações de encosta
+22. Maldivas — STATUS: SECOU | Lençóis de água doce invadidos pelo mar
+23. Seicheles — STATUS: SECOU | Pequena capacidade de armazenamento interno
+24. Nauru — STATUS: SECOU | Lençol freático poluído e sem água de superfície
+25. Tuvalu — STATUS: SECOU | Dependência exclusiva de água da chuva
+26. Quiribati — STATUS: SECOU | Aquíferos rasos contaminados pela água do mar
+27. Ilhas Marshall — STATUS: SECOU | Ausência de fontes fluviais permanentes
+28. Micronésia — STATUS: SECOU | Seca total nas bacias insulares
+29. Palau — STATUS: SECOU | Reservas locais incapazes de suportar a estiagem
+30. Samoa — STATUS: SECOU | Rios curtos secos pelo calor extremo
+31. Tonga — STATUS: SECOU | Captações subterrâneas rasas esgotadas
+32. Vanuatu — STATUS: SECOU | Falta de sistemas de bombeamento e estocagem
+33. São Tomé e Príncipe — STATUS: SECOU | Pequena capacidade de retenção de água
+34. Comores — STATUS: SECOU | Sem redes de tratamento ou estocagem perene
+35. Maurício — STATUS: SECOU | Reservatórios centrais esvaziados pela estiagem
+
+================================================================================
+FASE 2: MÊS 4 AO MÊS 6 — A GUERRA DAS BARRAGENS E DEPENDÊNCIA (30 PAÍSES)
+================================================================================
+36. Egito — STATUS: COLAPSO | 97% da água vinha do Nilo; Etiópia fechou as barragens
+37. Sudão — STATUS: COLAPSO | Fluxo do Nilo interrompido pelas represas a montante
+38. Iraque — STATUS: COLAPSO | Turquia cortou o fluxo do Tigre e Eufrates
+39. Síria — STATUS: COLAPSO | Represas turcas bloquearam a vazão do Eufrates
+40. Turcomenistão — STATUS: COLAPSO | Rios Amu Daria represados pelos vizinhos
+41. Uzbequistão — STATUS: COLAPSO | Desvio das nascentes pelas nações montanhosas
+42. Bangladesh — STATUS: COLAPSO | Índia desviou bacias transfronteiriças
+43. Gâmbia — STATUS: COLAPSO | Totalmente dependente do Rio Gâmbia no Senegal
+44. Paquistão — STATUS: COLAPSO | Bloqueio das represas do Rio Indo na Caxemira
+45. Namíbia — STATUS: SECOU | Bacias de fronteira retidas por vizinhos
+46. Botsuana — STATUS: SECOU | Bacia do Okavango cortada pela estiagem a montante
+47. Zimbábue — STATUS: SECOU | Lago Kariba e Rio Zambeze abaixo do nível crítico
+48. Essuatíni — STATUS: SECOU | Dependência hídrica de rios vindos da África do Sul
+49. Lesoto — STATUS: RACIONADO | Forçado a bombear sua água para a África do Sul
+50. Afeganistão — STATUS: SECOU | Degelo prematuro sem estruturas de contenção
+51. Líbano — STATUS: SECOU | Aquíferos cársticos secos e rios reduzidos
+52. Iêmen do Sul / Omã — STATUS: SECOU | Sistemas tradicionais de falaj secaram
+53. Tunísia — STATUS: SECOU | Barragens do norte atingiram o volume morto
+54. Argélia — STATUS: SECOU | Poços profundos do Saara não dão conta da demanda
+55. Marrocos — STATUS: SECOU | Reservatórios agrícolas atingiram níveis críticos
+56. Senegal — STATUS: SECOU | Redução severa da vazão da bacia regional
+57. Mauritânia Costeira — STATUS: SECOU | Sem fluxo do Rio Senegal
+58. Guiné-Bissau — STATUS: SECOU | Intrusão de água salgada nos canais fluviais
+59. Serra Leoa — STATUS: SECOU | Falta de tratamento e armazenamento seguro
+60. Libéria — STATUS: SECOU | Rios caudalosos mas contaminados e sem infraestrutura
+61. Benim — STATUS: SECOU | Seca nos afluentes da bacia inferior do Níger
+62. Togo — STATUS: SECOU | Queda acentuada do nível das represas
+63. Burkina Faso — STATUS: SECOU | Sem saídas fluviais permanentes ativas
+64. República Centro-Africana — STATUS: SECOU | Colapso da distribuição nas cidades
+65. Moldávia — STATUS: SECOU | Rios Dniester e Prut com volume crítico
+
+================================================================================
+FASE 3: MÊS 7 AO MÊS 12 — DEMANDA POPULACIONAL E SECAS REGIONAIS (35 PAÍSES)
+================================================================================
+66. Índia — STATUS: COLAPSO | 1,4 bilhão de pessoas; agricultura esgotou reservas
+67. África do Sul — STATUS: COLAPSO | Sistema repetiu o 'Dia Zero' em escala nacional
+68. Irã — STATUS: COLAPSO | Lagos Urmia e Zayandeh secaram totalmente
+69. México — STATUS: COLAPSO | Sistema Cutzamala e bacias do norte zeraram
+70. China — STATUS: FRATURADA | O norte secou e as transposições falharam
+71. Estados Unidos — STATUS: CRISE | Rio Colorado secou; conflito entre estados
+72. Grécia — STATUS: SECOU | Aquíferos das ilhas e do sul exauridos
+73. Itália — STATUS: SECOU | Bacia do Rio Pó atingiu seca histórica
+74. Espanha — STATUS: SECOU | Bacias do Tejo, Ebro e Guadalquivir secas
+75. Portugal — STATUS: SECOU | Barragens do Alentejo e Douro no volume morto
+76. Turquia — STATUS: SECOU | Represas esvaziadas pela demanda das metrópoles
+77. Armênia — STATUS: SECOU | Nível do Lago Sevan baixou drasticamente
+78. Azerbaijão — STATUS: SECOU | Rio Kura poluído e com vazão mínima
+79. Geórgia — STATUS: RACIONADO | Cidades costeiras sem reservatórios suficientes
+80. Albânia — STATUS: SECOU | Queda extrema no fluxo hidrelétrico
+81. Macedônia do Norte — STATUS: SECOU | Reservatórios e rios interiores secaram
+82. Bulgária — STATUS: SECOU | Bacias do sul comprometidas pela estiagem
+83. Romênia — STATUS: SECOU | Rio Danúbio com navegação e captação paradas
+84. Sérvia — STATUS: SECOU | Falha no abastecimento das bacias centrais
+85. Hungria — STATUS: SECOU | Queda extrema do lençol freático na planície
+86. Eslováquia — STATUS: SECOU | Redução no fluxo das nascentes dos Cárpatos
+87. República Tcheca — STATUS: SECOU | Rios Elba e Moldava em níveis críticos
+88. Polônia — STATUS: SECOU | Um dos menores índices de água per capita da UE
+89. Ucrânia — STATUS: SECOU | Bacia do Dnieper e represas danificadas e secas
+90. Bielorrússia — STATUS: SECOU | Pântanos e rios do sul com nível rebaixado
+91. Cazaquistão — STATUS: SECOU | Mar de Aral e Lago Balkhash encolheram
+92. Mongólia — STATUS: SECOU | Fontes do Deserto de Gobi secaram completamente
+93. Coreia do Norte — STATUS: COLAPSO | Falta de bombas elétricas para puxar água
+94. Tailândia — STATUS: SECOU | Seca nas bacias agrícolas do Chao Phraya
+95. Vietnã — STATUS: SECOU | Delta do Rio Mekong salinizado pelo mar
+96. Camboja — STATUS: SECOU | Lago Tonle Sap atingiu volume mínimo histórico
+97. Laos — STATUS: SECOU | Barragens no Mekong secaram a jusante
+98. Mianmar — STATUS: SECOU | Bacia do Irrawaddy abaixo da vazão de consumo
+99. Sri Lanka — STATUS: SECOU | Tanques centrais e represas rurais vazios
+100. Filipinas — STATUS: RACIONADO | Represa de Angat atingiu nível de emergência
+
+================================================================================
+FASE 4: ANO 2 AO ANO 3 — A MURALHA TECNOLÓGICA E DE CAPITAL (20 PAÍSES)
+================================================================================
+101. Israel — STATUS: SOBREVIVE | Recicla 90% do esgoto e dessaliniza o Mediterrâneo
+102. Arábia Saudita — STATUS: SOBREVIVE | Maior rede de usinas de dessalinização do mundo
+103. Emirados Árabes Unidos — STATUS: SOBREVIVE | Dessalinização solar e nuclear em larga escala
+104. Catar — STATUS: SOBREVIVE | Infraestrutura industrial converte água do Golfo
+105. Kuwait — STATUS: SOBREVIVE | Alto investimento financeiro em dessalinização
+106. Cingapura — STATUS: SOBREVIVE | Sistema NEWater: purificação avançada em ciclo fechado
+107. Coreia do Sul — STATUS: ESTÁVEL | Bacias montanhosas e rede moderna de retenção
+108. Japão — STATUS: ESTÁVEL | Alto índice pluviométrico nas montanhas e represas
+109. Reino Unido — STATUS: RACIONADO | Racionamento urbano rígido sustentado pelo norte úmido
+110. França — STATUS: RACIONADO | Uso prioritário para refrigeração de usinas nucleares
+111. Alemanha — STATUS: RACIONADO | Bacia do Reno mantida sob controle de emergência
+112. Bélgica — STATUS: RACIONADO | Tratamento de água cinza e importação de bacias vizinhas
+113. Países Baixos — STATUS: ESTÁVEL | Mestres em gestão de diques e purificação de água doce
+114. Dinamarca — STATUS: ESTÁVEL | Abastecimento 100% subterrâneo com proteção rígida
+115. Áustria — STATUS: SEGURO | Nascentes alpinas protegidas e fontes subterrâneas
+116. Suíça — STATUS: SEGURO | A 'caixa d'água' da Europa: glaciares alpinos preservados
+117. Eslovênia — STATUS: SEGURO | Aquíferos puros protegidos constitucionalmente
+118. Croácia — STATUS: SEGURO | Grandes reservas de água subterrânea nos Bálcãs
+119. Irlanda — STATUS: SEGURO | Clima oceânico chuvoso e lagos de água doce
+120. Austrália — STATUS: RACIONADO | Cidades costeiras mantidas por usinas de dessalinização
+
+================================================================================
+FASE 5: ANO 3 AO ANO 5 — OS SANTUÁRIOS NATURAIS E EQUATORIAIS (20 PAÍSES)
+================================================================================
+121. Indonésia — STATUS: ABUNDANTE | Chuvas equatoriais e bacias insulares densas
+122. Malásia — STATUS: ABUNDANTE | Florestas tropicais retêm umidade contínua
+123. Papua-Nova Guiné — STATUS: ABUNDANTE | Rios de montanha e baixa densidade populacional
+124. Madagascar — STATUS: RACIONADO | Bacias orientais de floresta úmida preservadas
+125. Tanzânia — STATUS: ESTÁVEL | Acesso aos Grandes Lagos Africanos (Vitória e Tanganica)
+126. Uganda — STATUS: ESTÁVEL | Margem ampla do Lago Vitória garante vazão
+127. República do Congo — STATUS: ABUNDANTE | Floresta equatorial e Bacia do Congo
+128. Gabão — STATUS: ABUNDANTE | 85% de cobertura vegetal e rios preservados
+129. República Democrática do Congo — STATUS: COLOSSAL | Bacia do Rio Congo tem volume gigantesco
+130. Camarões — STATUS: ESTÁVEL | Bacias do sul e florestas tropicais ativas
+131. Costa Rica — STATUS: SEGURO | Bacias hidrográficas protegidas por parques nacionais
+132. Panamá — STATUS: SEGURO | Bacia do Canal alimentada por chuvas constantes
+133. Equador — STATUS: ABUNDANTE | Degelo dos Andes e bacias amazônicas ativas
+134. Peru — STATUS: SEGURO | Nascentes do Rio Amazonas mantêm o interior abastecido
+135. Bolívia — STATUS: SEGURO | Reservas andinas e planície pantaneira
+136. Paraguai — STATUS: SEGURO | Bacia do Prata e acesso ao Aquífero Guarani
+137. Uruguai — STATUS: SEGURO | Bacia do Rio Uruguai e Aquífero Guarani
+138. Argentina — STATUS: SEGURO | Glaciares da Patagônia e grandes bacias do norte
+139. Chile — STATUS: SEGURO | Campos de gelo do sul garantem água doce perene
+140. Colômbia — STATUS: ABUNDANTE | Paramos andinos e floresta amazônica
+
+================================================================================
+FASE FINAL: O TOP 10 MUNDIAL DA ÁGUA (ANO 5 EM DIANTE)
+================================================================================
+141. Guiana — STATUS: TOP 10 | 'Terra das Muitas Águas'; rios volumosos e pouca gente
+142. Suriname — STATUS: TOP 9 | Cobertura florestal quase total e bacias intactas
+143. Butão — STATUS: TOP 8 | Glaciares intocados do Himalaia para uma população pequena
+144. Nova Zelândia — STATUS: TOP 7 | Rios glaciais puros, lagos profundos e isolamento no Pacífico
+145. Suécia — STATUS: TOP 6 | Quase 100 mil lagos e aquíferos subterrâneos protegidos
+146. Finlândia — STATUS: TOP 5 | 'Terra dos Mil Lagos'; água pura de superfície em excesso
+147. Canadá — STATUS: 4º LUGAR | Guarda 7% da água doce mundial e os Grandes Lagos
+148. Rússia — STATUS: 3º LUGAR | Lago Baikal sozinho guarda 20% da água doce líquida da Terra
+149. Islândia — STATUS: 2º LUGAR | Líder mundial por habitante (>500.000 m³) e energia infinita
+150. BRASIL — STATUS: 1º LUGAR | O GRANDE CAMPEÃO: Bacia Amazônica + Aquíferos Alter do Chão e Guarani (12% da água doce do mundo)
+================================================================================
+
+
+Observações de Dinâmica e HUD para o Vídeo
+Contador de Tempo Superior, na parte superior do vídeo (mas centralizado) mostra o tempo, começando em dias, depois meses (tipo "mês 6") depois anos, (tipo "1 ano, 5 meses") etc.
+
+Contadores com Indicadores:
+
+Canto esquerdo inferior: VIVOS 💧 (começa em 150 e vai decrescendo até 1).
+COLAPSO 💀 (começa em 0 e atinge 149).
+
+Animação de Foco no Mapa: Sempre que a câmera der zoom no país eliminado, a fronteira dele muda da cor original para um tom cinza-desértico/marrom opaco, enquanto o nome dele sobe na barra lateral direita.
+
+Momentos de Tensão (Rivalidades): Nas disputas de barragens (Etiópia vs. Egito, Turquia vs. Iraque/Síria, Índia vs. Paquistão), vale pausar a câmera aberta pegando os dois países ao mesmo tempo antes do corte da água acontecer.

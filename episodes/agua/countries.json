@@ -1,0 +1,1352 @@
+[
+  {
+    "iso3": "YEM",
+    "name": "Iêmen",
+    "order": 1,
+    "status": "SECOU",
+    "note": "Esgotou lençóis freáticos fósseis; sem rios perenes",
+    "eyeColor": "#f10600",
+    "phase": 1
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordânia",
+    "order": 2,
+    "status": "SECOU",
+    "note": "Um dos menores índices de água potável per capita",
+    "eyeColor": "#009900",
+    "phase": 1
+  },
+  {
+    "iso3": "LBY",
+    "name": "Líbia",
+    "order": 3,
+    "status": "SECOU",
+    "note": "Rio Artificial subterrâneo secou sem recarga",
+    "eyeColor": "#239e46",
+    "phase": 1
+  },
+  {
+    "iso3": "DJI",
+    "name": "Djibuti",
+    "order": 4,
+    "status": "SECOU",
+    "note": "Aridez extrema e ausência de cursos d'água permanentes",
+    "eyeColor": "#00cc00",
+    "phase": 1
+  },
+  {
+    "iso3": "ERI",
+    "name": "Eritreia",
+    "order": 5,
+    "status": "SECOU",
+    "note": "Falta de bacias internas protegidas",
+    "eyeColor": "#be0027",
+    "phase": 1
+  },
+  {
+    "iso3": "SOM",
+    "name": "Somália",
+    "order": 6,
+    "status": "SECOU",
+    "note": "Rios sazonais secos e vulnerabilidade climática",
+    "eyeColor": "#40a6ff",
+    "phase": 1
+  },
+  {
+    "iso3": "NER",
+    "name": "Níger",
+    "order": 7,
+    "status": "SECOU",
+    "note": "Avanço do deserto e secagem dos poços",
+    "eyeColor": "#0db02b",
+    "phase": 1
+  },
+  {
+    "iso3": "TCD",
+    "name": "Chade",
+    "order": 8,
+    "status": "SECOU",
+    "note": "Lago Chade esvaziado; sem reservas acessíveis",
+    "eyeColor": "#002664",
+    "phase": 1
+  },
+  {
+    "iso3": "MRT",
+    "name": "Mauritânia",
+    "order": 9,
+    "status": "SECOU",
+    "note": "90% do território tomado pelo Saara",
+    "eyeColor": "#cd2a3e",
+    "phase": 1
+  },
+  {
+    "iso3": "MLI",
+    "name": "Mali",
+    "order": 10,
+    "status": "SECOU",
+    "note": "Bacia do Rio Níger não suporta a seca severa",
+    "eyeColor": "#009a00",
+    "phase": 1
+  },
+  {
+    "iso3": "SSD",
+    "name": "Sudão do Sul",
+    "order": 11,
+    "status": "SECOU",
+    "note": "Falta total de infraestrutura e captação",
+    "eyeColor": "#078930",
+    "phase": 1
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrein",
+    "order": 12,
+    "status": "SECOU",
+    "note": "Sem mananciais de superfície; aquíferos salinizados",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "order": 13,
+    "status": "SECOU",
+    "note": "Sem rios ou lagos; reservas naturais mínimas",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "CYP",
+    "name": "Chipre",
+    "order": 14,
+    "status": "SECOU",
+    "note": "Seca severa nos reservatórios de montanha",
+    "eyeColor": "#d47600",
+    "phase": 1
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "order": 15,
+    "status": "SECOU",
+    "note": "Ilhas áridas sem fluxo hídrico contínuo",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "BRB",
+    "name": "Barbados",
+    "order": 16,
+    "status": "SECOU",
+    "note": "Lençol freático vulnerável à intrusão marinha",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "BHS",
+    "name": "Bahamas",
+    "order": 17,
+    "status": "SECOU",
+    "note": "Solo cárstico sem rios de água doce",
+    "eyeColor": "#ffe900",
+    "phase": 1
+  },
+  {
+    "iso3": "ATG",
+    "name": "Antígua e Barbuda",
+    "order": 18,
+    "status": "SECOU",
+    "note": "Dependência de chuvas sazonais irregulares",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "KNA",
+    "name": "São Cristóvão e Névis",
+    "order": 19,
+    "status": "SECOU",
+    "note": "Bacias minúsculas esgotadas",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "LCA",
+    "name": "Santa Lúcia",
+    "order": 20,
+    "status": "SECOU",
+    "note": "Fluxo de riachos locais interrompido",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "GRD",
+    "name": "Granada",
+    "order": 21,
+    "status": "SECOU",
+    "note": "Esgotamento das captações de encosta",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "MDV",
+    "name": "Maldivas",
+    "order": 22,
+    "status": "SECOU",
+    "note": "Lençóis de água doce invadidos pelo mar",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "SYC",
+    "name": "Seicheles",
+    "order": 23,
+    "status": "SECOU",
+    "note": "Pequena capacidade de armazenamento interno",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "NRU",
+    "name": "Nauru",
+    "order": 24,
+    "status": "SECOU",
+    "note": "Lençol freático poluído e sem água de superfície",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "TUV",
+    "name": "Tuvalu",
+    "order": 25,
+    "status": "SECOU",
+    "note": "Dependência exclusiva de água da chuva",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "KIR",
+    "name": "Quiribati",
+    "order": 26,
+    "status": "SECOU",
+    "note": "Aquíferos rasos contaminados pela água do mar",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "MHL",
+    "name": "Ilhas Marshall",
+    "order": 27,
+    "status": "SECOU",
+    "note": "Ausência de fontes fluviais permanentes",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "FSM",
+    "name": "Micronésia",
+    "order": 28,
+    "status": "SECOU",
+    "note": "Seca total nas bacias insulares",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "PLW",
+    "name": "Palau",
+    "order": 29,
+    "status": "SECOU",
+    "note": "Reservas locais incapazes de suportar a estiagem",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "WSM",
+    "name": "Samoa",
+    "order": 30,
+    "status": "SECOU",
+    "note": "Rios curtos secos pelo calor extremo",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "TON",
+    "name": "Tonga",
+    "order": 31,
+    "status": "SECOU",
+    "note": "Captações subterrâneas rasas esgotadas",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "VUT",
+    "name": "Vanuatu",
+    "order": 32,
+    "status": "SECOU",
+    "note": "Falta de sistemas de bombeamento e estocagem",
+    "eyeColor": "#009543",
+    "phase": 1
+  },
+  {
+    "iso3": "STP",
+    "name": "São Tomé e Príncipe",
+    "order": 33,
+    "status": "SECOU",
+    "note": "Pequena capacidade de retenção de água",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "COM",
+    "name": "Comores",
+    "order": 34,
+    "status": "SECOU",
+    "note": "Sem redes de tratamento ou estocagem perene",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "MUS",
+    "name": "Maurício",
+    "order": 35,
+    "status": "SECOU",
+    "note": "Reservatórios centrais esvaziados pela estiagem",
+    "eyeColor": "#c19b43",
+    "phase": 1
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egito",
+    "order": 36,
+    "status": "COLAPSO",
+    "note": "97% da água vinha do Nilo; Etiópia fechou as barragens",
+    "eyeColor": "#ce1126",
+    "phase": 2
+  },
+  {
+    "iso3": "SDN",
+    "name": "Sudão",
+    "order": 37,
+    "status": "COLAPSO",
+    "note": "Fluxo do Nilo interrompido pelas represas a montante",
+    "eyeColor": "#009a00",
+    "phase": 2
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraque",
+    "order": 38,
+    "status": "COLAPSO",
+    "note": "Turquia cortou o fluxo do Tigre e Eufrates",
+    "eyeColor": "#ce1126",
+    "phase": 2
+  },
+  {
+    "iso3": "SYR",
+    "name": "Síria",
+    "order": 39,
+    "status": "COLAPSO",
+    "note": "Represas turcas bloquearam a vazão do Eufrates",
+    "eyeColor": "#007a3d",
+    "phase": 2
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turcomenistão",
+    "order": 40,
+    "status": "COLAPSO",
+    "note": "Rios Amu Daria represados pelos vizinhos",
+    "eyeColor": "#00843d",
+    "phase": 2
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbequistão",
+    "order": 41,
+    "status": "COLAPSO",
+    "note": "Desvio das nascentes pelas nações montanhosas",
+    "eyeColor": "#1eb53a",
+    "phase": 2
+  },
+  {
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "order": 42,
+    "status": "COLAPSO",
+    "note": "Índia desviou bacias transfronteiriças",
+    "eyeColor": "#006a4e",
+    "phase": 2
+  },
+  {
+    "iso3": "GMB",
+    "name": "Gâmbia",
+    "order": 43,
+    "status": "COLAPSO",
+    "note": "Totalmente dependente do Rio Gâmbia no Senegal",
+    "eyeColor": "#000099",
+    "phase": 2
+  },
+  {
+    "iso3": "PAK",
+    "name": "Paquistão",
+    "order": 44,
+    "status": "COLAPSO",
+    "note": "Bloqueio das represas do Rio Indo na Caxemira",
+    "eyeColor": "#0c590b",
+    "phase": 2
+  },
+  {
+    "iso3": "NAM",
+    "name": "Namíbia",
+    "order": 45,
+    "status": "SECOU",
+    "note": "Bacias de fronteira retidas por vizinhos",
+    "eyeColor": "#3662a2",
+    "phase": 2
+  },
+  {
+    "iso3": "BWA",
+    "name": "Botsuana",
+    "order": 46,
+    "status": "SECOU",
+    "note": "Bacia do Okavango cortada pela estiagem a montante",
+    "eyeColor": "#00cbff",
+    "phase": 2
+  },
+  {
+    "iso3": "ZWE",
+    "name": "Zimbábue",
+    "order": 47,
+    "status": "SECOU",
+    "note": "Lago Kariba e Rio Zambeze abaixo do nível crítico",
+    "eyeColor": "#0000ff",
+    "phase": 2
+  },
+  {
+    "iso3": "SWZ",
+    "name": "Essuatíni",
+    "order": 48,
+    "status": "SECOU",
+    "note": "Dependência hídrica de rios vindos da África do Sul",
+    "eyeColor": "#3e5eb9",
+    "phase": 2
+  },
+  {
+    "iso3": "LSO",
+    "name": "Lesoto",
+    "order": 49,
+    "status": "RACIONADO",
+    "note": "Forçado a bombear sua água para a África do Sul",
+    "eyeColor": "#009543",
+    "phase": 2
+  },
+  {
+    "iso3": "AFG",
+    "name": "Afeganistão",
+    "order": 50,
+    "status": "SECOU",
+    "note": "Degelo prematuro sem estruturas de contenção",
+    "eyeColor": "#009900",
+    "phase": 2
+  },
+  {
+    "iso3": "LBN",
+    "name": "Líbano",
+    "order": 51,
+    "status": "SECOU",
+    "note": "Aquíferos cársticos secos e rios reduzidos",
+    "eyeColor": "#EE161F",
+    "phase": 2
+  },
+  {
+    "iso3": "OMN",
+    "name": "Omã",
+    "order": 52,
+    "status": "SECOU",
+    "note": "Sistemas tradicionais de falaj secaram",
+    "eyeColor": "#ef2d29",
+    "phase": 2
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunísia",
+    "order": 53,
+    "status": "SECOU",
+    "note": "Barragens do norte atingiram o volume morto",
+    "eyeColor": "#e70013",
+    "phase": 2
+  },
+  {
+    "iso3": "DZA",
+    "name": "Argélia",
+    "order": 54,
+    "status": "SECOU",
+    "note": "Poços profundos do Saara não dão conta da demanda",
+    "eyeColor": "#006233",
+    "phase": 2
+  },
+  {
+    "iso3": "MAR",
+    "name": "Marrocos",
+    "order": 55,
+    "status": "SECOU",
+    "note": "Reservatórios agrícolas atingiram níveis críticos",
+    "eyeColor": "#c1272d",
+    "phase": 2
+  },
+  {
+    "iso3": "SEN",
+    "name": "Senegal",
+    "order": 56,
+    "status": "SECOU",
+    "note": "Redução severa da vazão da bacia regional",
+    "eyeColor": "#0b7226",
+    "phase": 2
+  },
+  {
+    "iso3": "ETH",
+    "name": "Etiópia",
+    "order": 57,
+    "status": "SECOU",
+    "note": "A pressão regional esgota as reservas de emergência",
+    "eyeColor": "#ffc621",
+    "phase": 2
+  },
+  {
+    "iso3": "GNB",
+    "name": "Guiné-Bissau",
+    "order": 58,
+    "status": "SECOU",
+    "note": "Intrusão de água salgada nos canais fluviais",
+    "eyeColor": "#ce1126",
+    "phase": 2
+  },
+  {
+    "iso3": "SLE",
+    "name": "Serra Leoa",
+    "order": 59,
+    "status": "SECOU",
+    "note": "Falta de tratamento e armazenamento seguro",
+    "eyeColor": "#0000cd",
+    "phase": 2
+  },
+  {
+    "iso3": "LBR",
+    "name": "Libéria",
+    "order": 60,
+    "status": "SECOU",
+    "note": "Rios caudalosos mas contaminados e sem infraestrutura",
+    "eyeColor": "#000066",
+    "phase": 2
+  },
+  {
+    "iso3": "BEN",
+    "name": "Benim",
+    "order": 61,
+    "status": "SECOU",
+    "note": "Seca nos afluentes da bacia inferior do Níger",
+    "eyeColor": "#319400",
+    "phase": 2
+  },
+  {
+    "iso3": "TGO",
+    "name": "Togo",
+    "order": 62,
+    "status": "SECOU",
+    "note": "Queda acentuada do nível das represas",
+    "eyeColor": "#ffe300",
+    "phase": 2
+  },
+  {
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "order": 63,
+    "status": "SECOU",
+    "note": "Sem saídas fluviais permanentes ativas",
+    "eyeColor": "#de0000",
+    "phase": 2
+  },
+  {
+    "iso3": "CAF",
+    "name": "República Centro-Africana",
+    "order": 64,
+    "status": "SECOU",
+    "note": "Colapso da distribuição nas cidades",
+    "eyeColor": "#0000ff",
+    "phase": 2
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldávia",
+    "order": 65,
+    "status": "SECOU",
+    "note": "Rios Dniester e Prut com volume crítico",
+    "eyeColor": "#00319c",
+    "phase": 2
+  },
+  {
+    "iso3": "IND",
+    "name": "Índia",
+    "order": 66,
+    "status": "COLAPSO",
+    "note": "1,4 bilhão de pessoas; agricultura esgotou reservas",
+    "eyeColor": "#ff9933",
+    "phase": 3
+  },
+  {
+    "iso3": "ZAF",
+    "name": "África do Sul",
+    "order": 67,
+    "status": "COLAPSO",
+    "note": "Sistema repetiu o 'Dia Zero' em escala nacional",
+    "eyeColor": "#000c8a",
+    "phase": 3
+  },
+  {
+    "iso3": "IRN",
+    "name": "Irã",
+    "order": 68,
+    "status": "COLAPSO",
+    "note": "Lagos Urmia e Zayandeh secaram totalmente",
+    "eyeColor": "#da0000",
+    "phase": 3
+  },
+  {
+    "iso3": "MEX",
+    "name": "México",
+    "order": 69,
+    "status": "COLAPSO",
+    "note": "Sistema Cutzamala e bacias do norte zeraram",
+    "eyeColor": "#f15770",
+    "phase": 3
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "order": 70,
+    "status": "FRATURADA",
+    "note": "O norte secou e as transposições falharam",
+    "eyeColor": "#ffff00",
+    "phase": 3
+  },
+  {
+    "iso3": "USA",
+    "name": "Estados Unidos",
+    "order": 71,
+    "status": "CRISE",
+    "note": "Rio Colorado secou; conflito entre estados",
+    "eyeColor": "#bd3d44",
+    "phase": 3
+  },
+  {
+    "iso3": "GRC",
+    "name": "Grécia",
+    "order": 72,
+    "status": "SECOU",
+    "note": "Aquíferos das ilhas e do sul exauridos",
+    "eyeColor": "#0d5eaf",
+    "phase": 3
+  },
+  {
+    "iso3": "ITA",
+    "name": "Itália",
+    "order": 73,
+    "status": "SECOU",
+    "note": "Bacia do Rio Pó atingiu seca histórica",
+    "eyeColor": "#009246",
+    "phase": 3
+  },
+  {
+    "iso3": "ESP",
+    "name": "Espanha",
+    "order": 74,
+    "status": "SECOU",
+    "note": "Bacias do Tejo, Ebro e Guadalquivir secas",
+    "eyeColor": "#AA151B",
+    "phase": 3
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "order": 75,
+    "status": "SECOU",
+    "note": "Barragens do Alentejo e Douro no volume morto",
+    "eyeColor": "#006600",
+    "phase": 3
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turquia",
+    "order": 76,
+    "status": "SECOU",
+    "note": "Represas esvaziadas pela demanda das metrópoles",
+    "eyeColor": "#e30a17",
+    "phase": 3
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armênia",
+    "order": 77,
+    "status": "SECOU",
+    "note": "Nível do Lago Sevan baixou drasticamente",
+    "eyeColor": "#d90012",
+    "phase": 3
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijão",
+    "order": 78,
+    "status": "SECOU",
+    "note": "Rio Kura poluído e com vazão mínima",
+    "eyeColor": "#3f9c35",
+    "phase": 3
+  },
+  {
+    "iso3": "GEO",
+    "name": "Geórgia",
+    "order": 79,
+    "status": "RACIONADO",
+    "note": "Cidades costeiras sem reservatórios suficientes",
+    "eyeColor": "#a27644",
+    "phase": 3
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albânia",
+    "order": 80,
+    "status": "SECOU",
+    "note": "Queda extrema no fluxo hidrelétrico",
+    "eyeColor": "#a27644",
+    "phase": 3
+  },
+  {
+    "iso3": "MKD",
+    "name": "Macedônia do Norte",
+    "order": 81,
+    "status": "SECOU",
+    "note": "Reservatórios e rios interiores secaram",
+    "eyeColor": "#d20000",
+    "phase": 3
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgária",
+    "order": 82,
+    "status": "SECOU",
+    "note": "Bacias do sul comprometidas pela estiagem",
+    "eyeColor": "#00966e",
+    "phase": 3
+  },
+  {
+    "iso3": "ROU",
+    "name": "Romênia",
+    "order": 83,
+    "status": "SECOU",
+    "note": "Rio Danúbio com navegação e captação paradas",
+    "eyeColor": "#00319c",
+    "phase": 3
+  },
+  {
+    "iso3": "SRB",
+    "name": "Sérvia",
+    "order": 84,
+    "status": "SECOU",
+    "note": "Falha no abastecimento das bacias centrais",
+    "eyeColor": "#0c4076",
+    "phase": 3
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungria",
+    "order": 85,
+    "status": "SECOU",
+    "note": "Queda extrema do lençol freático na planície",
+    "eyeColor": "#388d00",
+    "phase": 3
+  },
+  {
+    "iso3": "SVK",
+    "name": "Eslováquia",
+    "order": 86,
+    "status": "SECOU",
+    "note": "Redução no fluxo das nascentes dos Cárpatos",
+    "eyeColor": "#ee1c25",
+    "phase": 3
+  },
+  {
+    "iso3": "CZE",
+    "name": "República Tcheca",
+    "order": 87,
+    "status": "SECOU",
+    "note": "Rios Elba e Moldava em níveis críticos",
+    "eyeColor": "#d7141a",
+    "phase": 3
+  },
+  {
+    "iso3": "POL",
+    "name": "Polônia",
+    "order": 88,
+    "status": "SECOU",
+    "note": "Um dos menores índices de água per capita da UE",
+    "eyeColor": "#dc143c",
+    "phase": 3
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ucrânia",
+    "order": 89,
+    "status": "SECOU",
+    "note": "Bacia do Dnieper e represas danificadas e secas",
+    "eyeColor": "#0057b8",
+    "phase": 3
+  },
+  {
+    "iso3": "BLR",
+    "name": "Bielorrússia",
+    "order": 90,
+    "status": "SECOU",
+    "note": "Pântanos e rios do sul com nível rebaixado",
+    "eyeColor": "#ce1720",
+    "phase": 3
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Cazaquistão",
+    "order": 91,
+    "status": "SECOU",
+    "note": "Mar de Aral e Lago Balkhash encolheram",
+    "eyeColor": "#00abc2",
+    "phase": 3
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongólia",
+    "order": 92,
+    "status": "SECOU",
+    "note": "Fontes do Deserto de Gobi secaram completamente",
+    "eyeColor": "#ffd900",
+    "phase": 3
+  },
+  {
+    "iso3": "PRK",
+    "name": "Coreia do Norte",
+    "order": 93,
+    "status": "COLAPSO",
+    "note": "Falta de bombas elétricas para puxar água",
+    "eyeColor": "#3e5698",
+    "phase": 3
+  },
+  {
+    "iso3": "THA",
+    "name": "Tailândia",
+    "order": 94,
+    "status": "SECOU",
+    "note": "Seca nas bacias agrícolas do Chao Phraya",
+    "eyeColor": "#a51931",
+    "phase": 3
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnã",
+    "order": 95,
+    "status": "SECOU",
+    "note": "Delta do Rio Mekong salinizado pelo mar",
+    "eyeColor": "#da251d",
+    "phase": 3
+  },
+  {
+    "iso3": "KHM",
+    "name": "Camboja",
+    "order": 96,
+    "status": "SECOU",
+    "note": "Lago Tonle Sap atingiu volume mínimo histórico",
+    "eyeColor": "#032ea1",
+    "phase": 3
+  },
+  {
+    "iso3": "LAO",
+    "name": "Laos",
+    "order": 97,
+    "status": "SECOU",
+    "note": "Barragens no Mekong secaram a jusante",
+    "eyeColor": "#ce1126",
+    "phase": 3
+  },
+  {
+    "iso3": "MMR",
+    "name": "Mianmar",
+    "order": 98,
+    "status": "SECOU",
+    "note": "Bacia do Irrawaddy abaixo da vazão de consumo",
+    "eyeColor": "#fecb00",
+    "phase": 3
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "order": 99,
+    "status": "SECOU",
+    "note": "Tanques centrais e represas rurais vazios",
+    "eyeColor": "#ffb700",
+    "phase": 3
+  },
+  {
+    "iso3": "PHL",
+    "name": "Filipinas",
+    "order": 100,
+    "status": "RACIONADO",
+    "note": "Represa de Angat atingiu nível de emergência",
+    "eyeColor": "#0038a8",
+    "phase": 3
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "order": 101,
+    "status": "SOBREVIVE",
+    "note": "Recicla 90% do esgoto e dessaliniza o Mediterrâneo",
+    "eyeColor": "#0038b8",
+    "phase": 4
+  },
+  {
+    "iso3": "SAU",
+    "name": "Arábia Saudita",
+    "order": 102,
+    "status": "SOBREVIVE",
+    "note": "Maior rede de usinas de dessalinização do mundo",
+    "eyeColor": "#165d31",
+    "phase": 4
+  },
+  {
+    "iso3": "ARE",
+    "name": "Emirados Árabes Unidos",
+    "order": 103,
+    "status": "SOBREVIVE",
+    "note": "Dessalinização solar e nuclear em larga escala",
+    "eyeColor": "#00732f",
+    "phase": 4
+  },
+  {
+    "iso3": "QAT",
+    "name": "Catar",
+    "order": 104,
+    "status": "SOBREVIVE",
+    "note": "Infraestrutura industrial converte água do Golfo",
+    "eyeColor": "#8d1b3d",
+    "phase": 4
+  },
+  {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "order": 105,
+    "status": "SOBREVIVE",
+    "note": "Alto investimento financeiro em dessalinização",
+    "eyeColor": "#f31830",
+    "phase": 4
+  },
+  {
+    "iso3": "SGP",
+    "name": "Cingapura",
+    "order": 106,
+    "status": "SOBREVIVE",
+    "note": "Sistema NEWater: purificação avançada em ciclo fechado",
+    "eyeColor": "#c19b43",
+    "phase": 4
+  },
+  {
+    "iso3": "KOR",
+    "name": "Coreia do Sul",
+    "order": 107,
+    "status": "ESTÁVEL",
+    "note": "Bacias montanhosas e rede moderna de retenção",
+    "eyeColor": "#cd2e3a",
+    "phase": 4
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japão",
+    "order": 108,
+    "status": "ESTÁVEL",
+    "note": "Alto índice pluviométrico nas montanhas e represas",
+    "eyeColor": "#bc002d",
+    "phase": 4
+  },
+  {
+    "iso3": "GBR",
+    "name": "Reino Unido",
+    "order": 109,
+    "status": "RACIONADO",
+    "note": "Racionamento urbano rígido sustentado pelo norte úmido",
+    "eyeColor": "#012169",
+    "phase": 4
+  },
+  {
+    "iso3": "FRA",
+    "name": "França",
+    "order": 110,
+    "status": "RACIONADO",
+    "note": "Uso prioritário para refrigeração de usinas nucleares",
+    "eyeColor": "#000091",
+    "phase": 4
+  },
+  {
+    "iso3": "DEU",
+    "name": "Alemanha",
+    "order": 111,
+    "status": "RACIONADO",
+    "note": "Bacia do Reno mantida sob controle de emergência",
+    "eyeColor": "#ffcc00",
+    "phase": 4
+  },
+  {
+    "iso3": "BEL",
+    "name": "Bélgica",
+    "order": 112,
+    "status": "RACIONADO",
+    "note": "Tratamento de água cinza e importação de bacias vizinhas",
+    "eyeColor": "#ffd90c",
+    "phase": 4
+  },
+  {
+    "iso3": "NLD",
+    "name": "Países Baixos",
+    "order": 113,
+    "status": "ESTÁVEL",
+    "note": "Mestres em gestão de diques e purificação de água doce",
+    "eyeColor": "#ae1c28",
+    "phase": 4
+  },
+  {
+    "iso3": "DNK",
+    "name": "Dinamarca",
+    "order": 114,
+    "status": "ESTÁVEL",
+    "note": "Abastecimento 100% subterrâneo com proteção rígida",
+    "eyeColor": "#c8102e",
+    "phase": 4
+  },
+  {
+    "iso3": "AUT",
+    "name": "Áustria",
+    "order": 115,
+    "status": "SEGURO",
+    "note": "Nascentes alpinas protegidas e fontes subterrâneas",
+    "eyeColor": "#c8102e",
+    "phase": 4
+  },
+  {
+    "iso3": "CHE",
+    "name": "Suíça",
+    "order": 116,
+    "status": "SEGURO",
+    "note": "A 'caixa d'água' da Europa: glaciares alpinos preservados",
+    "eyeColor": "#a27644",
+    "phase": 4
+  },
+  {
+    "iso3": "SVN",
+    "name": "Eslovênia",
+    "order": 117,
+    "status": "SEGURO",
+    "note": "Aquíferos puros protegidos constitucionalmente",
+    "eyeColor": "#d50000",
+    "phase": 4
+  },
+  {
+    "iso3": "HRV",
+    "name": "Croácia",
+    "order": 118,
+    "status": "SEGURO",
+    "note": "Grandes reservas de água subterrânea nos Bálcãs",
+    "eyeColor": "#171796",
+    "phase": 4
+  },
+  {
+    "iso3": "IRL",
+    "name": "Irlanda",
+    "order": 119,
+    "status": "SEGURO",
+    "note": "Clima oceânico chuvoso e lagos de água doce",
+    "eyeColor": "#009A49",
+    "phase": 4
+  },
+  {
+    "iso3": "AUS",
+    "name": "Austrália",
+    "order": 120,
+    "status": "RACIONADO",
+    "note": "Cidades costeiras mantidas por usinas de dessalinização",
+    "eyeColor": "#00008B",
+    "phase": 4
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonésia",
+    "order": 121,
+    "status": "ABUNDANTE",
+    "note": "Chuvas equatoriais e bacias insulares densas",
+    "eyeColor": "#e70011",
+    "phase": 5
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malásia",
+    "order": 122,
+    "status": "ABUNDANTE",
+    "note": "Florestas tropicais retêm umidade contínua",
+    "eyeColor": "#CC0000",
+    "phase": 5
+  },
+  {
+    "iso3": "PNG",
+    "name": "Papua-Nova Guiné",
+    "order": 123,
+    "status": "ABUNDANTE",
+    "note": "Rios de montanha e baixa densidade populacional",
+    "eyeColor": "#ffcc00",
+    "phase": 5
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "order": 124,
+    "status": "RACIONADO",
+    "note": "Bacias orientais de floresta úmida preservadas",
+    "eyeColor": "#fc3d32",
+    "phase": 5
+  },
+  {
+    "iso3": "TZA",
+    "name": "Tanzânia",
+    "order": 125,
+    "status": "ESTÁVEL",
+    "note": "Acesso aos Grandes Lagos Africanos (Vitória e Tanganica)",
+    "eyeColor": "#0099ff",
+    "phase": 5
+  },
+  {
+    "iso3": "UGA",
+    "name": "Uganda",
+    "order": 126,
+    "status": "ESTÁVEL",
+    "note": "Margem ampla do Lago Vitória garante vazão",
+    "eyeColor": "#ffe700",
+    "phase": 5
+  },
+  {
+    "iso3": "COG",
+    "name": "República do Congo",
+    "order": 127,
+    "status": "ABUNDANTE",
+    "note": "Floresta equatorial e Bacia do Congo",
+    "eyeColor": "#ffff00",
+    "phase": 5
+  },
+  {
+    "iso3": "GAB",
+    "name": "Gabão",
+    "order": 128,
+    "status": "ABUNDANTE",
+    "note": "85% de cobertura vegetal e rios preservados",
+    "eyeColor": "#ffe700",
+    "phase": 5
+  },
+  {
+    "iso3": "COD",
+    "name": "República Democrática do Congo",
+    "order": 129,
+    "status": "COLOSSAL",
+    "note": "Bacia do Rio Congo tem volume gigantesco",
+    "eyeColor": "#007fff",
+    "phase": 5
+  },
+  {
+    "iso3": "CMR",
+    "name": "Camarões",
+    "order": 130,
+    "status": "ESTÁVEL",
+    "note": "Bacias do sul e florestas tropicais ativas",
+    "eyeColor": "#007a5e",
+    "phase": 5
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "order": 131,
+    "status": "SEGURO",
+    "note": "Bacias hidrográficas protegidas por parques nacionais",
+    "eyeColor": "#0000b4",
+    "phase": 5
+  },
+  {
+    "iso3": "PAN",
+    "name": "Panamá",
+    "order": 132,
+    "status": "SEGURO",
+    "note": "Bacia do Canal alimentada por chuvas constantes",
+    "eyeColor": "#db0000",
+    "phase": 5
+  },
+  {
+    "iso3": "ECU",
+    "name": "Equador",
+    "order": 133,
+    "status": "ABUNDANTE",
+    "note": "Degelo dos Andes e bacias amazônicas ativas",
+    "eyeColor": "#ffe800",
+    "phase": 5
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "order": 134,
+    "status": "SEGURO",
+    "note": "Nascentes do Rio Amazonas mantêm o interior abastecido",
+    "eyeColor": "#D91023",
+    "phase": 5
+  },
+  {
+    "iso3": "BOL",
+    "name": "Bolívia",
+    "order": 135,
+    "status": "SEGURO",
+    "note": "Reservas andinas e planície pantaneira",
+    "eyeColor": "#007934",
+    "phase": 5
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguai",
+    "order": 136,
+    "status": "SEGURO",
+    "note": "Bacia do Prata e acesso ao Aquífero Guarani",
+    "eyeColor": "#0038a8",
+    "phase": 5
+  },
+  {
+    "iso3": "URY",
+    "name": "Uruguai",
+    "order": 137,
+    "status": "SEGURO",
+    "note": "Bacia do Rio Uruguai e Aquífero Guarani",
+    "eyeColor": "#0038a8",
+    "phase": 5
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "order": 138,
+    "status": "SEGURO",
+    "note": "Glaciares da Patagônia e grandes bacias do norte",
+    "eyeColor": "#74acdf",
+    "phase": 5
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "order": 139,
+    "status": "SEGURO",
+    "note": "Campos de gelo do sul garantem água doce perene",
+    "eyeColor": "#0039a6",
+    "phase": 5
+  },
+  {
+    "iso3": "COL",
+    "name": "Colômbia",
+    "order": 140,
+    "status": "ABUNDANTE",
+    "note": "Paramos andinos e floresta amazônica",
+    "eyeColor": "#ffe800",
+    "phase": 5
+  },
+  {
+    "iso3": "GUY",
+    "name": "Guiana",
+    "order": 141,
+    "status": "TOP 10",
+    "note": "'Terra das Muitas Águas'; rios volumosos e pouca gente",
+    "eyeColor": "#399408",
+    "phase": 6
+  },
+  {
+    "iso3": "SUR",
+    "name": "Suriname",
+    "order": 142,
+    "status": "TOP 9",
+    "note": "Cobertura florestal quase total e bacias intactas",
+    "eyeColor": "#377e3f",
+    "phase": 6
+  },
+  {
+    "iso3": "BTN",
+    "name": "Butão",
+    "order": 143,
+    "status": "TOP 8",
+    "note": "Glaciares intocados do Himalaia para uma população pequena",
+    "eyeColor": "#ffd520",
+    "phase": 6
+  },
+  {
+    "iso3": "NZL",
+    "name": "Nova Zelândia",
+    "order": 144,
+    "status": "TOP 7",
+    "note": "Rios glaciais puros, lagos profundos e isolamento no Pacífico",
+    "eyeColor": "#00247d",
+    "phase": 6
+  },
+  {
+    "iso3": "SWE",
+    "name": "Suécia",
+    "order": 145,
+    "status": "TOP 6",
+    "note": "Quase 100 mil lagos e aquíferos subterrâneos protegidos",
+    "eyeColor": "#005293",
+    "phase": 6
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finlândia",
+    "order": 146,
+    "status": "TOP 5",
+    "note": "'Terra dos Mil Lagos'; água pura de superfície em excesso",
+    "eyeColor": "#002f6c",
+    "phase": 6
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canadá",
+    "order": 147,
+    "status": "4º LUGAR",
+    "note": "Guarda 7% da água doce mundial e os Grandes Lagos",
+    "eyeColor": "#d52b1e",
+    "phase": 6
+  },
+  {
+    "iso3": "RUS",
+    "name": "Rússia",
+    "order": 148,
+    "status": "3º LUGAR",
+    "note": "Lago Baikal sozinho guarda 20% da água doce líquida da Terra",
+    "eyeColor": "#0039a6",
+    "phase": 6
+  },
+  {
+    "iso3": "ISL",
+    "name": "Islândia",
+    "order": 149,
+    "status": "2º LUGAR",
+    "note": "Líder mundial por habitante (>500.000 m³) e energia infinita",
+    "eyeColor": "#003897",
+    "phase": 6
+  },
+  {
+    "iso3": "BRA",
+    "name": "BRASIL",
+    "order": 150,
+    "status": "1º LUGAR",
+    "note": "O GRANDE CAMPEÃO: Bacia Amazônica + Aquíferos Alter do Chão e Guarani (12% da água doce do mundo)",
+    "eyeColor": "#229e45",
+    "phase": 6
+  }
+]

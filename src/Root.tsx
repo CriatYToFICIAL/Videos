@@ -1,4 +1,5 @@
 import {Composition} from "remotion";
+import {WaterEpisode,waterFrames} from './WaterEpisode';
 import {CostEpisode} from './CostEpisode';
 import {costFrames} from './cost-data';
 import demoCountries from "../episodes/demo-access/countries.json" with {type: "json"};
@@ -18,7 +19,7 @@ const durationInFrames = (episode: Episode) =>
   );
 
 export const RemotionRoot = () => (
- <><Composition id="CostOfLiving" component={CostEpisode} durationInFrames={costFrames} fps={30} width={1920} height={1080}/>
+ <><Composition id="WaterCrisis" component={WaterEpisode} durationInFrames={waterFrames} fps={30} width={1920} height={1080}/><Composition id="CostOfLiving" component={CostEpisode} durationInFrames={costFrames} fps={30} width={1920} height={1080}/>
   <Composition
     id="WorldMapEpisode"
     component={WorldMapEpisode}
