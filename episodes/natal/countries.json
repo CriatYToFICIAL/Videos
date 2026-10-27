@@ -1,0 +1,1595 @@
+[
+  {
+    "iso3": "GRL",
+    "name": "Groenlândia",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "25 de dezembro · território autônomo do Reino da Dinamarca",
+    "eyeColor": "#d6a832",
+    "order": 1
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canadá",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d52b1e",
+    "order": 2
+  },
+  {
+    "iso3": "USA",
+    "name": "Estados Unidos",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado federal oficial em 25 de dezembro",
+    "eyeColor": "#bd3d44",
+    "order": 3
+  },
+  {
+    "iso3": "MEX",
+    "name": "México",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#f15770",
+    "order": 4
+  },
+  {
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#f9f0aa",
+    "order": 5
+  },
+  {
+    "iso3": "BLZ",
+    "name": "Belize",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffef5d",
+    "order": 6
+  },
+  {
+    "iso3": "HND",
+    "name": "Honduras",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#18c3df",
+    "order": 7
+  },
+  {
+    "iso3": "NIC",
+    "name": "Nicarágua",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#510000",
+    "order": 8
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0000b4",
+    "order": 9
+  },
+  {
+    "iso3": "PAN",
+    "name": "Panamá",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#db0000",
+    "order": 10
+  },
+  {
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#009900",
+    "order": 11
+  },
+  {
+    "iso3": "CUB",
+    "name": "Cuba",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional restabelecido oficialmente",
+    "eyeColor": "#002a8f",
+    "order": 12
+  },
+  {
+    "iso3": "BHS",
+    "name": "Bahamas",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffe900",
+    "order": 13
+  },
+  {
+    "iso3": "HTI",
+    "name": "Haiti",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d21034",
+    "order": 14
+  },
+  {
+    "iso3": "DOM",
+    "name": "República Dominicana",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#002d62",
+    "order": 15
+  },
+  {
+    "iso3": "KNA",
+    "name": "São Cristóvão e Névis",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 16
+  },
+  {
+    "iso3": "ATG",
+    "name": "Antígua e Barbuda",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0072c6",
+    "order": 17
+  },
+  {
+    "iso3": "DMA",
+    "name": "Dominica",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#108c00",
+    "order": 18
+  },
+  {
+    "iso3": "LCA",
+    "name": "Santa Lúcia",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#65cfff",
+    "order": 19
+  },
+  {
+    "iso3": "VCT",
+    "name": "São Vicente e Granadinas",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 20
+  },
+  {
+    "iso3": "GRD",
+    "name": "Granada",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 21
+  },
+  {
+    "iso3": "BRB",
+    "name": "Barbados",
+    "region": "América do Norte",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 22
+  },
+  {
+    "iso3": "COL",
+    "name": "Colômbia",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffe800",
+    "order": 23
+  },
+  {
+    "iso3": "ECU",
+    "name": "Equador",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffe800",
+    "order": 24
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#D91023",
+    "order": 25
+  },
+  {
+    "iso3": "BOL",
+    "name": "Bolívia",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#007934",
+    "order": 26
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguai",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0038a8",
+    "order": 27
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#74acdf",
+    "order": 28
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0039a6",
+    "order": 29
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brasil",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#229e45",
+    "order": 30
+  },
+  {
+    "iso3": "GUY",
+    "name": "Guiana",
+    "region": "América do Sul",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#399408",
+    "order": 31
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#006600",
+    "order": 32
+  },
+  {
+    "iso3": "ESP",
+    "name": "Espanha",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#AA151B",
+    "order": 33
+  },
+  {
+    "iso3": "FRA",
+    "name": "França",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#000091",
+    "order": 34
+  },
+  {
+    "iso3": "AND",
+    "name": "Andorra",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d0103a",
+    "order": 35
+  },
+  {
+    "iso3": "MCO",
+    "name": "Mônaco",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 36
+  },
+  {
+    "iso3": "CHE",
+    "name": "Suíça",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro",
+    "eyeColor": "#a27644",
+    "order": 37
+  },
+  {
+    "iso3": "LIE",
+    "name": "Liechtenstein",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 38
+  },
+  {
+    "iso3": "AUT",
+    "name": "Áustria",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#c8102e",
+    "order": 39
+  },
+  {
+    "iso3": "SVN",
+    "name": "Eslovênia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d50000",
+    "order": 40
+  },
+  {
+    "iso3": "HRV",
+    "name": "Croácia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#171796",
+    "order": 41
+  },
+  {
+    "iso3": "BIH",
+    "name": "Bósnia e Herzegovina",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro",
+    "eyeColor": "#000099",
+    "order": 42
+  },
+  {
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "region": "Europa",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo)",
+    "eyeColor": "#d3ae3b",
+    "order": 43
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albânia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#a27644",
+    "order": 44
+  },
+  {
+    "iso3": "MKD",
+    "name": "Macedônia do Norte",
+    "region": "Europa",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo)",
+    "eyeColor": "#d20000",
+    "order": 45
+  },
+  {
+    "iso3": "SRB",
+    "name": "Sérvia",
+    "region": "Europa",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo)",
+    "eyeColor": "#0c4076",
+    "order": 46
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungria",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#388d00",
+    "order": 47
+  },
+  {
+    "iso3": "SVK",
+    "name": "Eslováquia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ee1c25",
+    "order": 48
+  },
+  {
+    "iso3": "CZE",
+    "name": "República Tcheca",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d7141a",
+    "order": 49
+  },
+  {
+    "iso3": "DEU",
+    "name": "Alemanha",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffcc00",
+    "order": 50
+  },
+  {
+    "iso3": "LUX",
+    "name": "Luxemburgo",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ed2939",
+    "order": 51
+  },
+  {
+    "iso3": "BEL",
+    "name": "Bélgica",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffd90c",
+    "order": 52
+  },
+  {
+    "iso3": "NLD",
+    "name": "Países Baixos",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ae1c28",
+    "order": 53
+  },
+  {
+    "iso3": "DNK",
+    "name": "Dinamarca",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#c8102e",
+    "order": 54
+  },
+  {
+    "iso3": "POL",
+    "name": "Polônia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#dc143c",
+    "order": 55
+  },
+  {
+    "iso3": "LTU",
+    "name": "Lituânia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#006a44",
+    "order": 56
+  },
+  {
+    "iso3": "LVA",
+    "name": "Letônia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#981e32",
+    "order": 57
+  },
+  {
+    "iso3": "EST",
+    "name": "Estônia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#1791ff",
+    "order": 58
+  },
+  {
+    "iso3": "BLR",
+    "name": "Bielorrússia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro (e também em 7 de janeiro)",
+    "eyeColor": "#ce1720",
+    "order": 59
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ucrânia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro (mudado por lei da data ortodoxa)",
+    "eyeColor": "#0057b8",
+    "order": 60
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldávia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro (e também em 7 de janeiro)",
+    "eyeColor": "#00319c",
+    "order": 61
+  },
+  {
+    "iso3": "ROU",
+    "name": "Romênia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro (calendário juliano revisado)",
+    "eyeColor": "#00319c",
+    "order": 62
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgária",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro (Igreja adotou calendário gregoriano)",
+    "eyeColor": "#00966e",
+    "order": 63
+  },
+  {
+    "iso3": "GRC",
+    "name": "Grécia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado oficial em 25 de dezembro (calendário juliano revisado)",
+    "eyeColor": "#0d5eaf",
+    "order": 64
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 65
+  },
+  {
+    "iso3": "ITA",
+    "name": "Itália",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#009246",
+    "order": 66
+  },
+  {
+    "iso3": "GBR",
+    "name": "Reino Unido",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#012169",
+    "order": 67
+  },
+  {
+    "iso3": "IRL",
+    "name": "Irlanda",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#009A49",
+    "order": 68
+  },
+  {
+    "iso3": "ISL",
+    "name": "Islândia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#003897",
+    "order": 69
+  },
+  {
+    "iso3": "NOR",
+    "name": "Noruega",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ed2939",
+    "order": 70
+  },
+  {
+    "iso3": "SWE",
+    "name": "Suécia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#005293",
+    "order": 71
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finlândia",
+    "region": "Europa",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#002f6c",
+    "order": 72
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turquia",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal (comemorações concentradas no Ano Novo)",
+    "eyeColor": "#e30a17",
+    "order": 73
+  },
+  {
+    "iso3": "GEO",
+    "name": "Geórgia",
+    "region": "Ásia",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo)",
+    "eyeColor": "#a27644",
+    "order": 74
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armênia",
+    "region": "Ásia",
+    "status": "OUTRA DATA",
+    "note": "6 de janeiro (Natal da Igreja Apostólica Armênia)",
+    "eyeColor": "#d90012",
+    "order": 75
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#3f9c35",
+    "order": 76
+  },
+  {
+    "iso3": "IRN",
+    "name": "Irã",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho regular",
+    "eyeColor": "#da0000",
+    "order": 77
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turcomenistão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#00843d",
+    "order": 78
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbequistão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#1eb53a",
+    "order": 79
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajiquistão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Restrições a decorações públicas natalinas; dia de trabalho normal",
+    "eyeColor": "#006600",
+    "order": 80
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Quirguistão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#ffff00",
+    "order": 81
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Cazaquistão",
+    "region": "Ásia",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo)",
+    "eyeColor": "#00abc2",
+    "order": 82
+  },
+  {
+    "iso3": "RUS",
+    "name": "Rússia",
+    "region": "Ásia",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo)",
+    "eyeColor": "#0039a6",
+    "order": 83
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongólia",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia útil regular de trabalho",
+    "eyeColor": "#ffd900",
+    "order": 84
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho regular em todo o continente",
+    "eyeColor": "#ffff00",
+    "order": 85
+  },
+  {
+    "iso3": "BTN",
+    "name": "Butão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Calendário oficial baseado em feriados budistas",
+    "eyeColor": "#ffd520",
+    "order": 86
+  },
+  {
+    "iso3": "IND",
+    "name": "Índia",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ff9933",
+    "order": 87
+  },
+  {
+    "iso3": "NPL",
+    "name": "Nepal",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ce0000",
+    "order": 88
+  },
+  {
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro (Bara Din)",
+    "eyeColor": "#006a4e",
+    "order": 89
+  },
+  {
+    "iso3": "THA",
+    "name": "Tailândia",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Popular no comércio e shoppings, mas dia de trabalho normal",
+    "eyeColor": "#a51931",
+    "order": 90
+  },
+  {
+    "iso3": "LAO",
+    "name": "Laos",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#ce1126",
+    "order": 91
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnã",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Festivo nas ruas, mas dia de trabalho regular",
+    "eyeColor": "#da251d",
+    "order": 92
+  },
+  {
+    "iso3": "KHM",
+    "name": "Camboja",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#032ea1",
+    "order": 93
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malásia",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#CC0000",
+    "order": 94
+  },
+  {
+    "iso3": "BRN",
+    "name": "Brunei",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Celebrações públicas proibidas por lei; dia de trabalho normal",
+    "eyeColor": "#f7e017",
+    "order": 95
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonésia",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#e70011",
+    "order": 96
+  },
+  {
+    "iso3": "SGP",
+    "name": "Singapura",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#df0000",
+    "order": 97
+  },
+  {
+    "iso3": "PHL",
+    "name": "Filipinas",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Maior temporada natalina da Ásia; feriado oficial",
+    "eyeColor": "#0038a8",
+    "order": 98
+  },
+  {
+    "iso3": "TWN",
+    "name": "Taiwan",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia da Constituição, mas sem feriado civil de Natal",
+    "eyeColor": "#000095",
+    "order": 99
+  },
+  {
+    "iso3": "KOR",
+    "name": "Coreia do Sul",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Único país do Leste Asiático com feriado oficial de Natal",
+    "eyeColor": "#cd2e3a",
+    "order": 100
+  },
+  {
+    "iso3": "PRK",
+    "name": "Coreia do Norte",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Proibição de celebrações religiosas; dia de trabalho normal",
+    "eyeColor": "#3e5698",
+    "order": 101
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Muito popular comercialmente, mas é dia de trabalho regular",
+    "eyeColor": "#bc002d",
+    "order": 102
+  },
+  {
+    "iso3": "PAK",
+    "name": "Paquistão",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado em 25 de dezembro (oficialmente pelo aniversário de Jinnah e Natal)",
+    "eyeColor": "#0c590b",
+    "order": 103
+  },
+  {
+    "iso3": "AFG",
+    "name": "Afeganistão",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Sem reconhecimento oficial no calendário civil",
+    "eyeColor": "#009900",
+    "order": 104
+  },
+  {
+    "iso3": "ARE",
+    "name": "Emirados Árabes Unidos",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Comércio celebra, mas não é feriado oficial do Estado",
+    "eyeColor": "#00732f",
+    "order": 105
+  },
+  {
+    "iso3": "OMN",
+    "name": "Omã",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#ef2d29",
+    "order": 106
+  },
+  {
+    "iso3": "YEM",
+    "name": "Iêmen",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#f10600",
+    "order": 107
+  },
+  {
+    "iso3": "SAU",
+    "name": "Arábia Saudita",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Sem feriado de Natal; dia de trabalho normal",
+    "eyeColor": "#165d31",
+    "order": 108
+  },
+  {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia útil regular de trabalho",
+    "eyeColor": "#f31830",
+    "order": 109
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraque",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial permanente desde 2020",
+    "eyeColor": "#ce1126",
+    "order": 110
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordânia",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#009900",
+    "order": 111
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho regular (comunidades cristãs celebram localmente)",
+    "eyeColor": "#0038b8",
+    "order": 112
+  },
+  {
+    "iso3": "LBN",
+    "name": "Líbano",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#EE161F",
+    "order": 113
+  },
+  {
+    "iso3": "CYP",
+    "name": "Chipre",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d47600",
+    "order": 114
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrein",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia útil regular de trabalho",
+    "eyeColor": "#ce1126",
+    "order": 115
+  },
+  {
+    "iso3": "QAT",
+    "name": "Catar",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#8d1b3d",
+    "order": 116
+  },
+  {
+    "iso3": "MDV",
+    "name": "Maldivas",
+    "region": "Ásia",
+    "status": "DIA NORMAL",
+    "note": "Apenas celebrações privadas de turistas; dia útil normal",
+    "eyeColor": "#d6a832",
+    "order": 117
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "region": "Ásia",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffb700",
+    "order": 118
+  },
+  {
+    "iso3": "MAR",
+    "name": "Marrocos",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#c1272d",
+    "order": 119
+  },
+  {
+    "iso3": "DZA",
+    "name": "Argélia",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia útil regular de trabalho",
+    "eyeColor": "#006233",
+    "order": 120
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunísia",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#e70013",
+    "order": 121
+  },
+  {
+    "iso3": "LBY",
+    "name": "Líbia",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#239e46",
+    "order": 122
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egito",
+    "region": "África",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Copta)",
+    "eyeColor": "#ce1126",
+    "order": 123
+  },
+  {
+    "iso3": "SDN",
+    "name": "Sudão",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Reconhecido como feriado oficial para cristãos",
+    "eyeColor": "#009a00",
+    "order": 124
+  },
+  {
+    "iso3": "ERI",
+    "name": "Eritreia",
+    "region": "África",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado nacional do Natal Ortodoxo Geez)",
+    "eyeColor": "#be0027",
+    "order": 125
+  },
+  {
+    "iso3": "DJI",
+    "name": "Djibuti",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia útil regular de trabalho",
+    "eyeColor": "#00cc00",
+    "order": 126
+  },
+  {
+    "iso3": "ETH",
+    "name": "Etiópia",
+    "region": "África",
+    "status": "OUTRA DATA",
+    "note": "7 de janeiro (Feriado de Genna / Natal Ortodoxo)",
+    "eyeColor": "#ffc621",
+    "order": 127
+  },
+  {
+    "iso3": "SOM",
+    "name": "Somália",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Celebrações públicas de Natal proibidas por decreto",
+    "eyeColor": "#40a6ff",
+    "order": 128
+  },
+  {
+    "iso3": "KEN",
+    "name": "Quênia",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#006600",
+    "order": 129
+  },
+  {
+    "iso3": "SSD",
+    "name": "Sudão do Sul",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#078930",
+    "order": 130
+  },
+  {
+    "iso3": "CAF",
+    "name": "República Centro-Africana",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0000ff",
+    "order": 131
+  },
+  {
+    "iso3": "CMR",
+    "name": "Camarões",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#007a5e",
+    "order": 132
+  },
+  {
+    "iso3": "GNQ",
+    "name": "Guiné Equatorial",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#e32118",
+    "order": 133
+  },
+  {
+    "iso3": "GAB",
+    "name": "Gabão",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffe700",
+    "order": 134
+  },
+  {
+    "iso3": "COG",
+    "name": "República do Congo",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffff00",
+    "order": 135
+  },
+  {
+    "iso3": "COD",
+    "name": "República Democrática do Congo",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#007fff",
+    "order": 136
+  },
+  {
+    "iso3": "BDI",
+    "name": "Burundi",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#18b637",
+    "order": 137
+  },
+  {
+    "iso3": "RWA",
+    "name": "Ruanda",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#20603d",
+    "order": 138
+  },
+  {
+    "iso3": "MWI",
+    "name": "Malawi",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#f41408",
+    "order": 139
+  },
+  {
+    "iso3": "MOZ",
+    "name": "Moçambique",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial (Dia da Família)",
+    "eyeColor": "#009a00",
+    "order": 140
+  },
+  {
+    "iso3": "SWZ",
+    "name": "Essuatíni",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#3e5eb9",
+    "order": 141
+  },
+  {
+    "iso3": "ZAF",
+    "name": "África do Sul",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#000c8a",
+    "order": 142
+  },
+  {
+    "iso3": "LSO",
+    "name": "Lesoto",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#009543",
+    "order": 143
+  },
+  {
+    "iso3": "BWA",
+    "name": "Botsuana",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#00cbff",
+    "order": 144
+  },
+  {
+    "iso3": "NAM",
+    "name": "Namíbia",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#3662a2",
+    "order": 145
+  },
+  {
+    "iso3": "AGO",
+    "name": "Angola",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial (Dia da Família / Natal)",
+    "eyeColor": "#ffec00",
+    "order": 146
+  },
+  {
+    "iso3": "STP",
+    "name": "São Tomé e Príncipe",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#12ad2b",
+    "order": 147
+  },
+  {
+    "iso3": "NGA",
+    "name": "Nigéria",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#008753",
+    "order": 148
+  },
+  {
+    "iso3": "BEN",
+    "name": "Benim",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#319400",
+    "order": 149
+  },
+  {
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#de0000",
+    "order": 150
+  },
+  {
+    "iso3": "GHA",
+    "name": "Gana",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#006b3f",
+    "order": 151
+  },
+  {
+    "iso3": "CIV",
+    "name": "Costa do Marfim",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#00cd00",
+    "order": 152
+  },
+  {
+    "iso3": "LBR",
+    "name": "Libéria",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#000066",
+    "order": 153
+  },
+  {
+    "iso3": "SLE",
+    "name": "Serra Leoa",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0000cd",
+    "order": 154
+  },
+  {
+    "iso3": "GIN",
+    "name": "Guiné",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffff00",
+    "order": 155
+  },
+  {
+    "iso3": "GNB",
+    "name": "Guiné-Bissau",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ce1126",
+    "order": 156
+  },
+  {
+    "iso3": "SEN",
+    "name": "Senegal",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0b7226",
+    "order": 157
+  },
+  {
+    "iso3": "GMB",
+    "name": "Gâmbia",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#000099",
+    "order": 158
+  },
+  {
+    "iso3": "MRT",
+    "name": "Mauritânia",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#cd2a3e",
+    "order": 159
+  },
+  {
+    "iso3": "MLI",
+    "name": "Mali",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#009a00",
+    "order": 160
+  },
+  {
+    "iso3": "NER",
+    "name": "Níger",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0db02b",
+    "order": 161
+  },
+  {
+    "iso3": "TCD",
+    "name": "Chade",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#002664",
+    "order": 162
+  },
+  {
+    "iso3": "COM",
+    "name": "Comores",
+    "region": "África",
+    "status": "DIA NORMAL",
+    "note": "Dia de trabalho normal",
+    "eyeColor": "#ffff00",
+    "order": 163
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#fc3d32",
+    "order": 164
+  },
+  {
+    "iso3": "SYC",
+    "name": "Seicheles",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 165
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "region": "África",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#081873",
+    "order": 166
+  },
+  {
+    "iso3": "AUS",
+    "name": "Austrália",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#00008B",
+    "order": 167
+  },
+  {
+    "iso3": "PNG",
+    "name": "Papua-Nova Guiné",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ffcc00",
+    "order": 168
+  },
+  {
+    "iso3": "SLB",
+    "name": "Ilhas Salomão",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#0000d6",
+    "order": 169
+  },
+  {
+    "iso3": "NRU",
+    "name": "Nauru",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 170
+  },
+  {
+    "iso3": "MHL",
+    "name": "Ilhas Marshall",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 171
+  },
+  {
+    "iso3": "FSM",
+    "name": "Micronésia",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#6797d6",
+    "order": 172
+  },
+  {
+    "iso3": "PLW",
+    "name": "Palau",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#d6a832",
+    "order": 173
+  },
+  {
+    "iso3": "FJI",
+    "name": "Fiji",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#68bfe5",
+    "order": 174
+  },
+  {
+    "iso3": "WSM",
+    "name": "Samoa",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#ce1126",
+    "order": 175
+  },
+  {
+    "iso3": "KIR",
+    "name": "Kiribati",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#e73e2d",
+    "order": 176
+  },
+  {
+    "iso3": "NZL",
+    "name": "Nova Zelândia",
+    "region": "Oceania",
+    "status": "FERIADO",
+    "note": "Feriado nacional oficial em 25 de dezembro",
+    "eyeColor": "#00247d",
+    "order": 177
+  }
+]
